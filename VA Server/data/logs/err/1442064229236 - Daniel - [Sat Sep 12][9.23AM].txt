@@ -1,0 +1,37 @@
+Logging started at 2015-09-12 09:23:49
+File name: C:\Users\Daniel\Dropbox\Vencillio Advanced\VA Source\.\data\logs\err\1442064229236 - Daniel - [Sat Sep 12][9.23AM].txt
+System.getProperty("os.name"): "Windows 8.1"
+
+[2015-09-12 10:20:35] java.lang.NullPointerException
+[2015-09-12 10:20:35] 	at com.vencillio.rs2.entity.player.net.in.command.impl.AdministratorCommand.handleCommand(AdministratorCommand.java:48)
+[2015-09-12 10:20:35] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2015-09-12 10:20:35] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2015-09-12 10:20:35] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2015-09-12 10:20:35] 	at com.vencillio.rs2.entity.World.process(World.java:313)
+[2015-09-12 10:20:35] 	at com.vencillio.core.GameThread.cycle(GameThread.java:123)
+[2015-09-12 10:20:35] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-12 10:23:01] java.lang.NullPointerException
+[2015-09-12 10:23:01] 	at com.vencillio.rs2.entity.player.Equipment.equip(Equipment.java:163)
+[2015-09-12 10:23:01] 	at com.vencillio.rs2.entity.player.net.in.command.impl.AdministratorCommand.handleCommand(AdministratorCommand.java:55)
+[2015-09-12 10:23:01] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2015-09-12 10:23:01] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2015-09-12 10:23:01] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2015-09-12 10:23:01] 	at com.vencillio.rs2.entity.World.process(World.java:313)
+[2015-09-12 10:23:01] 	at com.vencillio.core.GameThread.cycle(GameThread.java:123)
+[2015-09-12 10:23:01] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-12 10:24:20] java.lang.ArrayIndexOutOfBoundsException: 12
+[2015-09-12 10:24:20] 	at com.vencillio.rs2.entity.player.net.in.command.impl.AdministratorCommand.handleCommand(AdministratorCommand.java:48)
+[2015-09-12 10:24:20] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2015-09-12 10:24:20] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2015-09-12 10:24:20] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2015-09-12 10:24:20] 	at com.vencillio.rs2.entity.World.process(World.java:313)
+[2015-09-12 10:24:20] 	at com.vencillio.core.GameThread.cycle(GameThread.java:123)
+[2015-09-12 10:24:20] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-12 10:26:58] java.lang.NullPointerException
+[2015-09-12 10:26:58] 	at com.vencillio.rs2.entity.player.net.in.command.impl.AdministratorCommand.handleCommand(AdministratorCommand.java:57)
+[2015-09-12 10:26:58] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2015-09-12 10:26:58] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2015-09-12 10:26:58] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2015-09-12 10:26:58] 	at com.vencillio.rs2.entity.World.process(World.java:313)
+[2015-09-12 10:26:58] 	at com.vencillio.core.GameThread.cycle(GameThread.java:123)
+[2015-09-12 10:26:58] 	at com.vencillio.core.GameThread.run(GameThread.java:138)

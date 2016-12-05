@@ -1,0 +1,13 @@
+Logging started at 2015-09-10 23:03:07
+File name: C:\Users\Daniel\Dropbox\Vencillio Advanced\VA Source\.\data\logs\err\1441940587210 - Daniel - [Thu Sep 10][11.03PM].txt
+System.getProperty("os.name"): "Windows 8.1"
+
+[2015-09-10 23:03:12] java.lang.NumberFormatException: For input string: "15:"
+[2015-09-10 23:03:12] 	at java.lang.NumberFormatException.forInputString(Unknown Source)
+[2015-09-10 23:03:12] 	at java.lang.Integer.parseInt(Unknown Source)
+[2015-09-10 23:03:12] 	at java.lang.Integer.parseInt(Unknown Source)
+[2015-09-10 23:03:12] 	at com.vencillio.core.util.GameDefinitionLoader.loadRareDropChances(GameDefinitionLoader.java:466)
+[2015-09-10 23:03:12] 	at com.vencillio.GameDataLoader.load(GameDataLoader.java:128)
+[2015-09-10 23:03:12] 	at com.vencillio.core.GameThread.startup(GameThread.java:67)
+[2015-09-10 23:03:12] 	at com.vencillio.core.GameThread.init(GameThread.java:33)
+[2015-09-10 23:03:12] 	at com.vencillio.Server.main(Server.java:101)

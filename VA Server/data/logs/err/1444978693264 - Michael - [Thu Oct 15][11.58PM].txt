@@ -1,0 +1,4 @@
+Logging started at 2015-10-15 23:58:13
+File name: C:\Users\Michael\Dropbox\Vencillio Advanced\VA Source\.\data\logs\err\1444978693264 - Michael - [Thu Oct 15][11.58PM].txt
+System.getProperty("os.name"): "Windows 10"
+

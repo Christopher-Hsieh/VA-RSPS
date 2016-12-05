@@ -1,0 +1,4 @@
+Logging started at 2015-09-05 23:24:23
+File name: C:\Users\root\Dropbox\Vencillio Advanced\VA Source\.\data\logs\err\1441491863591 - root - [Sat Sep 5][11.24PM].txt
+System.getProperty("os.name"): "Windows Server 2008 R2"
+

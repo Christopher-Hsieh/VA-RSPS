@@ -1,0 +1,9 @@
+Logging started at 2015-10-23 00:12:07
+File name: C:\Users\Daniel\Dropbox\Vencillio Advanced\VA Source\.\data\logs\err\1445573527948 - Daniel - [Fri Oct 23][12.12AM].txt
+System.getProperty("os.name"): "Windows 8.1"
+
+[2015-10-23 00:15:19] java.lang.ArrayIndexOutOfBoundsException: 7
+[2015-10-23 00:15:19] 	at com.vencillio.rs2.content.skill.mining.Mining$1.onStop(Mining.java:288)
+[2015-10-23 00:15:19] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:73)
+[2015-10-23 00:15:19] 	at com.vencillio.core.GameThread.cycle(GameThread.java:116)
+[2015-10-23 00:15:19] 	at com.vencillio.core.GameThread.run(GameThread.java:139)

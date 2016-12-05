@@ -1,0 +1,119 @@
+Logging started at 2015-10-16 23:06:46
+File name: C:\Users\Daniel\Dropbox\Vencillio Advanced\VA Source\.\data\logs\err\1445051206816 - Daniel - [Fri Oct 16][11.06PM].txt
+System.getProperty("os.name"): "Windows 8.1"
+
+[2015-10-16 23:07:49] java.lang.NullPointerException
+[2015-10-16 23:07:49] 	at com.vencillio.rs2.entity.player.net.out.impl.SendEntityFeed.execute(SendEntityFeed.java:36)
+[2015-10-16 23:07:49] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-16 23:07:50] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-16 23:07:50] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-16 23:07:57] java.lang.NullPointerException
+[2015-10-16 23:07:57] 	at com.vencillio.rs2.entity.player.net.out.impl.SendEntityFeed.execute(SendEntityFeed.java:36)
+[2015-10-16 23:07:57] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-16 23:07:57] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-16 23:07:57] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-16 23:08:07] java.lang.NullPointerException
+[2015-10-16 23:08:07] 	at com.vencillio.rs2.entity.player.net.out.impl.SendEntityFeed.execute(SendEntityFeed.java:36)
+[2015-10-16 23:08:08] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-16 23:08:08] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-16 23:08:08] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-16 23:08:45] java.lang.NullPointerException
+[2015-10-16 23:08:45] 	at com.vencillio.rs2.entity.player.net.out.impl.SendEntityFeed.execute(SendEntityFeed.java:32)
+[2015-10-16 23:08:45] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-16 23:08:45] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-16 23:08:45] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-16 23:08:50] java.lang.NullPointerException
+[2015-10-16 23:08:50] 	at com.vencillio.rs2.entity.player.net.out.impl.SendEntityFeed.execute(SendEntityFeed.java:32)
+[2015-10-16 23:08:50] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-16 23:08:50] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-16 23:08:50] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-16 23:08:57] java.lang.NullPointerException
+[2015-10-16 23:08:57] 	at com.vencillio.rs2.entity.player.net.out.impl.SendEntityFeed.execute(SendEntityFeed.java:32)
+[2015-10-16 23:08:57] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-16 23:08:57] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-16 23:08:57] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-16 23:09:13] java.lang.NullPointerException
+[2015-10-16 23:09:13] 	at com.vencillio.rs2.entity.player.net.out.impl.SendEntityFeed.execute(SendEntityFeed.java:32)
+[2015-10-16 23:09:13] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-16 23:09:13] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-16 23:09:13] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-16 23:10:10] java.lang.NullPointerException
+[2015-10-16 23:10:10] 	at com.vencillio.rs2.entity.player.net.out.impl.SendEntityFeed.execute(SendEntityFeed.java:32)
+[2015-10-16 23:10:10] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-16 23:10:10] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-16 23:10:10] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-16 23:10:39] java.lang.NullPointerException
+[2015-10-16 23:10:39] 	at com.vencillio.rs2.entity.player.net.out.impl.SendEntityFeed.execute(SendEntityFeed.java:32)
+[2015-10-16 23:10:39] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-16 23:10:39] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-16 23:10:39] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-16 23:10:44] java.lang.NullPointerException
+[2015-10-16 23:10:44] 	at com.vencillio.rs2.entity.player.net.out.impl.SendEntityFeed.execute(SendEntityFeed.java:32)
+[2015-10-16 23:10:44] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-16 23:10:44] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-16 23:10:44] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-16 23:10:55] java.lang.NullPointerException
+[2015-10-16 23:10:56] 	at com.vencillio.rs2.entity.player.net.out.impl.SendEntityFeed.execute(SendEntityFeed.java:24)
+[2015-10-16 23:10:56] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-16 23:10:56] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-16 23:10:56] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-16 23:20:15] java.lang.NullPointerException
+[2015-10-16 23:20:15] 	at com.vencillio.rs2.entity.player.net.out.impl.SendEntityFeed.execute(SendEntityFeed.java:32)
+[2015-10-16 23:20:15] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-16 23:20:15] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-16 23:20:15] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-16 23:20:26] java.lang.NullPointerException
+[2015-10-16 23:20:26] 	at com.vencillio.rs2.entity.player.net.out.impl.SendEntityFeed.execute(SendEntityFeed.java:32)
+[2015-10-16 23:20:26] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-16 23:20:26] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-16 23:20:26] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-16 23:20:26] java.lang.NullPointerException
+[2015-10-16 23:20:26] 	at com.vencillio.rs2.entity.player.net.out.impl.SendEntityFeed.execute(SendEntityFeed.java:32)
+[2015-10-16 23:20:26] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-16 23:20:26] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-16 23:20:26] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-16 23:28:00] java.lang.NullPointerException
+[2015-10-16 23:28:00] 	at com.vencillio.rs2.entity.player.net.out.impl.SendEntityFeed.execute(SendEntityFeed.java:32)
+[2015-10-16 23:28:00] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-16 23:28:00] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-16 23:28:00] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-16 23:28:00] java.lang.NullPointerException
+[2015-10-16 23:28:00] 	at com.vencillio.rs2.entity.player.net.out.impl.SendEntityFeed.execute(SendEntityFeed.java:32)
+[2015-10-16 23:28:00] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-16 23:28:00] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-16 23:28:00] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-16 23:28:09] java.lang.NullPointerException
+[2015-10-16 23:28:09] 	at com.vencillio.rs2.entity.player.net.out.impl.SendEntityFeed.execute(SendEntityFeed.java:32)
+[2015-10-16 23:28:09] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-16 23:28:09] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-16 23:28:09] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-16 23:28:17] java.lang.NullPointerException
+[2015-10-16 23:28:17] 	at com.vencillio.rs2.entity.player.net.out.impl.SendEntityFeed.execute(SendEntityFeed.java:32)
+[2015-10-16 23:28:17] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-16 23:28:17] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-16 23:28:18] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-16 23:28:18] java.lang.NullPointerException
+[2015-10-16 23:28:18] 	at com.vencillio.rs2.entity.player.net.out.impl.SendEntityFeed.execute(SendEntityFeed.java:32)
+[2015-10-16 23:28:18] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-16 23:28:18] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-16 23:28:18] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-16 23:28:31] java.lang.NullPointerException
+[2015-10-16 23:28:31] 	at com.vencillio.rs2.entity.player.net.out.impl.SendEntityFeed.execute(SendEntityFeed.java:32)
+[2015-10-16 23:28:31] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-16 23:28:31] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-16 23:28:31] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-16 23:28:38] java.lang.NullPointerException
+[2015-10-16 23:28:38] 	at com.vencillio.rs2.entity.player.net.out.impl.SendEntityFeed.execute(SendEntityFeed.java:32)
+[2015-10-16 23:28:38] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-16 23:28:38] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-16 23:28:38] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-16 23:28:44] java.lang.NullPointerException
+[2015-10-16 23:28:44] 	at com.vencillio.rs2.entity.player.net.out.impl.SendEntityFeed.execute(SendEntityFeed.java:32)
+[2015-10-16 23:28:44] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-16 23:28:44] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-16 23:28:44] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-16 23:28:44] java.lang.NullPointerException
+[2015-10-16 23:28:44] 	at com.vencillio.rs2.entity.player.net.out.impl.SendEntityFeed.execute(SendEntityFeed.java:32)
+[2015-10-16 23:28:44] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-16 23:28:44] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-16 23:28:44] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)

@@ -1,0 +1,14 @@
+Logging started at 2015-08-21 14:12:40
+File name: C:\Users\Daniel\Dropbox\Vencillio Advanced\VA Source\.\data\logs\err\1440180760811 - Daniel - [Fri Aug 21][2.12PM].txt
+System.getProperty("os.name"): "Windows 8.1"
+
+[2015-08-21 14:14:04] Exception in thread "Main Thread" 
+[2015-08-21 14:14:04] java.lang.Error: Unresolved compilation problem: 
+	Kraken cannot be resolved to a type
+
+[2015-08-21 14:14:04] 	at com.vencillio.rs2.entity.mob.MobDrops.dropItems(MobDrops.java:264)
+[2015-08-21 14:14:04] 	at com.vencillio.core.task.impl.MobDeathTask$2.execute(MobDeathTask.java:47)
+[2015-08-21 14:14:04] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-08-21 14:14:04] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-08-21 14:14:04] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-08-21 14:14:04] 	at com.vencillio.core.GameThread.run(GameThread.java:138)

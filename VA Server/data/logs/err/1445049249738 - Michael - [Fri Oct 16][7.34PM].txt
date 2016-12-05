@@ -1,0 +1,14 @@
+Logging started at 2015-10-16 19:34:09
+File name: C:\Users\Michael\Dropbox\Vencillio Advanced\VA Source\.\data\logs\err\1445049249738 - Michael - [Fri Oct 16][7.34PM].txt
+System.getProperty("os.name"): "Windows 10"
+
+[2015-10-16 19:34:53] java.lang.ArrayIndexOutOfBoundsException: 16
+[2015-10-16 19:34:53] 	at org.jboss.netty.buffer.HeapChannelBuffer.setByte(HeapChannelBuffer.java:120)
+[2015-10-16 19:34:53] 	at org.jboss.netty.buffer.AbstractChannelBuffer.writeByte(AbstractChannelBuffer.java:408)
+[2015-10-16 19:34:53] 	at com.vencillio.core.network.StreamBuffer$OutBuffer.writeByte(StreamBuffer.java:701)
+[2015-10-16 19:34:53] 	at com.vencillio.core.network.StreamBuffer$OutBuffer.writeInt(StreamBuffer.java:801)
+[2015-10-16 19:34:53] 	at com.vencillio.core.network.StreamBuffer$OutBuffer.writeInt(StreamBuffer.java:758)
+[2015-10-16 19:34:53] 	at com.vencillio.rs2.entity.player.net.out.impl.SendEntityFeed.execute(SendEntityFeed.java:36)
+[2015-10-16 19:34:53] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-16 19:34:53] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-16 19:34:53] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)

@@ -1,0 +1,4 @@
+Logging started at 2015-08-22 13:38:03
+File name: C:\Users\Daniel\Dropbox\Vencillio Advanced\VA Source\.\data\logs\err\1440265083014 - Daniel - [Sat Aug 22][1.38PM].txt
+System.getProperty("os.name"): "Windows 8.1"
+

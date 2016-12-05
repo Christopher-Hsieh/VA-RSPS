@@ -1,0 +1,36 @@
+Logging started at 2015-10-25 18:17:10
+File name: C:\Users\Daniel\Dropbox\Vencillio Advanced\VA Source\.\data\logs\err\1445811430816 - Daniel - [Sun Oct 25][6.17PM].txt
+System.getProperty("os.name"): "Windows 8.1"
+
+[2015-10-25 18:17:15] com.thoughtworks.xstream.converters.reflection.AbstractReflectionConverter$DuplicateFieldException: id
+---- Debugging information ----
+duplicate-field     : id
+class               : java.util.ArrayList
+required-type       : com.vencillio.core.definitions.WeaponDefinition
+path                : /list/WeaponDefinition[2632]/id[2]
+line number         : 68410
+-------------------------------
+[2015-10-25 18:17:15] 	at com.thoughtworks.xstream.converters.reflection.AbstractReflectionConverter$SeenFields.add(AbstractReflectionConverter.java:322)
+[2015-10-25 18:17:15] 	at com.thoughtworks.xstream.converters.reflection.AbstractReflectionConverter.doUnmarshal(AbstractReflectionConverter.java:234)
+[2015-10-25 18:17:15] 	at com.thoughtworks.xstream.converters.reflection.AbstractReflectionConverter.unmarshal(AbstractReflectionConverter.java:162)
+[2015-10-25 18:17:15] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:82)
+[2015-10-25 18:17:15] 	at com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(AbstractReferenceUnmarshaller.java:63)
+[2015-10-25 18:17:15] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:76)
+[2015-10-25 18:17:15] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:60)
+[2015-10-25 18:17:15] 	at com.thoughtworks.xstream.converters.collections.AbstractCollectionConverter.readItem(AbstractCollectionConverter.java:71)
+[2015-10-25 18:17:15] 	at com.thoughtworks.xstream.converters.collections.CollectionConverter.populateCollection(CollectionConverter.java:68)
+[2015-10-25 18:17:15] 	at com.thoughtworks.xstream.converters.collections.CollectionConverter.unmarshal(CollectionConverter.java:61)
+[2015-10-25 18:17:15] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convert(TreeUnmarshaller.java:82)
+[2015-10-25 18:17:15] 	at com.thoughtworks.xstream.core.AbstractReferenceUnmarshaller.convert(AbstractReferenceUnmarshaller.java:63)
+[2015-10-25 18:17:15] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:76)
+[2015-10-25 18:17:15] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.convertAnother(TreeUnmarshaller.java:60)
+[2015-10-25 18:17:15] 	at com.thoughtworks.xstream.core.TreeUnmarshaller.start(TreeUnmarshaller.java:137)
+[2015-10-25 18:17:15] 	at com.thoughtworks.xstream.core.AbstractTreeMarshallingStrategy.unmarshal(AbstractTreeMarshallingStrategy.java:33)
+[2015-10-25 18:17:15] 	at com.thoughtworks.xstream.XStream.unmarshal(XStream.java:923)
+[2015-10-25 18:17:15] 	at com.thoughtworks.xstream.XStream.unmarshal(XStream.java:909)
+[2015-10-25 18:17:15] 	at com.thoughtworks.xstream.XStream.fromXML(XStream.java:861)
+[2015-10-25 18:17:15] 	at com.vencillio.core.util.GameDefinitionLoader.loadWeaponDefinitions(GameDefinitionLoader.java:520)
+[2015-10-25 18:17:15] 	at com.vencillio.GameDataLoader.load(GameDataLoader.java:122)
+[2015-10-25 18:17:15] 	at com.vencillio.core.GameThread.startup(GameThread.java:69)
+[2015-10-25 18:17:15] 	at com.vencillio.core.GameThread.init(GameThread.java:34)
+[2015-10-25 18:17:15] 	at com.vencillio.Server.main(Server.java:104)

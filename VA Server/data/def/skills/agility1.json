@@ -1,0 +1,18 @@
+[
+  {
+    "type": "ROOFTOP_CLIMB_1",
+    "start": { "x": 2729, "y": 3489, "z": 0 },
+    "end": { "x": 2729, "y": 3490, "z": 1 },
+    "level": 60,
+    "experience": 0,
+    "ordinal": -1
+    "next": {
+      "type": "ROOFTOP_CLIMB_2",
+      "start": { "x": 2729, "y": 3489, "z": 0 },
+      "end": { "x": 2729, "y": 3490, "z": 3 },
+      "level": 60,
+      "experience": 45.0,
+      "ordinal": -1
+    }
+  }
+]

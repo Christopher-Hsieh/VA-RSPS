@@ -1,0 +1,501 @@
+Logging started at 2015-10-29 00:09:26
+File name: C:\Users\Daniel\Dropbox\Vencillio Advanced\VA Source\.\data\logs\err\1446091765972 - Daniel - [Thu Oct 29][12.09AM].txt
+System.getProperty("os.name"): "Windows 8.1"
+
+[2015-10-29 00:15:37] java.lang.NullPointerException
+[2015-10-29 00:15:37] 	at com.vencillio.rs2.entity.player.net.out.impl.SendPlayerOption.execute(SendPlayerOption.java:23)
+[2015-10-29 00:15:37] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-29 00:15:37] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-29 00:15:37] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-29 00:15:37] java.lang.NullPointerException
+[2015-10-29 00:15:37] 	at com.vencillio.rs2.entity.player.net.out.impl.SendPlayerOption.execute(SendPlayerOption.java:23)
+[2015-10-29 00:15:37] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-29 00:15:37] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-29 00:15:38] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-29 00:15:38] java.lang.NullPointerException
+[2015-10-29 00:15:38] 	at com.vencillio.rs2.entity.player.net.out.impl.SendPlayerOption.execute(SendPlayerOption.java:23)
+[2015-10-29 00:15:38] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-29 00:15:38] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-29 00:15:38] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-29 00:15:39] java.lang.NullPointerException
+[2015-10-29 00:15:39] 	at com.vencillio.rs2.entity.player.net.out.impl.SendPlayerOption.execute(SendPlayerOption.java:23)
+[2015-10-29 00:15:39] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-29 00:15:39] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-29 00:15:39] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-29 00:15:39] java.lang.NullPointerException
+[2015-10-29 00:15:39] 	at com.vencillio.rs2.entity.player.net.out.impl.SendPlayerOption.execute(SendPlayerOption.java:23)
+[2015-10-29 00:15:39] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-29 00:15:39] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-29 00:15:39] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-29 00:15:40] java.lang.NullPointerException
+[2015-10-29 00:15:40] 	at com.vencillio.rs2.entity.player.net.out.impl.SendPlayerOption.execute(SendPlayerOption.java:23)
+[2015-10-29 00:15:40] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-29 00:15:40] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-29 00:15:40] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-29 00:15:40] java.lang.NullPointerException
+[2015-10-29 00:15:40] 	at com.vencillio.rs2.entity.player.net.out.impl.SendPlayerOption.execute(SendPlayerOption.java:23)
+[2015-10-29 00:15:41] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-29 00:15:41] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-29 00:15:41] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-29 00:15:41] java.lang.NullPointerException
+[2015-10-29 00:15:41] 	at com.vencillio.rs2.entity.player.net.out.impl.SendPlayerOption.execute(SendPlayerOption.java:23)
+[2015-10-29 00:15:41] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-29 00:15:41] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-29 00:15:41] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-29 00:15:42] java.lang.NullPointerException
+[2015-10-29 00:15:42] 	at com.vencillio.rs2.entity.player.net.out.impl.SendPlayerOption.execute(SendPlayerOption.java:23)
+[2015-10-29 00:15:42] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-29 00:15:42] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-29 00:15:42] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-29 00:15:42] java.lang.NullPointerException
+[2015-10-29 00:15:42] 	at com.vencillio.rs2.entity.player.net.out.impl.SendPlayerOption.execute(SendPlayerOption.java:23)
+[2015-10-29 00:15:42] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-29 00:15:42] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-29 00:15:42] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-29 00:15:42] java.lang.NullPointerException
+[2015-10-29 00:15:42] 	at com.vencillio.rs2.entity.player.net.out.impl.SendPlayerOption.execute(SendPlayerOption.java:23)
+[2015-10-29 00:15:42] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-29 00:15:42] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-29 00:15:42] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-29 00:15:43] java.lang.NullPointerException
+[2015-10-29 00:15:43] 	at com.vencillio.rs2.entity.player.net.out.impl.SendPlayerOption.execute(SendPlayerOption.java:23)
+[2015-10-29 00:15:43] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-29 00:15:43] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-29 00:15:43] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-29 00:15:43] java.lang.NullPointerException
+[2015-10-29 00:15:44] 	at com.vencillio.rs2.entity.player.net.out.impl.SendPlayerOption.execute(SendPlayerOption.java:23)
+[2015-10-29 00:15:44] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-29 00:15:44] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-29 00:15:44] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-29 00:15:44] java.lang.NullPointerException
+[2015-10-29 00:15:44] 	at com.vencillio.rs2.entity.player.net.out.impl.SendPlayerOption.execute(SendPlayerOption.java:23)
+[2015-10-29 00:15:44] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-29 00:15:44] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-29 00:15:44] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-29 00:15:44] java.lang.NullPointerException
+[2015-10-29 00:15:45] 	at com.vencillio.rs2.entity.player.net.out.impl.SendPlayerOption.execute(SendPlayerOption.java:23)
+[2015-10-29 00:15:45] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-29 00:15:45] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-29 00:15:45] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-29 00:15:45] java.lang.NullPointerException
+[2015-10-29 00:15:45] 	at com.vencillio.rs2.entity.player.net.out.impl.SendPlayerOption.execute(SendPlayerOption.java:23)
+[2015-10-29 00:15:45] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-29 00:15:45] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-29 00:15:45] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-29 00:15:45] java.lang.NullPointerException
+[2015-10-29 00:15:45] 	at com.vencillio.rs2.entity.player.net.out.impl.SendPlayerOption.execute(SendPlayerOption.java:23)
+[2015-10-29 00:15:45] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-29 00:15:45] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-29 00:15:45] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-29 00:15:45] java.lang.NullPointerException
+[2015-10-29 00:15:45] 	at com.vencillio.rs2.entity.player.net.out.impl.SendPlayerOption.execute(SendPlayerOption.java:23)
+[2015-10-29 00:15:45] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-29 00:15:45] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-29 00:15:45] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-29 00:15:46] java.lang.NullPointerException
+[2015-10-29 00:15:46] 	at com.vencillio.rs2.entity.player.net.out.impl.SendPlayerOption.execute(SendPlayerOption.java:23)
+[2015-10-29 00:15:46] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-29 00:15:46] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-29 00:15:46] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-29 00:15:46] java.lang.NullPointerException
+[2015-10-29 00:15:46] 	at com.vencillio.rs2.entity.player.net.out.impl.SendPlayerOption.execute(SendPlayerOption.java:23)
+[2015-10-29 00:15:46] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-29 00:15:46] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-29 00:15:46] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-29 00:15:46] java.lang.NullPointerException
+[2015-10-29 00:15:46] 	at com.vencillio.rs2.entity.player.net.out.impl.SendPlayerOption.execute(SendPlayerOption.java:23)
+[2015-10-29 00:15:46] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-29 00:15:46] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-29 00:15:46] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-29 00:15:46] java.lang.NullPointerException
+[2015-10-29 00:15:46] 	at com.vencillio.rs2.entity.player.net.out.impl.SendPlayerOption.execute(SendPlayerOption.java:23)
+[2015-10-29 00:15:46] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-29 00:15:46] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-29 00:15:47] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-29 00:15:47] java.lang.NullPointerException
+[2015-10-29 00:15:47] 	at com.vencillio.rs2.entity.player.net.out.impl.SendPlayerOption.execute(SendPlayerOption.java:23)
+[2015-10-29 00:15:47] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-29 00:15:47] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-29 00:15:47] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-29 00:15:47] java.lang.NullPointerException
+[2015-10-29 00:15:47] 	at com.vencillio.rs2.entity.player.net.out.impl.SendPlayerOption.execute(SendPlayerOption.java:23)
+[2015-10-29 00:15:47] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-29 00:15:47] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-29 00:15:47] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-29 00:15:47] java.lang.NullPointerException
+[2015-10-29 00:15:47] 	at com.vencillio.rs2.entity.player.net.out.impl.SendPlayerOption.execute(SendPlayerOption.java:23)
+[2015-10-29 00:15:48] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-29 00:15:48] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-29 00:15:48] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-29 00:15:48] java.lang.NullPointerException
+[2015-10-29 00:15:48] 	at com.vencillio.rs2.entity.player.net.out.impl.SendPlayerOption.execute(SendPlayerOption.java:23)
+[2015-10-29 00:15:48] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-29 00:15:48] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-29 00:15:48] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-29 00:15:48] java.lang.NullPointerException
+[2015-10-29 00:15:48] 	at com.vencillio.rs2.entity.player.net.out.impl.SendPlayerOption.execute(SendPlayerOption.java:23)
+[2015-10-29 00:15:48] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-29 00:15:48] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-29 00:15:48] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-29 00:15:48] java.lang.NullPointerException
+[2015-10-29 00:15:48] 	at com.vencillio.rs2.entity.player.net.out.impl.SendPlayerOption.execute(SendPlayerOption.java:23)
+[2015-10-29 00:15:48] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-29 00:15:48] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-29 00:15:48] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-29 00:15:49] java.lang.NullPointerException
+[2015-10-29 00:15:49] 	at com.vencillio.rs2.entity.player.net.out.impl.SendPlayerOption.execute(SendPlayerOption.java:23)
+[2015-10-29 00:15:49] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-29 00:15:49] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-29 00:15:49] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-29 00:15:49] java.lang.NullPointerException
+[2015-10-29 00:15:49] 	at com.vencillio.rs2.entity.player.net.out.impl.SendPlayerOption.execute(SendPlayerOption.java:23)
+[2015-10-29 00:15:49] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-29 00:15:49] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-29 00:15:49] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-29 00:15:49] java.lang.NullPointerException
+[2015-10-29 00:15:49] 	at com.vencillio.rs2.entity.player.net.out.impl.SendPlayerOption.execute(SendPlayerOption.java:23)
+[2015-10-29 00:15:49] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-29 00:15:49] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-29 00:15:49] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-29 00:15:49] java.lang.NullPointerException
+[2015-10-29 00:15:49] 	at com.vencillio.rs2.entity.player.net.out.impl.SendPlayerOption.execute(SendPlayerOption.java:23)
+[2015-10-29 00:15:50] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-29 00:15:50] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-29 00:15:50] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-29 00:15:50] java.lang.NullPointerException
+[2015-10-29 00:15:50] 	at com.vencillio.rs2.entity.player.net.out.impl.SendPlayerOption.execute(SendPlayerOption.java:23)
+[2015-10-29 00:15:50] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-29 00:15:50] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-29 00:15:50] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-29 00:15:50] java.lang.NullPointerException
+[2015-10-29 00:15:50] 	at com.vencillio.rs2.entity.player.net.out.impl.SendPlayerOption.execute(SendPlayerOption.java:23)
+[2015-10-29 00:15:50] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-29 00:15:50] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-29 00:15:50] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-29 00:15:51] java.lang.NullPointerException
+[2015-10-29 00:15:51] 	at com.vencillio.rs2.entity.player.net.out.impl.SendPlayerOption.execute(SendPlayerOption.java:23)
+[2015-10-29 00:15:51] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-29 00:15:51] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-29 00:15:51] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-29 00:15:51] java.lang.NullPointerException
+[2015-10-29 00:15:51] 	at com.vencillio.rs2.entity.player.net.out.impl.SendPlayerOption.execute(SendPlayerOption.java:23)
+[2015-10-29 00:15:51] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-29 00:15:51] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-29 00:15:51] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-29 00:15:51] java.lang.NullPointerException
+[2015-10-29 00:15:51] 	at com.vencillio.rs2.entity.player.net.out.impl.SendPlayerOption.execute(SendPlayerOption.java:23)
+[2015-10-29 00:15:51] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-29 00:15:51] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-29 00:15:51] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-29 00:15:51] java.lang.NullPointerException
+[2015-10-29 00:15:51] 	at com.vencillio.rs2.entity.player.net.out.impl.SendPlayerOption.execute(SendPlayerOption.java:23)
+[2015-10-29 00:15:51] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-29 00:15:51] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-29 00:15:51] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-29 00:15:52] java.lang.NullPointerException
+[2015-10-29 00:15:52] 	at com.vencillio.rs2.entity.player.net.out.impl.SendPlayerOption.execute(SendPlayerOption.java:23)
+[2015-10-29 00:15:52] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-29 00:15:52] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-29 00:15:52] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-29 00:15:52] java.lang.NullPointerException
+[2015-10-29 00:15:52] 	at com.vencillio.rs2.entity.player.net.out.impl.SendPlayerOption.execute(SendPlayerOption.java:23)
+[2015-10-29 00:15:52] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-29 00:15:52] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-29 00:15:52] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-29 00:15:52] java.lang.NullPointerException
+[2015-10-29 00:15:52] 	at com.vencillio.rs2.entity.player.net.out.impl.SendPlayerOption.execute(SendPlayerOption.java:23)
+[2015-10-29 00:15:52] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-29 00:15:52] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-29 00:15:52] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-29 00:15:52] java.lang.NullPointerException
+[2015-10-29 00:15:52] 	at com.vencillio.rs2.entity.player.net.out.impl.SendPlayerOption.execute(SendPlayerOption.java:23)
+[2015-10-29 00:15:52] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-29 00:15:52] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-29 00:15:52] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-29 00:15:53] java.lang.NullPointerException
+[2015-10-29 00:15:53] 	at com.vencillio.rs2.entity.player.net.out.impl.SendPlayerOption.execute(SendPlayerOption.java:23)
+[2015-10-29 00:15:53] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-29 00:15:53] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-29 00:15:53] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-29 00:15:53] java.lang.NullPointerException
+[2015-10-29 00:15:53] 	at com.vencillio.rs2.entity.player.net.out.impl.SendPlayerOption.execute(SendPlayerOption.java:23)
+[2015-10-29 00:15:53] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-29 00:15:53] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-29 00:15:53] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-29 00:15:54] java.lang.NullPointerException
+[2015-10-29 00:15:54] 	at com.vencillio.rs2.entity.player.net.out.impl.SendPlayerOption.execute(SendPlayerOption.java:23)
+[2015-10-29 00:15:54] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-29 00:15:54] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-29 00:15:54] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-29 00:15:54] java.lang.NullPointerException
+[2015-10-29 00:15:54] 	at com.vencillio.rs2.entity.player.net.out.impl.SendPlayerOption.execute(SendPlayerOption.java:23)
+[2015-10-29 00:15:54] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-29 00:15:54] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-29 00:15:54] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-29 00:15:54] java.lang.NullPointerException
+[2015-10-29 00:15:54] 	at com.vencillio.rs2.entity.player.net.out.impl.SendPlayerOption.execute(SendPlayerOption.java:23)
+[2015-10-29 00:15:54] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-29 00:15:54] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-29 00:15:54] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-29 00:15:54] java.lang.NullPointerException
+[2015-10-29 00:15:54] 	at com.vencillio.rs2.entity.player.net.out.impl.SendPlayerOption.execute(SendPlayerOption.java:23)
+[2015-10-29 00:15:54] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-29 00:15:54] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-29 00:15:54] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-29 00:15:55] java.lang.NullPointerException
+[2015-10-29 00:15:55] 	at com.vencillio.rs2.entity.player.net.out.impl.SendPlayerOption.execute(SendPlayerOption.java:23)
+[2015-10-29 00:15:55] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-29 00:15:55] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-29 00:15:55] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-29 00:15:55] java.lang.NullPointerException
+[2015-10-29 00:15:55] 	at com.vencillio.rs2.entity.player.net.out.impl.SendPlayerOption.execute(SendPlayerOption.java:23)
+[2015-10-29 00:15:55] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-29 00:15:55] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-29 00:15:55] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-29 00:15:55] java.lang.NullPointerException
+[2015-10-29 00:15:55] 	at com.vencillio.rs2.entity.player.net.out.impl.SendPlayerOption.execute(SendPlayerOption.java:23)
+[2015-10-29 00:15:55] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-29 00:15:55] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-29 00:15:55] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-29 00:15:55] java.lang.NullPointerException
+[2015-10-29 00:15:55] 	at com.vencillio.rs2.entity.player.net.out.impl.SendPlayerOption.execute(SendPlayerOption.java:23)
+[2015-10-29 00:15:55] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-29 00:15:55] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-29 00:15:55] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-29 00:15:56] java.lang.NullPointerException
+[2015-10-29 00:15:56] 	at com.vencillio.rs2.entity.player.net.out.impl.SendPlayerOption.execute(SendPlayerOption.java:23)
+[2015-10-29 00:15:56] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-29 00:15:56] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-29 00:15:56] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-29 00:15:56] java.lang.NullPointerException
+[2015-10-29 00:15:56] 	at com.vencillio.rs2.entity.player.net.out.impl.SendPlayerOption.execute(SendPlayerOption.java:23)
+[2015-10-29 00:15:56] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-29 00:15:56] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-29 00:15:56] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-29 00:15:57] java.lang.NullPointerException
+[2015-10-29 00:15:57] 	at com.vencillio.rs2.entity.player.net.out.impl.SendPlayerOption.execute(SendPlayerOption.java:23)
+[2015-10-29 00:15:57] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-29 00:15:57] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-29 00:15:57] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-29 00:15:57] java.lang.NullPointerException
+[2015-10-29 00:15:57] 	at com.vencillio.rs2.entity.player.net.out.impl.SendPlayerOption.execute(SendPlayerOption.java:23)
+[2015-10-29 00:15:57] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-29 00:15:57] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-29 00:15:57] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-29 00:15:57] java.lang.NullPointerException
+[2015-10-29 00:15:57] 	at com.vencillio.rs2.entity.player.net.out.impl.SendPlayerOption.execute(SendPlayerOption.java:23)
+[2015-10-29 00:15:57] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-29 00:15:57] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-29 00:15:57] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-29 00:15:57] java.lang.NullPointerException
+[2015-10-29 00:15:57] 	at com.vencillio.rs2.entity.player.net.out.impl.SendPlayerOption.execute(SendPlayerOption.java:23)
+[2015-10-29 00:15:57] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-29 00:15:57] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-29 00:15:57] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-29 00:15:58] java.lang.NullPointerException
+[2015-10-29 00:15:58] 	at com.vencillio.rs2.entity.player.net.out.impl.SendPlayerOption.execute(SendPlayerOption.java:23)
+[2015-10-29 00:15:58] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-29 00:15:58] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-29 00:15:58] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-29 00:15:58] java.lang.NullPointerException
+[2015-10-29 00:15:58] 	at com.vencillio.rs2.entity.player.net.out.impl.SendPlayerOption.execute(SendPlayerOption.java:23)
+[2015-10-29 00:15:58] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-29 00:15:58] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-29 00:15:58] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-29 00:15:58] java.lang.NullPointerException
+[2015-10-29 00:15:58] 	at com.vencillio.rs2.entity.player.net.out.impl.SendPlayerOption.execute(SendPlayerOption.java:23)
+[2015-10-29 00:15:58] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-29 00:15:58] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-29 00:15:58] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-29 00:15:58] java.lang.NullPointerException
+[2015-10-29 00:15:58] 	at com.vencillio.rs2.entity.player.net.out.impl.SendPlayerOption.execute(SendPlayerOption.java:23)
+[2015-10-29 00:15:58] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-29 00:15:58] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-29 00:15:58] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-29 00:15:59] java.lang.NullPointerException
+[2015-10-29 00:15:59] 	at com.vencillio.rs2.entity.player.net.out.impl.SendPlayerOption.execute(SendPlayerOption.java:23)
+[2015-10-29 00:15:59] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-29 00:15:59] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-29 00:15:59] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-29 00:15:59] java.lang.NullPointerException
+[2015-10-29 00:15:59] 	at com.vencillio.rs2.entity.player.net.out.impl.SendPlayerOption.execute(SendPlayerOption.java:23)
+[2015-10-29 00:15:59] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-29 00:15:59] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-29 00:15:59] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-29 00:16:00] java.lang.NullPointerException
+[2015-10-29 00:16:00] 	at com.vencillio.rs2.entity.player.net.out.impl.SendPlayerOption.execute(SendPlayerOption.java:23)
+[2015-10-29 00:16:00] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-29 00:16:00] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-29 00:16:00] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-29 00:16:00] java.lang.NullPointerException
+[2015-10-29 00:16:00] 	at com.vencillio.rs2.entity.player.net.out.impl.SendPlayerOption.execute(SendPlayerOption.java:23)
+[2015-10-29 00:16:00] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-29 00:16:00] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-29 00:16:00] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-29 00:16:00] java.lang.NullPointerException
+[2015-10-29 00:16:00] 	at com.vencillio.rs2.entity.player.net.out.impl.SendPlayerOption.execute(SendPlayerOption.java:23)
+[2015-10-29 00:16:00] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-29 00:16:00] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-29 00:16:00] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-29 00:16:00] java.lang.NullPointerException
+[2015-10-29 00:16:00] 	at com.vencillio.rs2.entity.player.net.out.impl.SendPlayerOption.execute(SendPlayerOption.java:23)
+[2015-10-29 00:16:00] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-29 00:16:00] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-29 00:16:00] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-29 00:16:01] java.lang.NullPointerException
+[2015-10-29 00:16:01] 	at com.vencillio.rs2.entity.player.net.out.impl.SendPlayerOption.execute(SendPlayerOption.java:23)
+[2015-10-29 00:16:01] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-29 00:16:01] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-29 00:16:01] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-29 00:16:01] java.lang.NullPointerException
+[2015-10-29 00:16:01] 	at com.vencillio.rs2.entity.player.net.out.impl.SendPlayerOption.execute(SendPlayerOption.java:23)
+[2015-10-29 00:16:01] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-29 00:16:01] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-29 00:16:01] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-29 00:16:01] java.lang.NullPointerException
+[2015-10-29 00:16:01] 	at com.vencillio.rs2.entity.player.net.out.impl.SendPlayerOption.execute(SendPlayerOption.java:23)
+[2015-10-29 00:16:01] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-29 00:16:01] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-29 00:16:01] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-29 00:16:01] java.lang.NullPointerException
+[2015-10-29 00:16:01] 	at com.vencillio.rs2.entity.player.net.out.impl.SendPlayerOption.execute(SendPlayerOption.java:23)
+[2015-10-29 00:16:01] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-29 00:16:01] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-29 00:16:01] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-29 00:16:02] java.lang.NullPointerException
+[2015-10-29 00:16:02] 	at com.vencillio.rs2.entity.player.net.out.impl.SendPlayerOption.execute(SendPlayerOption.java:23)
+[2015-10-29 00:16:02] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-29 00:16:02] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-29 00:16:02] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-29 00:16:02] java.lang.NullPointerException
+[2015-10-29 00:16:02] 	at com.vencillio.rs2.entity.player.net.out.impl.SendPlayerOption.execute(SendPlayerOption.java:23)
+[2015-10-29 00:16:02] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-29 00:16:02] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-29 00:16:02] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-29 00:16:02] java.lang.NullPointerException
+[2015-10-29 00:16:03] 	at com.vencillio.rs2.entity.player.net.out.impl.SendPlayerOption.execute(SendPlayerOption.java:23)
+[2015-10-29 00:16:03] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-29 00:16:03] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-29 00:16:03] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-29 00:16:03] java.lang.NullPointerException
+[2015-10-29 00:16:03] 	at com.vencillio.rs2.entity.player.net.out.impl.SendPlayerOption.execute(SendPlayerOption.java:23)
+[2015-10-29 00:16:03] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-29 00:16:03] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-29 00:16:03] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-29 00:16:03] java.lang.NullPointerException
+[2015-10-29 00:16:03] 	at com.vencillio.rs2.entity.player.net.out.impl.SendPlayerOption.execute(SendPlayerOption.java:23)
+[2015-10-29 00:16:03] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-29 00:16:03] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-29 00:16:03] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-29 00:16:03] java.lang.NullPointerException
+[2015-10-29 00:16:03] 	at com.vencillio.rs2.entity.player.net.out.impl.SendPlayerOption.execute(SendPlayerOption.java:23)
+[2015-10-29 00:16:03] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-29 00:16:03] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-29 00:16:03] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-29 00:16:04] java.lang.NullPointerException
+[2015-10-29 00:16:04] 	at com.vencillio.rs2.entity.player.net.out.impl.SendPlayerOption.execute(SendPlayerOption.java:23)
+[2015-10-29 00:16:04] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-29 00:16:04] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-29 00:16:04] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-29 00:16:04] java.lang.NullPointerException
+[2015-10-29 00:16:04] 	at com.vencillio.rs2.entity.player.net.out.impl.SendPlayerOption.execute(SendPlayerOption.java:23)
+[2015-10-29 00:16:04] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-29 00:16:04] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-29 00:16:04] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-29 00:16:04] java.lang.NullPointerException
+[2015-10-29 00:16:04] 	at com.vencillio.rs2.entity.player.net.out.impl.SendPlayerOption.execute(SendPlayerOption.java:23)
+[2015-10-29 00:16:04] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-29 00:16:04] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-29 00:16:04] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-29 00:16:04] java.lang.NullPointerException
+[2015-10-29 00:16:04] 	at com.vencillio.rs2.entity.player.net.out.impl.SendPlayerOption.execute(SendPlayerOption.java:23)
+[2015-10-29 00:16:04] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-29 00:16:04] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-29 00:16:04] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-29 00:16:05] java.lang.NullPointerException
+[2015-10-29 00:16:05] 	at com.vencillio.rs2.entity.player.net.out.impl.SendPlayerOption.execute(SendPlayerOption.java:23)
+[2015-10-29 00:16:05] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-29 00:16:05] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-29 00:16:05] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-29 00:16:05] java.lang.NullPointerException
+[2015-10-29 00:16:05] 	at com.vencillio.rs2.entity.player.net.out.impl.SendPlayerOption.execute(SendPlayerOption.java:23)
+[2015-10-29 00:16:05] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-29 00:16:05] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-29 00:16:05] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-29 00:16:05] java.lang.NullPointerException
+[2015-10-29 00:16:05] 	at com.vencillio.rs2.entity.player.net.out.impl.SendPlayerOption.execute(SendPlayerOption.java:23)
+[2015-10-29 00:16:05] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-29 00:16:05] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-29 00:16:05] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-29 00:16:06] java.lang.NullPointerException
+[2015-10-29 00:16:06] 	at com.vencillio.rs2.entity.player.net.out.impl.SendPlayerOption.execute(SendPlayerOption.java:23)
+[2015-10-29 00:16:06] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-29 00:16:06] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-29 00:16:06] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-29 00:16:06] java.lang.NullPointerException
+[2015-10-29 00:16:06] 	at com.vencillio.rs2.entity.player.net.out.impl.SendPlayerOption.execute(SendPlayerOption.java:23)
+[2015-10-29 00:16:06] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-29 00:16:06] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-29 00:16:06] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-29 00:16:06] java.lang.NullPointerException
+[2015-10-29 00:16:06] 	at com.vencillio.rs2.entity.player.net.out.impl.SendPlayerOption.execute(SendPlayerOption.java:23)
+[2015-10-29 00:16:06] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-29 00:16:06] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-29 00:16:06] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-29 00:16:07] java.lang.NullPointerException
+[2015-10-29 00:16:07] 	at com.vencillio.rs2.entity.player.net.out.impl.SendPlayerOption.execute(SendPlayerOption.java:23)
+[2015-10-29 00:16:07] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-29 00:16:07] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-29 00:16:07] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-29 00:16:07] java.lang.NullPointerException
+[2015-10-29 00:16:07] 	at com.vencillio.rs2.entity.player.net.out.impl.SendPlayerOption.execute(SendPlayerOption.java:23)
+[2015-10-29 00:16:07] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-29 00:16:07] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-29 00:16:07] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-29 00:16:07] java.lang.NullPointerException
+[2015-10-29 00:16:07] 	at com.vencillio.rs2.entity.player.net.out.impl.SendPlayerOption.execute(SendPlayerOption.java:23)
+[2015-10-29 00:16:07] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-29 00:16:07] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-29 00:16:07] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-29 00:16:07] java.lang.NullPointerException
+[2015-10-29 00:16:07] 	at com.vencillio.rs2.entity.player.net.out.impl.SendPlayerOption.execute(SendPlayerOption.java:23)
+[2015-10-29 00:16:07] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-29 00:16:07] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-29 00:16:07] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-29 00:16:08] java.lang.NullPointerException
+[2015-10-29 00:16:08] 	at com.vencillio.rs2.entity.player.net.out.impl.SendPlayerOption.execute(SendPlayerOption.java:23)
+[2015-10-29 00:16:08] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-29 00:16:08] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-29 00:16:08] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-29 00:16:08] java.lang.NullPointerException
+[2015-10-29 00:16:08] 	at com.vencillio.rs2.entity.player.net.out.impl.SendPlayerOption.execute(SendPlayerOption.java:23)
+[2015-10-29 00:16:08] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-29 00:16:08] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-29 00:16:08] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-29 00:16:08] java.lang.NullPointerException
+[2015-10-29 00:16:08] 	at com.vencillio.rs2.entity.player.net.out.impl.SendPlayerOption.execute(SendPlayerOption.java:23)
+[2015-10-29 00:16:08] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-29 00:16:08] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-29 00:16:08] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-29 00:16:08] java.lang.NullPointerException
+[2015-10-29 00:16:08] 	at com.vencillio.rs2.entity.player.net.out.impl.SendPlayerOption.execute(SendPlayerOption.java:23)
+[2015-10-29 00:16:09] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-29 00:16:09] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-29 00:16:09] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-29 00:16:09] java.lang.NullPointerException
+[2015-10-29 00:16:09] 	at com.vencillio.rs2.entity.player.net.out.impl.SendPlayerOption.execute(SendPlayerOption.java:23)
+[2015-10-29 00:16:09] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-29 00:16:09] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-29 00:16:09] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-29 00:16:09] java.lang.NullPointerException
+[2015-10-29 00:16:09] 	at com.vencillio.rs2.entity.player.net.out.impl.SendPlayerOption.execute(SendPlayerOption.java:23)
+[2015-10-29 00:16:09] 	at com.vencillio.rs2.entity.player.net.Client.processOutgoingPackets(Client.java:255)
+[2015-10-29 00:16:09] 	at com.vencillio.core.NetworkThread.cycle(NetworkThread.java:58)
+[2015-10-29 00:16:09] 	at com.vencillio.core.NetworkThread.run(NetworkThread.java:98)
+[2015-10-29 00:21:54] java.lang.NullPointerException
+[2015-10-29 00:21:54] 	at com.vencillio.rs2.entity.player.Player.teleport(Player.java:1866)
+[2015-10-29 00:21:54] 	at com.vencillio.core.task.impl.PlayerDeathTask.execute(PlayerDeathTask.java:76)
+[2015-10-29 00:21:54] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-10-29 00:21:54] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-10-29 00:21:54] 	at com.vencillio.core.GameThread.cycle(GameThread.java:116)
+[2015-10-29 00:21:54] 	at com.vencillio.core.GameThread.run(GameThread.java:139)

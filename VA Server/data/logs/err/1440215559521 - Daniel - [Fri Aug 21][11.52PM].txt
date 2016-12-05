@@ -1,0 +1,13 @@
+Logging started at 2015-08-21 23:52:39
+File name: C:\Users\Daniel\Dropbox\Vencillio Advanced\VA Source\.\data\logs\err\1440215559521 - Daniel - [Fri Aug 21][11.52PM].txt
+System.getProperty("os.name"): "Windows 8.1"
+
+[2015-08-21 23:56:08] java.lang.NullPointerException
+[2015-08-21 23:56:08] 	at com.vencillio.rs2.entity.mob.impl.ChaosElement.attacking(ChaosElement.java:55)
+[2015-08-21 23:56:08] 	at com.vencillio.rs2.entity.mob.impl.ChaosElement.equipmentSpecial(ChaosElement.java:72)
+[2015-08-21 23:56:08] 	at com.vencillio.rs2.entity.mob.impl.ChaosElement.hit(ChaosElement.java:33)
+[2015-08-21 23:56:08] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-08-21 23:56:08] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-08-21 23:56:08] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-08-21 23:56:08] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-08-21 23:56:08] 	at com.vencillio.core.GameThread.run(GameThread.java:138)

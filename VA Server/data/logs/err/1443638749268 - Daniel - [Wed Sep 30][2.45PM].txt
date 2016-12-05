@@ -1,0 +1,18 @@
+Logging started at 2015-09-30 14:45:49
+File name: C:\Users\Daniel\Dropbox\Vencillio Advanced\VA Source\.\data\logs\err\1443638749268 - Daniel - [Wed Sep 30][2.45PM].txt
+System.getProperty("os.name"): "Windows 8.1"
+
+[2015-09-30 14:46:50] java.io.FileNotFoundException: .\data\tickets\Daniel - 2015\09\30 14:46:50.txt (The filename, directory name, or volume label syntax is incorrect)
+[2015-09-30 14:46:50] 	at java.io.FileOutputStream.open0(Native Method)
+[2015-09-30 14:46:50] 	at java.io.FileOutputStream.open(Unknown Source)
+[2015-09-30 14:46:50] 	at java.io.FileOutputStream.<init>(Unknown Source)
+[2015-09-30 14:46:50] 	at java.io.FileOutputStream.<init>(Unknown Source)
+[2015-09-30 14:46:50] 	at java.io.FileWriter.<init>(Unknown Source)
+[2015-09-30 14:46:50] 	at com.vencillio.rs2.content.moderation.TicketSystem.saveGambling(TicketSystem.java:31)
+[2015-09-30 14:46:50] 	at com.vencillio.rs2.entity.player.net.in.command.impl.OwnerCommand.handleCommand(OwnerCommand.java:44)
+[2015-09-30 14:46:50] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2015-09-30 14:46:50] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2015-09-30 14:46:50] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2015-09-30 14:46:50] 	at com.vencillio.rs2.entity.World.process(World.java:316)
+[2015-09-30 14:46:50] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2015-09-30 14:46:50] 	at com.vencillio.core.GameThread.run(GameThread.java:139)

@@ -1,0 +1,13 @@
+Logging started at 2015-10-14 13:38:20
+File name: C:\Users\root\Dropbox\Vencillio Advanced\VA Source\.\data\logs\err\1444826300981 - root - [Wed Oct 14][1.38PM].txt
+System.getProperty("os.name"): "Windows Server 2008 R2"
+
+[2015-10-14 13:38:20] Exception in thread "main" 
+[2015-10-14 13:38:20] java.lang.Error: Unresolved compilation problems: 
+	EquipmentConstants cannot be resolved
+	FileHandler cannot be resolved
+
+[2015-10-14 13:38:20] 	at com.vencillio.GameDataLoader.load(GameDataLoader.java:181)
+[2015-10-14 13:38:20] 	at com.vencillio.core.GameThread.startup(GameThread.java:69)
+[2015-10-14 13:38:20] 	at com.vencillio.core.GameThread.init(GameThread.java:34)
+[2015-10-14 13:38:20] 	at com.vencillio.Server.main(Server.java:104)

@@ -1,0 +1,18 @@
+Logging started at 2015-09-22 00:57:07
+File name: C:\Users\root\Dropbox\Vencillio Advanced\VA Source\.\data\logs\err\1442879827443 - root - [Tue Sep 22][12.57AM].txt
+System.getProperty("os.name"): "Windows Server 2008 R2"
+
+[2015-09-22 00:57:10] Exception in thread "main" 
+[2015-09-22 00:57:10] java.lang.Error: Unresolved compilation problems: 
+	The import com.vencillio.rs2.content.skill.melee.SerpentineHelmet cannot be resolved
+	SerpentineHelmet cannot be resolved
+	SerpentineHelmet cannot be resolved
+	SerpentineHelmet cannot be resolved
+	SerpentineHelmet cannot be resolved
+
+[2015-09-22 00:57:10] 	at com.vencillio.rs2.entity.player.net.in.impl.ItemPackets.<init>(ItemPackets.java:43)
+[2015-09-22 00:57:10] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.<clinit>(PacketHandler.java:44)
+[2015-09-22 00:57:10] 	at com.vencillio.GameDataLoader.load(GameDataLoader.java:214)
+[2015-09-22 00:57:10] 	at com.vencillio.core.GameThread.startup(GameThread.java:67)
+[2015-09-22 00:57:10] 	at com.vencillio.core.GameThread.init(GameThread.java:33)
+[2015-09-22 00:57:10] 	at com.vencillio.Server.main(Server.java:102)

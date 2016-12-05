@@ -1,0 +1,418 @@
+[
+  {
+    "scrollId": 2722,
+    "difficulty": "HARD",
+    "endLocation": { "x": 2587, "y": 3420, "z": 0 },
+    "endLocationDiameter": 2,
+    "data": [
+      2110,
+      "",
+      "",
+      "Blow a raspberry in the Fishing Guild",
+      "bank. Beware of double agents!",
+      "Equip an elemental shield, blue",
+      "dragonhide chaps and a rune",
+      "warhammer",
+      "",
+      ""
+    ],
+    "requiredItems": [
+      null,
+      null,
+      null,
+      {
+        "id": 1347,
+        "amount": 1
+      },
+      null,
+      {
+        "id": 2890,
+        "amount": 1
+      },
+      null,
+      {
+        "id": 2493,
+        "amount": 1
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  {
+    "scrollId": 2723,
+    "difficulty": "HARD",
+    "endLocation": { "x": 2920, "y": 3163, "z": 0 },
+    "endLocationDiameter": 10,
+    "data": [
+      2112,
+      "",
+      "Salute in the banana plantation.",
+      "Beware of double agents!",
+      "Equip a diamond ring, amulet",
+      "of power and nothing on",
+      "your chest and legs.",
+      "",
+      "",
+      ""
+    ],
+    "requiredItems": [
+      null,
+      null,
+      {
+        "id": 1731,
+        "amount": 1
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "id": 1643,
+        "amount": 1
+      },
+      null
+    ]
+  },
+  {
+    "scrollId": 2801,
+    "difficulty": "MEDIUM",
+    "endLocation": { "x": 3370, "y": 3428, "z": 0 },
+    "endLocationDiameter": 1,
+    "data": [
+      859,
+      "",
+      "",
+      "Beckon in the Digsite, near the eastern",
+      "winch. Equip a green hat, snakeskin",
+      "boots and an iron pickaxe.",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "requiredItems": [
+      {
+        "id": 658,
+        "amount": 1
+      },
+      null,
+      null,
+      {
+        "id": 1267,
+        "amount": 1
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "id": 6328,
+        "amount": 1
+      },
+      null,
+      null,
+      null
+    ]
+  },
+  {
+    "scrollId": 2809,
+    "difficulty": "MEDIUM",
+    "endLocation": { "x": 2722, "y": 3339, "z": 0 },
+    "data": [
+      17634
+    ]
+  },
+  {
+    "scrollId": 2677,
+    "difficulty": "EASY",
+    "endLocation": { "x": 2598, "y": 3280, "z": 0 },
+    "endLocationDiameter": 1,
+    "data": [
+      2110,
+      "",
+      "",
+      "Blow a raspberry at the monkey",
+      "cage in Ardougne Zoo.",
+      "Equip a studded body and bronze",
+      "platelegs.",
+      "",
+      "",
+      ""
+    ],
+    "requiredItems": [
+      null,
+      null,
+      null,
+      null,
+      {
+        "id": 1133,
+        "amount": 1
+      },
+      null,
+      null,
+      {
+        "id": 1075,
+        "amount": 1
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  {
+    "scrollId": 2678,
+    "difficulty": "EASY",
+    "endLocation": { "x": 2977, "y": 3240, "z": 0 },
+    "endLocationDiameter": 11,
+    "data": [
+      2113,
+      "",
+      "",
+      "Shrug in the mine near Rimmington,",
+      "quip a gold necklace, a gold ring",
+      "and a bronze spear.",
+      "",
+      "",
+      ""
+    ],
+    "requiredItems": [
+      null,
+      null,
+      {
+        "id": 1654,
+        "amount": 1
+      },
+      {
+        "id": 1237,
+        "amount": 1
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "id": 1635,
+        "amount": 1
+      },
+      null
+    ]
+  },
+  {
+    "scrollId": 2679,
+    "difficulty": "EASY",
+    "endLocation": { "x": 2728, "y": 3348, "z": 0 },
+    "endLocationDiameter": 1,
+    "data": [
+      858,
+      "",
+      "",
+      "Bow outside the entrance to the",
+      "Legends\u0027 Guild. Equip iron platelegs,",
+      "an emerald amulet and an oak",
+      "longbow.",
+      "",
+      ""
+    ],
+    "requiredItems": [
+      null,
+      null,
+      {
+        "id": 1696,
+        "amount": 1
+      },
+      {
+        "id": 845,
+        "amount": 1
+      },
+      null,
+      null,
+      null,
+      {
+        "id": 1067,
+        "amount": 1
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  {
+    "scrollId": 2680,
+    "difficulty": "EASY",
+    "endLocation": { "x": 2926, "y": 3484, "z": 0 },
+    "endLocationDiameter": 5,
+    "data": [
+      862,
+      "",
+      "",
+      "Cheer at the Druids\u0027 Circle. Equip",
+      "a blue wizard hat, a bronze two-",
+      "handed sword and leather boots.",
+      "",
+      "",
+      "",
+      ""
+    ],
+    "requiredItems": [
+      {
+        "id": 740,
+        "amount": 1
+      },
+      null,
+      null,
+      {
+        "id": 1307,
+        "amount": 1
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "id": 1061,
+        "amount": 1
+      },
+      null,
+      null,
+      null
+    ]
+  },
+  {
+    "scrollId": 3513,
+    "difficulty": "EASY",
+    "endLocation": { "x": 2598, "y": 3280, "z": 0 },
+    "endLocationDiameter": 1,
+    "data": [
+      2110,
+      "",
+      "",
+      "Blow a raspberry at the monkey",
+      "cage in Ardougne Zoo.",
+      "Equip a studded body and bronze",
+      "platelegs.",
+      "",
+      "",
+      ""
+    ],
+    "requiredItems": [
+      null,
+      null,
+      null,
+      null,
+      {
+        "id": 1133,
+        "amount": 1
+      },
+      null,
+      null,
+      {
+        "id": 1075,
+        "amount": 1
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  {
+    "scrollId": 2681,
+    "difficulty": "EASY",
+    "endLocation": { "x": 2611, "y": 3393, "z": 0 },
+    "endLocationDiameter": 2,
+    "data": [
+      2106,
+      "",
+      "",
+      "Dance a jig by the entrance to the",
+      "Fishing Guild, equip a sapphire",
+      "amulet, an emerald ring and a",
+      "bronze chainbody",
+      "",
+      "",
+      ""
+    ],
+    "requiredItems": [
+      null,
+      null,
+      {
+        "id": 1694,
+        "amount": 1
+      },
+      null,
+      {
+        "id": 1103,
+        "amount": 1
+      },
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      {
+        "id": 1639,
+        "amount": 1
+      },
+      null
+    ]
+  },
+  {
+    "scrollId": 2682,
+    "difficulty": "EASY",
+    "endLocation": { "x": 3290, "y": 3372, "z": 0 },
+    "data": [
+      7045
+    ]
+  },
+  {
+    "scrollId": 2683,
+    "difficulty": "EASY",
+    "endLocation": { "x": 3092, "y": 3226, "z": 0 },
+    "data": [
+      7113
+    ]
+  },
+  {
+    "scrollId": 2684,
+    "difficulty": "EASY",
+    "endLocation": { "x": 2702, "y": 3428, "z": 0 },
+    "data": [
+      7162
+    ]
+  },
+  {
+    "scrollId": 2685,
+    "difficulty": "EASY",
+    "endLocation": { "x": 2970, "y": 3414, "z": 0 },
+    "data": [
+      17537
+    ]
+  }
+]

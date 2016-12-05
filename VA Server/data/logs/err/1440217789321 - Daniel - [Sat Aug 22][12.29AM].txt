@@ -1,0 +1,12 @@
+Logging started at 2015-08-22 00:29:49
+File name: C:\Users\Daniel\Dropbox\Vencillio Advanced\VA Source\.\data\logs\err\1440217789321 - Daniel - [Sat Aug 22][12.29AM].txt
+System.getProperty("os.name"): "Windows 8.1"
+
+[2015-08-22 01:01:00] java.lang.ArrayIndexOutOfBoundsException: 0
+[2015-08-22 01:01:00] 	at com.vencillio.rs2.entity.player.net.in.command.impl.OwnerCommand.handleCommand(OwnerCommand.java:36)
+[2015-08-22 01:01:00] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2015-08-22 01:01:00] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2015-08-22 01:01:00] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2015-08-22 01:01:00] 	at com.vencillio.rs2.entity.World.process(World.java:314)
+[2015-08-22 01:01:00] 	at com.vencillio.core.GameThread.cycle(GameThread.java:123)
+[2015-08-22 01:01:00] 	at com.vencillio.core.GameThread.run(GameThread.java:138)

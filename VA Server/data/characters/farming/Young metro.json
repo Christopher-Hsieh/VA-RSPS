@@ -1,0 +1,431 @@
+{
+  "farmingTimer": 0,
+  "lastFarmingTimer": 1480962881279,
+  "compostBins": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "compostBinsTimer": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "organicItemAdded": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "bushesStages": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "bushesSeeds": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "bushesState": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "bushesTimer": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "bushesDiseaseChance": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "bushesHasFullyGrown": [
+    false,
+    false,
+    false,
+    false
+  ],
+  "bushesWatched": [
+    false,
+    false,
+    false,
+    false
+  ],
+  "allotmentStages": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "allotmentSeeds": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "allotmentHarvest": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "allotmentState": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "allotmentTimer": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "allotmentDiseaseChance": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "allotmentWatched": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
+  "allotmentHasFullyGrown": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
+  "flowerStages": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "flowerSeeds": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "flowerState": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "flowerTimer": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "flowerDiseaseChance": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "flowerHasFullyGrown": [
+    false,
+    false,
+    false,
+    false
+  ],
+  "fruitTreeStages": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "fruitTreeSaplings": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "fruitTreeState": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "fruitTreeTimer": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "fruitDiseaseChance": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "fruitHasFullyGrown": [
+    false,
+    false,
+    false,
+    false
+  ],
+  "fruitTreeWatched": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+  ],
+  "herbStages": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "herbSeeds": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "herbHarvest": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "herbState": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "herbTimer": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "herbDiseaseChance": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "hopsStages": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "hopsSeeds": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "hopsHarvest": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "hopsState": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "hopsTimer": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "hopDiseaseChance": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "hopHasFullyGrown": [
+    false,
+    false,
+    false,
+    false
+  ],
+  "hopsWatched": [
+    false,
+    false,
+    false,
+    false
+  ],
+  "specialPlantOneStages": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "specialPlantOneSeeds": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "specialPlantOneState": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "specialPlantOneTimer": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "specialPlantOneDiseaseChance": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "specialPlantOneHasFullyGrown": [
+    false,
+    false,
+    false,
+    false
+  ],
+  "specialPlantTwoStages": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "specialPlantTwoSeeds": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "specialPlantTwoState": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "specialPlantTwoTimer": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "specialPlantTwoDiseaseChance": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "specialPlantTwoHasFullyGrown": [
+    false,
+    false,
+    false,
+    false
+  ],
+  "treeStages": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "treeSaplings": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "treeHarvest": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "treeState": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "treeTimer": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "treeDiseaseChance": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "treeHasFullyGrown": [
+    false,
+    false,
+    false,
+    false
+  ],
+  "treeWatched": [
+    false,
+    false,
+    false,
+    false
+  ]
+}

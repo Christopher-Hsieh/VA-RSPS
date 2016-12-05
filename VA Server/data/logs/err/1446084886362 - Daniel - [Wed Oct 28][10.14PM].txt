@@ -1,0 +1,15 @@
+Logging started at 2015-10-28 22:14:46
+File name: C:\Users\Daniel\Dropbox\Vencillio Advanced\VA Source\.\data\logs\err\1446084886362 - Daniel - [Wed Oct 28][10.14PM].txt
+System.getProperty("os.name"): "Windows 8.1"
+
+[2015-10-28 22:31:04] java.lang.NumberFormatException: For input string: "scale"
+[2015-10-28 22:31:04] 	at java.lang.NumberFormatException.forInputString(Unknown Source)
+[2015-10-28 22:31:04] 	at java.lang.Integer.parseInt(Unknown Source)
+[2015-10-28 22:31:04] 	at java.lang.Integer.parseInt(Unknown Source)
+[2015-10-28 22:31:04] 	at com.vencillio.rs2.entity.player.net.in.command.impl.AdministratorCommand.handleCommand(AdministratorCommand.java:112)
+[2015-10-28 22:31:04] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2015-10-28 22:31:04] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2015-10-28 22:31:04] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2015-10-28 22:31:04] 	at com.vencillio.rs2.entity.World.process(World.java:320)
+[2015-10-28 22:31:04] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2015-10-28 22:31:04] 	at com.vencillio.core.GameThread.run(GameThread.java:139)

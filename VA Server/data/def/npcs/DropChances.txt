@@ -1,0 +1,71 @@
+//must keep same format (10 = 1%)
+
+12819:5//Sigil
+12823:5//Sigil
+12827:5//Sigil
+6731:50//Seers' ring
+6733:50//Archers' ring
+6735:50//Warrior ring
+6737:50//Berserker ring
+6571:15//Uncut onyx
+4151:70//Abyssal whip
+11235:50//Dark bow
+11212:70//Dragon arrow
+6528:65//Tzhaar-ket-om
+6529:110//Tokkul
+10887:80//Barrelchest anchor
+7158:35//Dragon 2h sword
+11286:19//Draconic visage
+6739:45//Dragon hatchet
+6524:52//Toktz-ket-xil
+11818:30//GS shard 1
+11820:30//GS shard 2
+11822:30//GS shard 3
+11830:15//Armadyl chainskirt
+11828:15//Armadyl chest plate
+11826:15//Armadyl helm
+11810:10//Armadyl hilt
+12649:8//Armadyl pet
+11814:25//Saradomin hilt
+11838:28//Saradomin sword
+11785:15//Armadyl crossbow
+12651:10//Saradomin pet
+11832:20//Bandos chest
+11834:20//Bandos tassets
+118836:30//Bandos boots
+11812:18//Bandos hilt
+12650:10//Bandos pet
+12643:10//Pet supreme
+12644:10//Pet prime
+12645:10//Pet rex
+11840:30//Dragon boots
+10858:60//Shadow sword
+11791:25//Staff of the Dead
+12652:10//Zamorak Pet
+11824:20//Zamorak Spear
+11905:15//Trident of seas
+12655:10//Kraken Pet
+12004:20//Kraken Tenacle
+11908:20//Trident
+11995:10//Chaos Elemental pet
+11920:30//Dragon Pickaxe
+12603:25//Tyrannical ring
+13178:10//Callisto Pet
+13181:10//Scorpia's offspring
+12601:15//Ring of the gods
+13180:10//Vet'ion pet
+11931:25//Malediction shard 1
+11928:25//Odium shard 1
+11932:25//Malediction shard 2
+11929:25//Odium shard 2
+11933:25//Malediction shard 3
+11930:25//Odium shard 3
+12833:51//Elixer
+12816:10//Pet Dark Core
+12927:45//Sperp Vis
+12922:35//Fang
+12932:35//Magic Fang
+12921:20//Zulrah Pet
+12646:10//Mole pet
+11816:15//Zammy hilt
+12653:10//KBD Pet

@@ -1,0 +1,2133 @@
+[2015-08-15 20:17:15] java.lang.NullPointerException
+[2015-08-15 20:17:15] 	at com.vencillio.rs2.content.combat.formula.RangeFormulas.calculateRangeAttack(RangeFormulas.java:78)
+[2015-08-15 20:17:15] 	at com.vencillio.rs2.content.combat.impl.Ranged.execute(Ranged.java:41)
+[2015-08-15 20:17:15] 	at com.vencillio.rs2.content.combat.Combat.attack(Combat.java:90)
+[2015-08-15 20:17:15] 	at com.vencillio.rs2.content.combat.Combat.process(Combat.java:209)
+[2015-08-15 20:17:15] 	at com.vencillio.rs2.entity.player.Player.process(Player.java:1416)
+[2015-08-15 20:17:15] 	at com.vencillio.rs2.entity.World.process(World.java:316)
+[2015-08-15 20:17:15] 	at com.vencillio.core.GameThread.cycle(GameThread.java:123)
+[2015-08-15 20:17:15] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-08-15 20:17:15] java.lang.NullPointerException
+[2015-08-15 20:48:11] java.lang.NullPointerException
+[2015-08-15 20:48:12] 	at com.vencillio.rs2.content.combat.formula.RangeFormulas.calculateRangeAttack(RangeFormulas.java:78)
+[2015-08-15 20:48:12] 	at com.vencillio.rs2.content.combat.impl.Ranged.execute(Ranged.java:41)
+[2015-08-15 20:48:12] 	at com.vencillio.rs2.content.combat.Combat.attack(Combat.java:90)
+[2015-08-15 20:48:12] 	at com.vencillio.rs2.content.combat.Combat.process(Combat.java:209)
+[2015-08-15 20:48:12] 	at com.vencillio.rs2.entity.player.Player.process(Player.java:1416)
+[2015-08-15 20:48:12] 	at com.vencillio.rs2.entity.World.process(World.java:316)
+[2015-08-15 20:48:12] 	at com.vencillio.core.GameThread.cycle(GameThread.java:123)
+[2015-08-15 20:48:12] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-08-15 20:48:12] java.lang.NullPointerException
+[2015-08-16 00:03:41] com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+[2015-08-16 00:03:41] 	at sun.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+[2015-08-16 00:03:41] 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+[2015-08-16 00:03:41] 	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+[2015-08-16 00:03:41] 	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+[2015-08-16 00:03:41] 	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1074)
+[2015-08-16 00:03:41] 	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3009)
+[2015-08-16 00:03:41] 	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2895)
+[2015-08-16 00:03:41] 	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3438)
+[2015-08-16 00:03:41] 	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1951)
+[2015-08-16 00:03:41] 	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2101)
+[2015-08-16 00:03:41] 	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2554)
+[2015-08-16 00:03:41] 	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1761)
+[2015-08-16 00:03:41] 	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2046)
+[2015-08-16 00:03:41] 	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1964)
+[2015-08-16 00:03:41] 	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1949)
+[2015-08-16 00:03:41] 	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:222)
+[2015-08-16 00:03:42] 	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:1)
+[2015-08-16 00:03:42] 	at java.util.concurrent.FutureTask.run(Unknown Source)
+[2015-08-16 00:03:42] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[2015-08-16 00:03:42] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[2015-08-16 00:03:42] 	at java.lang.Thread.run(Unknown Source)
+[2015-08-16 00:03:42] Caused by: java.io.EOFException: Can not read response from server. Expected to read 4 bytes, read 0 bytes before connection was unexpectedly lost.
+[2015-08-16 00:03:42] 	at com.mysql.jdbc.MysqlIO.readFully(MysqlIO.java:2455)
+[2015-08-16 00:03:42] 	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2906)
+[2015-08-16 00:03:42] 	... 15 more
+[2015-08-16 00:12:37] com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.Connection was implicitly closed due to underlying exception/error:
+
+
+** BEGIN NESTED EXCEPTION ** 
+
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException
+MESSAGE: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+
+STACKTRACE:
+
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+	at sun.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1074)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3009)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2895)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3438)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1951)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2101)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2554)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1761)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2046)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1964)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1949)
+	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:222)
+	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.io.EOFException: Can not read response from server. Expected to read 4 bytes, read 0 bytes before connection was unexpectedly lost.
+	at com.mysql.jdbc.MysqlIO.readFully(MysqlIO.java:2455)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2906)
+	... 15 more
+
+
+** END NESTED EXCEPTION **
+
+
+[2015-08-16 00:12:37] 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+[2015-08-16 00:12:37] 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+[2015-08-16 00:12:37] 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+[2015-08-16 00:12:37] 	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+[2015-08-16 00:12:37] 	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+[2015-08-16 00:12:37] 	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+[2015-08-16 00:12:37] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:984)
+[2015-08-16 00:12:37] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+[2015-08-16 00:12:37] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:926)
+[2015-08-16 00:12:37] 	at com.mysql.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:1115)
+[2015-08-16 00:12:37] 	at com.mysql.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:4111)
+[2015-08-16 00:12:37] 	at com.mysql.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:4077)
+[2015-08-16 00:12:37] 	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:219)
+[2015-08-16 00:12:37] 	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:1)
+[2015-08-16 00:12:37] 	at java.util.concurrent.FutureTask.run(Unknown Source)
+[2015-08-16 00:12:37] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[2015-08-16 00:12:37] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[2015-08-16 00:12:37] 	at java.lang.Thread.run(Unknown Source)
+[2015-08-16 00:22:55] java.lang.NullPointerException
+[2015-08-16 00:22:55] java.lang.NullPointerException
+[2015-08-16 00:22:55] com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.Connection was implicitly closed due to underlying exception/error:
+
+
+** BEGIN NESTED EXCEPTION ** 
+
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException
+MESSAGE: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+
+STACKTRACE:
+
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+	at sun.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1074)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3009)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2895)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3438)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1951)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2101)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2554)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1761)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2046)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1964)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1949)
+	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:222)
+	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.io.EOFException: Can not read response from server. Expected to read 4 bytes, read 0 bytes before connection was unexpectedly lost.
+	at com.mysql.jdbc.MysqlIO.readFully(MysqlIO.java:2455)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2906)
+	... 15 more
+
+
+** END NESTED EXCEPTION **
+
+
+[2015-08-16 00:22:55] 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+[2015-08-16 00:22:55] 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+[2015-08-16 00:22:55] 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+[2015-08-16 00:22:55] 	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+[2015-08-16 00:22:55] 	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+[2015-08-16 00:22:55] 	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+[2015-08-16 00:22:55] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:984)
+[2015-08-16 00:22:55] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+[2015-08-16 00:22:55] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:926)
+[2015-08-16 00:22:55] 	at com.mysql.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:1115)
+[2015-08-16 00:22:55] 	at com.mysql.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:4111)
+[2015-08-16 00:22:55] 	at com.mysql.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:4077)
+[2015-08-16 00:22:55] 	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:219)
+[2015-08-16 00:22:55] 	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:1)
+[2015-08-16 00:22:55] 	at java.util.concurrent.FutureTask.run(Unknown Source)
+[2015-08-16 00:22:55] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[2015-08-16 00:22:55] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[2015-08-16 00:22:55] 	at java.lang.Thread.run(Unknown Source)
+[2015-08-16 00:26:32] com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.Connection was implicitly closed due to underlying exception/error:
+
+
+** BEGIN NESTED EXCEPTION ** 
+
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException
+MESSAGE: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+
+STACKTRACE:
+
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+	at sun.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1074)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3009)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2895)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3438)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1951)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2101)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2554)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1761)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2046)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1964)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1949)
+	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:222)
+	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.io.EOFException: Can not read response from server. Expected to read 4 bytes, read 0 bytes before connection was unexpectedly lost.
+	at com.mysql.jdbc.MysqlIO.readFully(MysqlIO.java:2455)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2906)
+	... 15 more
+
+
+** END NESTED EXCEPTION **
+
+
+[2015-08-16 00:26:32] 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+[2015-08-16 00:26:32] 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+[2015-08-16 00:26:32] 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+[2015-08-16 00:26:32] 	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+[2015-08-16 00:26:32] 	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+[2015-08-16 00:26:32] 	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+[2015-08-16 00:26:32] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:984)
+[2015-08-16 00:26:32] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+[2015-08-16 00:26:32] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:926)
+[2015-08-16 00:26:32] 	at com.mysql.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:1115)
+[2015-08-16 00:26:32] 	at com.mysql.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:4111)
+[2015-08-16 00:26:32] 	at com.mysql.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:4077)
+[2015-08-16 00:26:32] 	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:219)
+[2015-08-16 00:26:32] 	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:1)
+[2015-08-16 00:26:32] 	at java.util.concurrent.FutureTask.run(Unknown Source)
+[2015-08-16 00:26:32] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[2015-08-16 00:26:32] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[2015-08-16 00:26:32] 	at java.lang.Thread.run(Unknown Source)
+[2015-08-16 00:26:47] com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.Connection was implicitly closed due to underlying exception/error:
+
+
+** BEGIN NESTED EXCEPTION ** 
+
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException
+MESSAGE: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+
+STACKTRACE:
+
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+	at sun.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1074)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3009)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2895)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3438)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1951)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2101)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2554)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1761)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2046)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1964)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1949)
+	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:222)
+	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.io.EOFException: Can not read response from server. Expected to read 4 bytes, read 0 bytes before connection was unexpectedly lost.
+	at com.mysql.jdbc.MysqlIO.readFully(MysqlIO.java:2455)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2906)
+	... 15 more
+
+
+** END NESTED EXCEPTION **
+
+
+[2015-08-16 00:26:47] 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+[2015-08-16 00:26:47] 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+[2015-08-16 00:26:47] 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+[2015-08-16 00:26:47] 	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+[2015-08-16 00:26:47] 	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+[2015-08-16 00:26:47] 	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+[2015-08-16 00:26:47] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:984)
+[2015-08-16 00:26:47] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+[2015-08-16 00:26:47] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:926)
+[2015-08-16 00:26:47] 	at com.mysql.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:1115)
+[2015-08-16 00:26:47] 	at com.mysql.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:4111)
+[2015-08-16 00:26:47] 	at com.mysql.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:4077)
+[2015-08-16 00:26:47] 	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:219)
+[2015-08-16 00:26:47] 	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:1)
+[2015-08-16 00:26:47] 	at java.util.concurrent.FutureTask.run(Unknown Source)
+[2015-08-16 00:26:47] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[2015-08-16 00:26:47] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[2015-08-16 00:26:47] 	at java.lang.Thread.run(Unknown Source)
+[2015-08-16 00:34:22] com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.Connection was implicitly closed due to underlying exception/error:
+
+
+** BEGIN NESTED EXCEPTION ** 
+
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException
+MESSAGE: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+
+STACKTRACE:
+
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+	at sun.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1074)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3009)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2895)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3438)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1951)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2101)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2554)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1761)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2046)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1964)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1949)
+	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:222)
+	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.io.EOFException: Can not read response from server. Expected to read 4 bytes, read 0 bytes before connection was unexpectedly lost.
+	at com.mysql.jdbc.MysqlIO.readFully(MysqlIO.java:2455)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2906)
+	... 15 more
+
+
+** END NESTED EXCEPTION **
+
+
+[2015-08-16 00:34:22] 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+[2015-08-16 00:34:22] 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+[2015-08-16 00:34:22] 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+[2015-08-16 00:34:22] 	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+[2015-08-16 00:34:22] 	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+[2015-08-16 00:34:22] 	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+[2015-08-16 00:34:22] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:984)
+[2015-08-16 00:34:22] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+[2015-08-16 00:34:22] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:926)
+[2015-08-16 00:34:22] 	at com.mysql.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:1115)
+[2015-08-16 00:34:22] 	at com.mysql.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:4111)
+[2015-08-16 00:34:22] 	at com.mysql.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:4077)
+[2015-08-16 00:34:22] 	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:219)
+[2015-08-16 00:34:22] 	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:1)
+[2015-08-16 00:34:22] 	at java.util.concurrent.FutureTask.run(Unknown Source)
+[2015-08-16 00:34:22] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[2015-08-16 00:34:22] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[2015-08-16 00:34:22] 	at java.lang.Thread.run(Unknown Source)
+[2015-08-16 00:34:59] com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.Connection was implicitly closed due to underlying exception/error:
+
+
+** BEGIN NESTED EXCEPTION ** 
+
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException
+MESSAGE: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+
+STACKTRACE:
+
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+	at sun.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1074)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3009)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2895)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3438)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1951)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2101)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2554)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1761)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2046)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1964)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1949)
+	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:222)
+	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.io.EOFException: Can not read response from server. Expected to read 4 bytes, read 0 bytes before connection was unexpectedly lost.
+	at com.mysql.jdbc.MysqlIO.readFully(MysqlIO.java:2455)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2906)
+	... 15 more
+
+
+** END NESTED EXCEPTION **
+
+
+[2015-08-16 00:34:59] 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+[2015-08-16 00:34:59] 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+[2015-08-16 00:34:59] 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+[2015-08-16 00:34:59] 	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+[2015-08-16 00:34:59] 	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+[2015-08-16 00:34:59] 	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+[2015-08-16 00:34:59] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:984)
+[2015-08-16 00:34:59] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+[2015-08-16 00:34:59] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:926)
+[2015-08-16 00:34:59] 	at com.mysql.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:1115)
+[2015-08-16 00:34:59] 	at com.mysql.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:4111)
+[2015-08-16 00:34:59] 	at com.mysql.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:4077)
+[2015-08-16 00:34:59] 	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:219)
+[2015-08-16 00:34:59] 	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:1)
+[2015-08-16 00:34:59] 	at java.util.concurrent.FutureTask.run(Unknown Source)
+[2015-08-16 00:34:59] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[2015-08-16 00:34:59] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[2015-08-16 00:34:59] 	at java.lang.Thread.run(Unknown Source)
+[2015-08-16 00:40:59] com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+[2015-08-16 00:40:59] 	at sun.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+[2015-08-16 00:40:59] 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+[2015-08-16 00:40:59] 	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+[2015-08-16 00:40:59] 	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+[2015-08-16 00:40:59] 	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1074)
+[2015-08-16 00:40:59] 	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3009)
+[2015-08-16 00:40:59] 	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2895)
+[2015-08-16 00:40:59] 	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3438)
+[2015-08-16 00:40:59] 	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1951)
+[2015-08-16 00:40:59] 	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2101)
+[2015-08-16 00:40:59] 	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2554)
+[2015-08-16 00:40:59] 	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1761)
+[2015-08-16 00:40:59] 	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:1912)
+[2015-08-16 00:40:59] 	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:224)
+[2015-08-16 00:40:59] 	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:1)
+[2015-08-16 00:40:59] 	at java.util.concurrent.FutureTask.run(Unknown Source)
+[2015-08-16 00:40:59] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[2015-08-16 00:40:59] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[2015-08-16 00:40:59] 	at java.lang.Thread.run(Unknown Source)
+[2015-08-16 00:40:59] Caused by: java.io.EOFException: Can not read response from server. Expected to read 4 bytes, read 0 bytes before connection was unexpectedly lost.
+[2015-08-16 00:40:59] 	at com.mysql.jdbc.MysqlIO.readFully(MysqlIO.java:2455)
+[2015-08-16 00:40:59] 	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2906)
+[2015-08-16 00:40:59] 	... 13 more
+[2015-08-16 00:40:59] java.lang.NullPointerException
+[2015-08-16 00:40:59] 	at com.vencillio.core.network.mysql.MembershipRewards.lambda$0(MembershipRewards.java:53)
+[2015-08-16 00:40:59] 	at com.vencillio.core.network.mysql.MembershipRewards$$Lambda$33/1554143908.run(Unknown Source)
+[2015-08-16 00:40:59] 	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+[2015-08-16 00:40:59] 	at java.util.concurrent.FutureTask.run(Unknown Source)
+[2015-08-16 00:40:59] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[2015-08-16 00:40:59] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[2015-08-16 00:40:59] 	at java.lang.Thread.run(Unknown Source)
+[2015-08-16 00:42:14] com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.Connection was implicitly closed due to underlying exception/error:
+
+
+** BEGIN NESTED EXCEPTION ** 
+
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException
+MESSAGE: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+
+STACKTRACE:
+
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+	at sun.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1074)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3009)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2895)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3438)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1951)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2101)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2554)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1761)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2046)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1964)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1949)
+	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:222)
+	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.io.EOFException: Can not read response from server. Expected to read 4 bytes, read 0 bytes before connection was unexpectedly lost.
+	at com.mysql.jdbc.MysqlIO.readFully(MysqlIO.java:2455)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2906)
+	... 15 more
+
+
+** END NESTED EXCEPTION **
+
+
+[2015-08-16 00:42:14] 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+[2015-08-16 00:42:14] 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+[2015-08-16 00:42:14] 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+[2015-08-16 00:42:14] 	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+[2015-08-16 00:42:14] 	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+[2015-08-16 00:42:14] 	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+[2015-08-16 00:42:14] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:984)
+[2015-08-16 00:42:14] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+[2015-08-16 00:42:14] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:926)
+[2015-08-16 00:42:14] 	at com.mysql.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:1115)
+[2015-08-16 00:42:14] 	at com.mysql.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:4111)
+[2015-08-16 00:42:14] 	at com.mysql.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:4077)
+[2015-08-16 00:42:14] 	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:219)
+[2015-08-16 00:42:14] 	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:1)
+[2015-08-16 00:42:14] 	at java.util.concurrent.FutureTask.run(Unknown Source)
+[2015-08-16 00:42:14] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[2015-08-16 00:42:14] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[2015-08-16 00:42:14] 	at java.lang.Thread.run(Unknown Source)
+[2015-08-16 00:48:34] com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.Connection was implicitly closed due to underlying exception/error:
+
+
+** BEGIN NESTED EXCEPTION ** 
+
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException
+MESSAGE: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+
+STACKTRACE:
+
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+	at sun.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1074)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3009)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2895)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3438)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1951)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2101)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2554)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1761)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2046)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1964)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1949)
+	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:222)
+	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.io.EOFException: Can not read response from server. Expected to read 4 bytes, read 0 bytes before connection was unexpectedly lost.
+	at com.mysql.jdbc.MysqlIO.readFully(MysqlIO.java:2455)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2906)
+	... 15 more
+
+
+** END NESTED EXCEPTION **
+
+
+[2015-08-16 00:48:34] 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+[2015-08-16 00:48:34] 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+[2015-08-16 00:48:34] 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+[2015-08-16 00:48:34] 	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+[2015-08-16 00:48:34] 	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+[2015-08-16 00:48:34] 	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+[2015-08-16 00:48:34] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:984)
+[2015-08-16 00:48:34] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+[2015-08-16 00:48:34] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:926)
+[2015-08-16 00:48:34] 	at com.mysql.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:1115)
+[2015-08-16 00:48:34] 	at com.mysql.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:4111)
+[2015-08-16 00:48:34] 	at com.mysql.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:4077)
+[2015-08-16 00:48:34] 	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:219)
+[2015-08-16 00:48:34] 	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:1)
+[2015-08-16 00:48:34] 	at java.util.concurrent.FutureTask.run(Unknown Source)
+[2015-08-16 00:48:34] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[2015-08-16 00:48:34] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[2015-08-16 00:48:34] 	at java.lang.Thread.run(Unknown Source)
+[2015-08-16 00:50:53] com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.Connection was implicitly closed due to underlying exception/error:
+
+
+** BEGIN NESTED EXCEPTION ** 
+
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException
+MESSAGE: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+
+STACKTRACE:
+
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+	at sun.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1074)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3009)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2895)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3438)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1951)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2101)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2554)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1761)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2046)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1964)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1949)
+	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:222)
+	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.io.EOFException: Can not read response from server. Expected to read 4 bytes, read 0 bytes before connection was unexpectedly lost.
+	at com.mysql.jdbc.MysqlIO.readFully(MysqlIO.java:2455)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2906)
+	... 15 more
+
+
+** END NESTED EXCEPTION **
+
+
+[2015-08-16 00:50:53] 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+[2015-08-16 00:50:53] 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+[2015-08-16 00:50:53] 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+[2015-08-16 00:50:53] 	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+[2015-08-16 00:50:53] 	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+[2015-08-16 00:50:53] 	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+[2015-08-16 00:50:53] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:984)
+[2015-08-16 00:50:53] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+[2015-08-16 00:50:53] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:926)
+[2015-08-16 00:50:53] 	at com.mysql.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:1115)
+[2015-08-16 00:50:53] 	at com.mysql.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:4111)
+[2015-08-16 00:50:53] 	at com.mysql.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:4077)
+[2015-08-16 00:50:53] 	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:219)
+[2015-08-16 00:50:53] 	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:1)
+[2015-08-16 00:50:53] 	at java.util.concurrent.FutureTask.run(Unknown Source)
+[2015-08-16 00:50:53] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[2015-08-16 00:50:53] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[2015-08-16 00:50:53] 	at java.lang.Thread.run(Unknown Source)
+[2015-08-16 00:55:11] com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.Connection was implicitly closed due to underlying exception/error:
+
+
+** BEGIN NESTED EXCEPTION ** 
+
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException
+MESSAGE: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+
+STACKTRACE:
+
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+	at sun.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1074)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3009)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2895)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3438)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1951)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2101)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2554)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1761)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2046)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1964)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1949)
+	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:222)
+	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.io.EOFException: Can not read response from server. Expected to read 4 bytes, read 0 bytes before connection was unexpectedly lost.
+	at com.mysql.jdbc.MysqlIO.readFully(MysqlIO.java:2455)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2906)
+	... 15 more
+
+
+** END NESTED EXCEPTION **
+
+
+[2015-08-16 00:55:11] 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+[2015-08-16 00:55:11] 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+[2015-08-16 00:55:11] 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+[2015-08-16 00:55:11] 	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+[2015-08-16 00:55:11] 	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+[2015-08-16 00:55:11] 	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+[2015-08-16 00:55:11] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:984)
+[2015-08-16 00:55:11] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+[2015-08-16 00:55:11] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:926)
+[2015-08-16 00:55:11] 	at com.mysql.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:1115)
+[2015-08-16 00:55:11] 	at com.mysql.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:4111)
+[2015-08-16 00:55:11] 	at com.mysql.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:4077)
+[2015-08-16 00:55:11] 	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:219)
+[2015-08-16 00:55:11] 	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:1)
+[2015-08-16 00:55:11] 	at java.util.concurrent.FutureTask.run(Unknown Source)
+[2015-08-16 00:55:11] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[2015-08-16 00:55:11] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[2015-08-16 00:55:11] 	at java.lang.Thread.run(Unknown Source)
+[2015-08-16 00:56:10] com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.Connection was implicitly closed due to underlying exception/error:
+
+
+** BEGIN NESTED EXCEPTION ** 
+
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException
+MESSAGE: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+
+STACKTRACE:
+
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+	at sun.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1074)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3009)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2895)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3438)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1951)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2101)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2554)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1761)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2046)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1964)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1949)
+	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:222)
+	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.io.EOFException: Can not read response from server. Expected to read 4 bytes, read 0 bytes before connection was unexpectedly lost.
+	at com.mysql.jdbc.MysqlIO.readFully(MysqlIO.java:2455)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2906)
+	... 15 more
+
+
+** END NESTED EXCEPTION **
+
+
+[2015-08-16 00:56:10] 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+[2015-08-16 00:56:10] 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+[2015-08-16 00:56:10] 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+[2015-08-16 00:56:10] 	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+[2015-08-16 00:56:10] 	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+[2015-08-16 00:56:10] 	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+[2015-08-16 00:56:10] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:984)
+[2015-08-16 00:56:10] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+[2015-08-16 00:56:10] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:926)
+[2015-08-16 00:56:10] 	at com.mysql.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:1115)
+[2015-08-16 00:56:10] 	at com.mysql.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:4111)
+[2015-08-16 00:56:10] 	at com.mysql.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:4077)
+[2015-08-16 00:56:10] 	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:219)
+[2015-08-16 00:56:10] 	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:1)
+[2015-08-16 00:56:10] 	at java.util.concurrent.FutureTask.run(Unknown Source)
+[2015-08-16 00:56:10] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[2015-08-16 00:56:10] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[2015-08-16 00:56:10] 	at java.lang.Thread.run(Unknown Source)
+[2015-08-16 01:02:21] com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.Connection was implicitly closed due to underlying exception/error:
+
+
+** BEGIN NESTED EXCEPTION ** 
+
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException
+MESSAGE: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+
+STACKTRACE:
+
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+	at sun.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1074)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3009)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2895)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3438)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1951)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2101)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2554)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1761)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2046)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1964)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1949)
+	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:222)
+	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.io.EOFException: Can not read response from server. Expected to read 4 bytes, read 0 bytes before connection was unexpectedly lost.
+	at com.mysql.jdbc.MysqlIO.readFully(MysqlIO.java:2455)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2906)
+	... 15 more
+
+
+** END NESTED EXCEPTION **
+
+
+[2015-08-16 01:02:21] 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+[2015-08-16 01:02:21] 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+[2015-08-16 01:02:21] 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+[2015-08-16 01:02:21] 	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+[2015-08-16 01:02:21] 	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+[2015-08-16 01:02:21] 	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+[2015-08-16 01:02:21] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:984)
+[2015-08-16 01:02:21] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+[2015-08-16 01:02:21] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:926)
+[2015-08-16 01:02:21] 	at com.mysql.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:1115)
+[2015-08-16 01:02:21] 	at com.mysql.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:4111)
+[2015-08-16 01:02:21] 	at com.mysql.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:4077)
+[2015-08-16 01:02:21] 	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:219)
+[2015-08-16 01:02:21] 	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:1)
+[2015-08-16 01:02:21] 	at java.util.concurrent.FutureTask.run(Unknown Source)
+[2015-08-16 01:02:21] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[2015-08-16 01:02:21] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[2015-08-16 01:02:21] 	at java.lang.Thread.run(Unknown Source)
+[2015-08-16 01:02:41] com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.Connection was implicitly closed due to underlying exception/error:
+
+
+** BEGIN NESTED EXCEPTION ** 
+
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException
+MESSAGE: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+
+STACKTRACE:
+
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+	at sun.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1074)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3009)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2895)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3438)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1951)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2101)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2554)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1761)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2046)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1964)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1949)
+	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:222)
+	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.io.EOFException: Can not read response from server. Expected to read 4 bytes, read 0 bytes before connection was unexpectedly lost.
+	at com.mysql.jdbc.MysqlIO.readFully(MysqlIO.java:2455)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2906)
+	... 15 more
+
+
+** END NESTED EXCEPTION **
+
+
+[2015-08-16 01:02:41] 	at sun.reflect.GeneratedConstructorAccessor16.newInstance(Unknown Source)
+[2015-08-16 01:02:41] 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+[2015-08-16 01:02:41] 	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+[2015-08-16 01:02:41] 	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+[2015-08-16 01:02:41] 	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+[2015-08-16 01:02:41] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:984)
+[2015-08-16 01:02:41] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+[2015-08-16 01:02:41] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:926)
+[2015-08-16 01:02:41] 	at com.mysql.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:1115)
+[2015-08-16 01:02:41] 	at com.mysql.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:4111)
+[2015-08-16 01:02:41] 	at com.mysql.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:4077)
+[2015-08-16 01:02:41] 	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:219)
+[2015-08-16 01:02:41] 	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:1)
+[2015-08-16 01:02:41] 	at java.util.concurrent.FutureTask.run(Unknown Source)
+[2015-08-16 01:02:41] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[2015-08-16 01:02:41] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[2015-08-16 01:02:41] 	at java.lang.Thread.run(Unknown Source)
+[2015-08-16 01:06:56] com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.Connection was implicitly closed due to underlying exception/error:
+
+
+** BEGIN NESTED EXCEPTION ** 
+
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException
+MESSAGE: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+
+STACKTRACE:
+
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+	at sun.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1074)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3009)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2895)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3438)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1951)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2101)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2554)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1761)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2046)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1964)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1949)
+	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:222)
+	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.io.EOFException: Can not read response from server. Expected to read 4 bytes, read 0 bytes before connection was unexpectedly lost.
+	at com.mysql.jdbc.MysqlIO.readFully(MysqlIO.java:2455)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2906)
+	... 15 more
+
+
+** END NESTED EXCEPTION **
+
+
+[2015-08-16 01:06:56] 	at sun.reflect.GeneratedConstructorAccessor16.newInstance(Unknown Source)
+[2015-08-16 01:06:56] 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+[2015-08-16 01:06:56] 	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+[2015-08-16 01:06:56] 	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+[2015-08-16 01:06:56] 	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+[2015-08-16 01:06:56] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:984)
+[2015-08-16 01:06:56] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+[2015-08-16 01:06:56] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:926)
+[2015-08-16 01:06:57] 	at com.mysql.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:1115)
+[2015-08-16 01:06:57] 	at com.mysql.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:4111)
+[2015-08-16 01:06:57] 	at com.mysql.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:4077)
+[2015-08-16 01:06:57] 	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:219)
+[2015-08-16 01:06:57] 	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:1)
+[2015-08-16 01:06:57] 	at java.util.concurrent.FutureTask.run(Unknown Source)
+[2015-08-16 01:06:57] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[2015-08-16 01:06:57] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[2015-08-16 01:06:57] 	at java.lang.Thread.run(Unknown Source)
+[2015-08-16 01:11:31] com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.Connection was implicitly closed due to underlying exception/error:
+
+
+** BEGIN NESTED EXCEPTION ** 
+
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException
+MESSAGE: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+
+STACKTRACE:
+
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+	at sun.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1074)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3009)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2895)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3438)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1951)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2101)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2554)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1761)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2046)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1964)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1949)
+	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:222)
+	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.io.EOFException: Can not read response from server. Expected to read 4 bytes, read 0 bytes before connection was unexpectedly lost.
+	at com.mysql.jdbc.MysqlIO.readFully(MysqlIO.java:2455)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2906)
+	... 15 more
+
+
+** END NESTED EXCEPTION **
+
+
+[2015-08-16 01:11:31] 	at sun.reflect.GeneratedConstructorAccessor16.newInstance(Unknown Source)
+[2015-08-16 01:11:31] 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+[2015-08-16 01:11:31] 	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+[2015-08-16 01:11:31] 	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+[2015-08-16 01:11:31] 	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+[2015-08-16 01:11:31] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:984)
+[2015-08-16 01:11:31] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+[2015-08-16 01:11:31] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:926)
+[2015-08-16 01:11:31] 	at com.mysql.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:1115)
+[2015-08-16 01:11:31] 	at com.mysql.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:4111)
+[2015-08-16 01:11:31] 	at com.mysql.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:4077)
+[2015-08-16 01:11:31] 	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:219)
+[2015-08-16 01:11:31] 	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:1)
+[2015-08-16 01:11:31] 	at java.util.concurrent.FutureTask.run(Unknown Source)
+[2015-08-16 01:11:31] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[2015-08-16 01:11:31] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[2015-08-16 01:11:31] 	at java.lang.Thread.run(Unknown Source)
+[2015-08-16 01:12:29] com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.Connection was implicitly closed due to underlying exception/error:
+
+
+** BEGIN NESTED EXCEPTION ** 
+
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException
+MESSAGE: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+
+STACKTRACE:
+
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+	at sun.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1074)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3009)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2895)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3438)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1951)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2101)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2554)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1761)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2046)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1964)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1949)
+	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:222)
+	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.io.EOFException: Can not read response from server. Expected to read 4 bytes, read 0 bytes before connection was unexpectedly lost.
+	at com.mysql.jdbc.MysqlIO.readFully(MysqlIO.java:2455)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2906)
+	... 15 more
+
+
+** END NESTED EXCEPTION **
+
+
+[2015-08-16 01:12:29] 	at sun.reflect.GeneratedConstructorAccessor16.newInstance(Unknown Source)
+[2015-08-16 01:12:29] 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+[2015-08-16 01:12:29] 	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+[2015-08-16 01:12:29] 	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+[2015-08-16 01:12:29] 	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+[2015-08-16 01:12:29] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:984)
+[2015-08-16 01:12:29] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+[2015-08-16 01:12:29] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:926)
+[2015-08-16 01:12:29] 	at com.mysql.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:1115)
+[2015-08-16 01:12:29] 	at com.mysql.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:4111)
+[2015-08-16 01:12:29] 	at com.mysql.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:4077)
+[2015-08-16 01:12:29] 	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:219)
+[2015-08-16 01:12:29] 	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:1)
+[2015-08-16 01:12:29] 	at java.util.concurrent.FutureTask.run(Unknown Source)
+[2015-08-16 01:12:29] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[2015-08-16 01:12:29] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[2015-08-16 01:12:29] 	at java.lang.Thread.run(Unknown Source)
+[2015-08-16 01:13:07] com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.Connection was implicitly closed due to underlying exception/error:
+
+
+** BEGIN NESTED EXCEPTION ** 
+
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException
+MESSAGE: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+
+STACKTRACE:
+
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+	at sun.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1074)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3009)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2895)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3438)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1951)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2101)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2554)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1761)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2046)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1964)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1949)
+	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:222)
+	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.io.EOFException: Can not read response from server. Expected to read 4 bytes, read 0 bytes before connection was unexpectedly lost.
+	at com.mysql.jdbc.MysqlIO.readFully(MysqlIO.java:2455)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2906)
+	... 15 more
+
+
+** END NESTED EXCEPTION **
+
+
+[2015-08-16 01:13:07] 	at sun.reflect.GeneratedConstructorAccessor16.newInstance(Unknown Source)
+[2015-08-16 01:13:07] 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+[2015-08-16 01:13:07] 	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+[2015-08-16 01:13:07] 	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+[2015-08-16 01:13:07] 	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+[2015-08-16 01:13:07] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:984)
+[2015-08-16 01:13:07] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+[2015-08-16 01:13:07] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:926)
+[2015-08-16 01:13:07] 	at com.mysql.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:1115)
+[2015-08-16 01:13:07] 	at com.mysql.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:4111)
+[2015-08-16 01:13:07] 	at com.mysql.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:4077)
+[2015-08-16 01:13:07] 	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:219)
+[2015-08-16 01:13:07] 	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:1)
+[2015-08-16 01:13:07] 	at java.util.concurrent.FutureTask.run(Unknown Source)
+[2015-08-16 01:13:07] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[2015-08-16 01:13:07] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[2015-08-16 01:13:07] 	at java.lang.Thread.run(Unknown Source)
+[2015-08-16 01:13:19] com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+[2015-08-16 01:13:19] 	at sun.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+[2015-08-16 01:13:19] 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+[2015-08-16 01:13:19] 	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+[2015-08-16 01:13:19] 	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+[2015-08-16 01:13:19] 	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1074)
+[2015-08-16 01:13:19] 	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3009)
+[2015-08-16 01:13:19] 	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2895)
+[2015-08-16 01:13:19] 	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3438)
+[2015-08-16 01:13:19] 	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1951)
+[2015-08-16 01:13:19] 	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2101)
+[2015-08-16 01:13:19] 	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2554)
+[2015-08-16 01:13:19] 	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1761)
+[2015-08-16 01:13:19] 	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:1912)
+[2015-08-16 01:13:19] 	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:224)
+[2015-08-16 01:13:19] 	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:1)
+[2015-08-16 01:13:19] 	at java.util.concurrent.FutureTask.run(Unknown Source)
+[2015-08-16 01:13:19] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[2015-08-16 01:13:19] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[2015-08-16 01:13:19] 	at java.lang.Thread.run(Unknown Source)
+[2015-08-16 01:13:19] Caused by: java.io.EOFException: Can not read response from server. Expected to read 4 bytes, read 0 bytes before connection was unexpectedly lost.
+[2015-08-16 01:13:19] 	at com.mysql.jdbc.MysqlIO.readFully(MysqlIO.java:2455)
+[2015-08-16 01:13:19] 	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2906)
+[2015-08-16 01:13:19] 	... 13 more
+[2015-08-16 01:13:19] java.lang.NullPointerException
+[2015-08-16 01:13:19] 	at com.vencillio.core.network.mysql.VoteUpdater.lambda$0(VoteUpdater.java:53)
+[2015-08-16 01:13:19] 	at com.vencillio.core.network.mysql.VoteUpdater$$Lambda$38/856686022.run(Unknown Source)
+[2015-08-16 01:13:19] 	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+[2015-08-16 01:13:19] 	at java.util.concurrent.FutureTask.run(Unknown Source)
+[2015-08-16 01:13:19] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[2015-08-16 01:13:19] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[2015-08-16 01:13:19] 	at java.lang.Thread.run(Unknown Source)
+[2015-08-16 01:15:27] com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.Connection was implicitly closed due to underlying exception/error:
+
+
+** BEGIN NESTED EXCEPTION ** 
+
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException
+MESSAGE: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+
+STACKTRACE:
+
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+	at sun.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1074)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3009)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2895)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3438)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1951)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2101)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2554)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1761)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2046)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1964)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1949)
+	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:222)
+	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.io.EOFException: Can not read response from server. Expected to read 4 bytes, read 0 bytes before connection was unexpectedly lost.
+	at com.mysql.jdbc.MysqlIO.readFully(MysqlIO.java:2455)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2906)
+	... 15 more
+
+
+** END NESTED EXCEPTION **
+
+
+[2015-08-16 01:15:27] 	at sun.reflect.GeneratedConstructorAccessor16.newInstance(Unknown Source)
+[2015-08-16 01:15:27] 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+[2015-08-16 01:15:27] 	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+[2015-08-16 01:15:27] 	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+[2015-08-16 01:15:27] 	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+[2015-08-16 01:15:27] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:984)
+[2015-08-16 01:15:27] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+[2015-08-16 01:15:27] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:926)
+[2015-08-16 01:15:27] 	at com.mysql.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:1115)
+[2015-08-16 01:15:27] 	at com.mysql.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:4111)
+[2015-08-16 01:15:27] 	at com.mysql.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:4077)
+[2015-08-16 01:15:27] 	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:219)
+[2015-08-16 01:15:27] 	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:1)
+[2015-08-16 01:15:27] 	at java.util.concurrent.FutureTask.run(Unknown Source)
+[2015-08-16 01:15:27] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[2015-08-16 01:15:27] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[2015-08-16 01:15:27] 	at java.lang.Thread.run(Unknown Source)
+[2015-08-16 01:16:14] com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.Connection was implicitly closed due to underlying exception/error:
+
+
+** BEGIN NESTED EXCEPTION ** 
+
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException
+MESSAGE: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+
+STACKTRACE:
+
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+	at sun.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1074)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3009)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2895)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3438)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1951)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2101)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2554)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1761)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:1912)
+	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:224)
+	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.io.EOFException: Can not read response from server. Expected to read 4 bytes, read 0 bytes before connection was unexpectedly lost.
+	at com.mysql.jdbc.MysqlIO.readFully(MysqlIO.java:2455)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2906)
+	... 13 more
+
+
+** END NESTED EXCEPTION **
+
+
+[2015-08-16 01:16:14] 	at sun.reflect.GeneratedConstructorAccessor16.newInstance(Unknown Source)
+[2015-08-16 01:16:14] 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+[2015-08-16 01:16:14] 	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+[2015-08-16 01:16:14] 	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+[2015-08-16 01:16:14] 	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+[2015-08-16 01:16:14] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:984)
+[2015-08-16 01:16:14] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+[2015-08-16 01:16:14] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:926)
+[2015-08-16 01:16:14] 	at com.mysql.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:1115)
+[2015-08-16 01:16:14] 	at com.mysql.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:4111)
+[2015-08-16 01:16:14] 	at com.mysql.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:4077)
+[2015-08-16 01:16:14] 	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:219)
+[2015-08-16 01:16:14] 	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:1)
+[2015-08-16 01:16:14] 	at java.util.concurrent.FutureTask.run(Unknown Source)
+[2015-08-16 01:16:14] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[2015-08-16 01:16:14] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[2015-08-16 01:16:14] 	at java.lang.Thread.run(Unknown Source)
+[2015-08-16 01:16:14] java.lang.NullPointerException
+[2015-08-16 01:16:14] 	at com.vencillio.core.network.mysql.VoteUpdater.lambda$0(VoteUpdater.java:53)
+[2015-08-16 01:16:14] 	at com.vencillio.core.network.mysql.VoteUpdater$$Lambda$38/856686022.run(Unknown Source)
+[2015-08-16 01:16:14] 	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+[2015-08-16 01:16:14] 	at java.util.concurrent.FutureTask.run(Unknown Source)
+[2015-08-16 01:16:14] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[2015-08-16 01:16:14] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[2015-08-16 01:16:14] 	at java.lang.Thread.run(Unknown Source)
+[2015-08-16 01:20:58] java.lang.NullPointerException
+[2015-08-16 01:20:58] java.lang.NullPointerException
+[2015-08-16 01:20:58] com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.Connection was implicitly closed due to underlying exception/error:
+
+
+** BEGIN NESTED EXCEPTION ** 
+
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException
+MESSAGE: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+
+STACKTRACE:
+
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+	at sun.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1074)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3009)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2895)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3438)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1951)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2101)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2554)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1761)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2046)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1964)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1949)
+	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:222)
+	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.io.EOFException: Can not read response from server. Expected to read 4 bytes, read 0 bytes before connection was unexpectedly lost.
+	at com.mysql.jdbc.MysqlIO.readFully(MysqlIO.java:2455)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2906)
+	... 15 more
+
+
+** END NESTED EXCEPTION **
+
+
+[2015-08-16 01:20:58] 	at sun.reflect.GeneratedConstructorAccessor16.newInstance(Unknown Source)
+[2015-08-16 01:20:58] 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+[2015-08-16 01:20:58] 	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+[2015-08-16 01:20:58] 	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+[2015-08-16 01:20:58] 	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+[2015-08-16 01:20:58] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:984)
+[2015-08-16 01:20:58] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+[2015-08-16 01:20:58] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:926)
+[2015-08-16 01:20:58] 	at com.mysql.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:1115)
+[2015-08-16 01:20:58] 	at com.mysql.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:4111)
+[2015-08-16 01:20:58] 	at com.mysql.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:4077)
+[2015-08-16 01:20:58] 	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:219)
+[2015-08-16 01:20:58] 	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:1)
+[2015-08-16 01:20:58] 	at java.util.concurrent.FutureTask.run(Unknown Source)
+[2015-08-16 01:20:58] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[2015-08-16 01:20:58] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[2015-08-16 01:20:58] 	at java.lang.Thread.run(Unknown Source)
+[2015-08-16 01:21:55] com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.Connection was implicitly closed due to underlying exception/error:
+
+
+** BEGIN NESTED EXCEPTION ** 
+
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException
+MESSAGE: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+
+STACKTRACE:
+
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+	at sun.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1074)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3009)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2895)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3438)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1951)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2101)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2554)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1761)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2046)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1964)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1949)
+	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:222)
+	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.io.EOFException: Can not read response from server. Expected to read 4 bytes, read 0 bytes before connection was unexpectedly lost.
+	at com.mysql.jdbc.MysqlIO.readFully(MysqlIO.java:2455)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2906)
+	... 15 more
+
+
+** END NESTED EXCEPTION **
+
+
+[2015-08-16 01:21:55] 	at sun.reflect.GeneratedConstructorAccessor16.newInstance(Unknown Source)
+[2015-08-16 01:21:55] 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+[2015-08-16 01:21:55] 	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+[2015-08-16 01:21:55] 	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+[2015-08-16 01:21:55] 	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+[2015-08-16 01:21:55] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:984)
+[2015-08-16 01:21:55] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+[2015-08-16 01:21:55] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:926)
+[2015-08-16 01:21:55] 	at com.mysql.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:1115)
+[2015-08-16 01:21:55] 	at com.mysql.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:4111)
+[2015-08-16 01:21:55] 	at com.mysql.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:4077)
+[2015-08-16 01:21:55] 	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:219)
+[2015-08-16 01:21:55] 	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:1)
+[2015-08-16 01:21:55] 	at java.util.concurrent.FutureTask.run(Unknown Source)
+[2015-08-16 01:21:55] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[2015-08-16 01:21:55] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[2015-08-16 01:21:55] 	at java.lang.Thread.run(Unknown Source)
+[2015-08-16 01:29:14] com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.Connection was implicitly closed due to underlying exception/error:
+
+
+** BEGIN NESTED EXCEPTION ** 
+
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException
+MESSAGE: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+
+STACKTRACE:
+
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+	at sun.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1074)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3009)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2895)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3438)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1951)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2101)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2554)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1761)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2046)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1964)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1949)
+	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:222)
+	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.io.EOFException: Can not read response from server. Expected to read 4 bytes, read 0 bytes before connection was unexpectedly lost.
+	at com.mysql.jdbc.MysqlIO.readFully(MysqlIO.java:2455)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2906)
+	... 15 more
+
+
+** END NESTED EXCEPTION **
+
+
+[2015-08-16 01:29:14] 	at sun.reflect.GeneratedConstructorAccessor16.newInstance(Unknown Source)
+[2015-08-16 01:29:14] 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+[2015-08-16 01:29:14] 	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+[2015-08-16 01:29:14] 	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+[2015-08-16 01:29:14] 	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+[2015-08-16 01:29:14] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:984)
+[2015-08-16 01:29:14] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+[2015-08-16 01:29:14] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:926)
+[2015-08-16 01:29:14] 	at com.mysql.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:1115)
+[2015-08-16 01:29:14] 	at com.mysql.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:4111)
+[2015-08-16 01:29:14] 	at com.mysql.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:4077)
+[2015-08-16 01:29:14] 	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:219)
+[2015-08-16 01:29:14] 	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:1)
+[2015-08-16 01:29:14] 	at java.util.concurrent.FutureTask.run(Unknown Source)
+[2015-08-16 01:29:14] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[2015-08-16 01:29:14] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[2015-08-16 01:29:14] 	at java.lang.Thread.run(Unknown Source)
+[2015-08-16 01:29:54] com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.Connection was implicitly closed due to underlying exception/error:
+
+
+** BEGIN NESTED EXCEPTION ** 
+
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException
+MESSAGE: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+
+STACKTRACE:
+
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+	at sun.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1074)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3009)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2895)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3438)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1951)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2101)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2554)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1761)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:1912)
+	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:224)
+	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.io.EOFException: Can not read response from server. Expected to read 4 bytes, read 0 bytes before connection was unexpectedly lost.
+	at com.mysql.jdbc.MysqlIO.readFully(MysqlIO.java:2455)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2906)
+	... 13 more
+
+
+** END NESTED EXCEPTION **
+
+
+[2015-08-16 01:29:54] 	at sun.reflect.GeneratedConstructorAccessor16.newInstance(Unknown Source)
+[2015-08-16 01:29:54] 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+[2015-08-16 01:29:54] 	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+[2015-08-16 01:29:54] 	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+[2015-08-16 01:29:54] 	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+[2015-08-16 01:29:54] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:984)
+[2015-08-16 01:29:54] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+[2015-08-16 01:29:54] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:926)
+[2015-08-16 01:29:54] 	at com.mysql.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:1115)
+[2015-08-16 01:29:54] 	at com.mysql.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:4111)
+[2015-08-16 01:29:54] 	at com.mysql.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:4077)
+[2015-08-16 01:29:54] 	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:219)
+[2015-08-16 01:29:54] 	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:1)
+[2015-08-16 01:29:54] 	at java.util.concurrent.FutureTask.run(Unknown Source)
+[2015-08-16 01:29:54] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[2015-08-16 01:29:54] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[2015-08-16 01:29:54] 	at java.lang.Thread.run(Unknown Source)
+[2015-08-16 01:29:54] java.lang.NullPointerException
+[2015-08-16 01:29:54] 	at com.vencillio.core.network.mysql.VoteUpdater.lambda$0(VoteUpdater.java:53)
+[2015-08-16 01:29:54] 	at com.vencillio.core.network.mysql.VoteUpdater$$Lambda$38/856686022.run(Unknown Source)
+[2015-08-16 01:29:54] 	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+[2015-08-16 01:29:54] 	at java.util.concurrent.FutureTask.run(Unknown Source)
+[2015-08-16 01:29:54] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[2015-08-16 01:29:54] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[2015-08-16 01:29:54] 	at java.lang.Thread.run(Unknown Source)
+[2015-08-16 01:30:12] com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.Connection was implicitly closed due to underlying exception/error:
+
+
+** BEGIN NESTED EXCEPTION ** 
+
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException
+MESSAGE: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+
+STACKTRACE:
+
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+	at sun.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1074)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3009)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2895)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3438)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1951)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2101)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2554)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1761)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2046)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1964)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1949)
+	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:222)
+	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.io.EOFException: Can not read response from server. Expected to read 4 bytes, read 0 bytes before connection was unexpectedly lost.
+	at com.mysql.jdbc.MysqlIO.readFully(MysqlIO.java:2455)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2906)
+	... 15 more
+
+
+** END NESTED EXCEPTION **
+
+
+[2015-08-16 01:30:12] 	at sun.reflect.GeneratedConstructorAccessor16.newInstance(Unknown Source)
+[2015-08-16 01:30:12] 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+[2015-08-16 01:30:12] 	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+[2015-08-16 01:30:12] 	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+[2015-08-16 01:30:12] 	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+[2015-08-16 01:30:12] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:984)
+[2015-08-16 01:30:12] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+[2015-08-16 01:30:12] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:926)
+[2015-08-16 01:30:12] 	at com.mysql.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:1115)
+[2015-08-16 01:30:12] 	at com.mysql.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:4111)
+[2015-08-16 01:30:12] 	at com.mysql.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:4077)
+[2015-08-16 01:30:12] 	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:219)
+[2015-08-16 01:30:12] 	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:1)
+[2015-08-16 01:30:12] 	at java.util.concurrent.FutureTask.run(Unknown Source)
+[2015-08-16 01:30:12] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[2015-08-16 01:30:12] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[2015-08-16 01:30:12] 	at java.lang.Thread.run(Unknown Source)
+[2015-08-16 01:30:24] com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.Connection was implicitly closed due to underlying exception/error:
+
+
+** BEGIN NESTED EXCEPTION ** 
+
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException
+MESSAGE: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+
+STACKTRACE:
+
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+	at sun.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1074)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3009)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2895)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3438)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1951)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2101)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2554)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1761)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:1912)
+	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:224)
+	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.io.EOFException: Can not read response from server. Expected to read 4 bytes, read 0 bytes before connection was unexpectedly lost.
+	at com.mysql.jdbc.MysqlIO.readFully(MysqlIO.java:2455)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2906)
+	... 13 more
+
+
+** END NESTED EXCEPTION **
+
+
+[2015-08-16 01:30:25] 	at sun.reflect.GeneratedConstructorAccessor16.newInstance(Unknown Source)
+[2015-08-16 01:30:25] 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+[2015-08-16 01:30:25] 	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+[2015-08-16 01:30:25] 	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+[2015-08-16 01:30:25] 	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+[2015-08-16 01:30:25] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:984)
+[2015-08-16 01:30:25] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+[2015-08-16 01:30:25] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:926)
+[2015-08-16 01:30:25] 	at com.mysql.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:1115)
+[2015-08-16 01:30:25] 	at com.mysql.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:4111)
+[2015-08-16 01:30:25] 	at com.mysql.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:4077)
+[2015-08-16 01:30:25] 	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:219)
+[2015-08-16 01:30:25] 	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:1)
+[2015-08-16 01:30:25] 	at java.util.concurrent.FutureTask.run(Unknown Source)
+[2015-08-16 01:30:25] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[2015-08-16 01:30:25] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[2015-08-16 01:30:25] 	at java.lang.Thread.run(Unknown Source)
+[2015-08-16 01:30:25] java.lang.NullPointerException
+[2015-08-16 01:30:25] 	at com.vencillio.core.network.mysql.VoteUpdater.lambda$0(VoteUpdater.java:53)
+[2015-08-16 01:30:25] 	at com.vencillio.core.network.mysql.VoteUpdater$$Lambda$38/856686022.run(Unknown Source)
+[2015-08-16 01:30:25] 	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+[2015-08-16 01:30:25] 	at java.util.concurrent.FutureTask.run(Unknown Source)
+[2015-08-16 01:30:25] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[2015-08-16 01:30:25] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[2015-08-16 01:30:25] 	at java.lang.Thread.run(Unknown Source)
+[2015-08-16 01:32:22] com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.Connection was implicitly closed due to underlying exception/error:
+
+
+** BEGIN NESTED EXCEPTION ** 
+
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException
+MESSAGE: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+
+STACKTRACE:
+
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+	at sun.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1074)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3009)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2895)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3438)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1951)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2101)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2554)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1761)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:1912)
+	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:224)
+	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.io.EOFException: Can not read response from server. Expected to read 4 bytes, read 0 bytes before connection was unexpectedly lost.
+	at com.mysql.jdbc.MysqlIO.readFully(MysqlIO.java:2455)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2906)
+	... 13 more
+
+
+** END NESTED EXCEPTION **
+
+
+[2015-08-16 01:32:22] 	at sun.reflect.GeneratedConstructorAccessor16.newInstance(Unknown Source)
+[2015-08-16 01:32:22] 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+[2015-08-16 01:32:22] 	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+[2015-08-16 01:32:22] 	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+[2015-08-16 01:32:22] 	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+[2015-08-16 01:32:22] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:984)
+[2015-08-16 01:32:22] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+[2015-08-16 01:32:22] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:926)
+[2015-08-16 01:32:22] 	at com.mysql.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:1115)
+[2015-08-16 01:32:22] 	at com.mysql.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:4111)
+[2015-08-16 01:32:22] 	at com.mysql.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:4077)
+[2015-08-16 01:32:22] 	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:219)
+[2015-08-16 01:32:22] 	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:1)
+[2015-08-16 01:32:22] 	at java.util.concurrent.FutureTask.run(Unknown Source)
+[2015-08-16 01:32:22] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[2015-08-16 01:32:22] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[2015-08-16 01:32:22] 	at java.lang.Thread.run(Unknown Source)
+[2015-08-16 01:32:22] java.lang.NullPointerException
+[2015-08-16 01:32:22] 	at com.vencillio.core.network.mysql.VoteUpdater.lambda$0(VoteUpdater.java:53)
+[2015-08-16 01:32:22] 	at com.vencillio.core.network.mysql.VoteUpdater$$Lambda$38/856686022.run(Unknown Source)
+[2015-08-16 01:32:22] 	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+[2015-08-16 01:32:22] 	at java.util.concurrent.FutureTask.run(Unknown Source)
+[2015-08-16 01:32:22] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[2015-08-16 01:32:22] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[2015-08-16 01:32:22] 	at java.lang.Thread.run(Unknown Source)
+[2015-08-16 01:32:26] com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.Connection was implicitly closed due to underlying exception/error:
+
+
+** BEGIN NESTED EXCEPTION ** 
+
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException
+MESSAGE: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+
+STACKTRACE:
+
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+	at sun.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1074)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3009)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2895)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3438)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1951)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2101)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2554)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1761)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:1912)
+	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:224)
+	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.io.EOFException: Can not read response from server. Expected to read 4 bytes, read 0 bytes before connection was unexpectedly lost.
+	at com.mysql.jdbc.MysqlIO.readFully(MysqlIO.java:2455)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2906)
+	... 13 more
+
+
+** END NESTED EXCEPTION **
+
+
+[2015-08-16 01:32:26] 	at sun.reflect.GeneratedConstructorAccessor16.newInstance(Unknown Source)
+[2015-08-16 01:32:26] 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+[2015-08-16 01:32:26] 	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+[2015-08-16 01:32:26] 	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+[2015-08-16 01:32:26] 	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+[2015-08-16 01:32:26] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:984)
+[2015-08-16 01:32:26] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+[2015-08-16 01:32:26] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:926)
+[2015-08-16 01:32:26] 	at com.mysql.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:1115)
+[2015-08-16 01:32:26] 	at com.mysql.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:4111)
+[2015-08-16 01:32:26] 	at com.mysql.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:4077)
+[2015-08-16 01:32:26] 	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:219)
+[2015-08-16 01:32:26] 	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:1)
+[2015-08-16 01:32:26] 	at java.util.concurrent.FutureTask.run(Unknown Source)
+[2015-08-16 01:32:26] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[2015-08-16 01:32:26] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[2015-08-16 01:32:26] 	at java.lang.Thread.run(Unknown Source)
+[2015-08-16 01:32:26] java.lang.NullPointerException
+[2015-08-16 01:32:26] 	at com.vencillio.core.network.mysql.VoteUpdater.lambda$0(VoteUpdater.java:53)
+[2015-08-16 01:32:26] 	at com.vencillio.core.network.mysql.VoteUpdater$$Lambda$38/856686022.run(Unknown Source)
+[2015-08-16 01:32:26] 	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+[2015-08-16 01:32:26] 	at java.util.concurrent.FutureTask.run(Unknown Source)
+[2015-08-16 01:32:26] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[2015-08-16 01:32:26] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[2015-08-16 01:32:26] 	at java.lang.Thread.run(Unknown Source)
+[2015-08-16 01:44:16] com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.Connection was implicitly closed due to underlying exception/error:
+
+
+** BEGIN NESTED EXCEPTION ** 
+
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException
+MESSAGE: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+
+STACKTRACE:
+
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+	at sun.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1074)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3009)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2895)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3438)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1951)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2101)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2554)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1761)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2046)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1964)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1949)
+	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:222)
+	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.io.EOFException: Can not read response from server. Expected to read 4 bytes, read 0 bytes before connection was unexpectedly lost.
+	at com.mysql.jdbc.MysqlIO.readFully(MysqlIO.java:2455)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2906)
+	... 15 more
+
+
+** END NESTED EXCEPTION **
+
+
+[2015-08-16 01:44:16] 	at sun.reflect.GeneratedConstructorAccessor16.newInstance(Unknown Source)
+[2015-08-16 01:44:16] 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+[2015-08-16 01:44:16] 	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+[2015-08-16 01:44:16] 	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+[2015-08-16 01:44:16] 	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+[2015-08-16 01:44:16] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:984)
+[2015-08-16 01:44:16] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+[2015-08-16 01:44:16] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:926)
+[2015-08-16 01:44:16] 	at com.mysql.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:1115)
+[2015-08-16 01:44:16] 	at com.mysql.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:4111)
+[2015-08-16 01:44:16] 	at com.mysql.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:4077)
+[2015-08-16 01:44:16] 	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:219)
+[2015-08-16 01:44:16] 	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:1)
+[2015-08-16 01:44:16] 	at java.util.concurrent.FutureTask.run(Unknown Source)
+[2015-08-16 01:44:16] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[2015-08-16 01:44:16] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[2015-08-16 01:44:16] 	at java.lang.Thread.run(Unknown Source)
+[2015-08-16 01:44:30] com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.Connection was implicitly closed due to underlying exception/error:
+
+
+** BEGIN NESTED EXCEPTION ** 
+
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException
+MESSAGE: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+
+STACKTRACE:
+
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+	at sun.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1074)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3009)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2895)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3438)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1951)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2101)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2554)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1761)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2046)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1964)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1949)
+	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:222)
+	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.io.EOFException: Can not read response from server. Expected to read 4 bytes, read 0 bytes before connection was unexpectedly lost.
+	at com.mysql.jdbc.MysqlIO.readFully(MysqlIO.java:2455)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2906)
+	... 15 more
+
+
+** END NESTED EXCEPTION **
+
+
+[2015-08-16 01:44:30] 	at sun.reflect.GeneratedConstructorAccessor16.newInstance(Unknown Source)
+[2015-08-16 01:44:30] 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+[2015-08-16 01:44:30] 	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+[2015-08-16 01:44:30] 	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+[2015-08-16 01:44:30] 	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+[2015-08-16 01:44:30] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:984)
+[2015-08-16 01:44:30] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+[2015-08-16 01:44:30] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:926)
+[2015-08-16 01:44:30] 	at com.mysql.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:1115)
+[2015-08-16 01:44:30] 	at com.mysql.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:4111)
+[2015-08-16 01:44:30] 	at com.mysql.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:4077)
+[2015-08-16 01:44:30] 	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:219)
+[2015-08-16 01:44:30] 	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:1)
+[2015-08-16 01:44:30] 	at java.util.concurrent.FutureTask.run(Unknown Source)
+[2015-08-16 01:44:30] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[2015-08-16 01:44:30] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[2015-08-16 01:44:30] 	at java.lang.Thread.run(Unknown Source)
+[2015-08-16 02:00:32] com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.Connection was implicitly closed due to underlying exception/error:
+
+
+** BEGIN NESTED EXCEPTION ** 
+
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException
+MESSAGE: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+
+STACKTRACE:
+
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+	at sun.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1074)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3009)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2895)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3438)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1951)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2101)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2554)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1761)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2046)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1964)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1949)
+	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:222)
+	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.io.EOFException: Can not read response from server. Expected to read 4 bytes, read 0 bytes before connection was unexpectedly lost.
+	at com.mysql.jdbc.MysqlIO.readFully(MysqlIO.java:2455)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2906)
+	... 15 more
+
+
+** END NESTED EXCEPTION **
+
+
+[2015-08-16 02:00:32] 	at sun.reflect.GeneratedConstructorAccessor16.newInstance(Unknown Source)
+[2015-08-16 02:00:32] 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+[2015-08-16 02:00:32] 	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+[2015-08-16 02:00:32] 	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+[2015-08-16 02:00:32] 	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+[2015-08-16 02:00:32] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:984)
+[2015-08-16 02:00:32] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+[2015-08-16 02:00:32] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:926)
+[2015-08-16 02:00:32] 	at com.mysql.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:1115)
+[2015-08-16 02:00:32] 	at com.mysql.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:4111)
+[2015-08-16 02:00:32] 	at com.mysql.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:4077)
+[2015-08-16 02:00:32] 	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:219)
+[2015-08-16 02:00:32] 	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:1)
+[2015-08-16 02:00:32] 	at java.util.concurrent.FutureTask.run(Unknown Source)
+[2015-08-16 02:00:32] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[2015-08-16 02:00:32] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[2015-08-16 02:00:32] 	at java.lang.Thread.run(Unknown Source)
+[2015-08-16 02:00:32] com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+[2015-08-16 02:00:32] 	at sun.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+[2015-08-16 02:00:32] 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+[2015-08-16 02:00:32] 	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+[2015-08-16 02:00:32] 	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+[2015-08-16 02:00:32] 	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1074)
+[2015-08-16 02:00:32] 	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3009)
+[2015-08-16 02:00:32] 	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2895)
+[2015-08-16 02:00:32] 	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3438)
+[2015-08-16 02:00:32] 	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1951)
+[2015-08-16 02:00:32] 	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2101)
+[2015-08-16 02:00:32] 	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2554)
+[2015-08-16 02:00:32] 	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1761)
+[2015-08-16 02:00:32] 	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2046)
+[2015-08-16 02:00:32] 	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1964)
+[2015-08-16 02:00:32] 	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1949)
+[2015-08-16 02:00:32] 	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:222)
+[2015-08-16 02:00:32] 	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:1)
+[2015-08-16 02:00:32] 	at java.util.concurrent.FutureTask.run(Unknown Source)
+[2015-08-16 02:00:32] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[2015-08-16 02:00:32] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[2015-08-16 02:00:32] 	at java.lang.Thread.run(Unknown Source)
+[2015-08-16 02:00:32] Caused by: java.io.EOFException: Can not read response from server. Expected to read 4 bytes, read 0 bytes before connection was unexpectedly lost.
+[2015-08-16 02:00:32] 	at com.mysql.jdbc.MysqlIO.readFully(MysqlIO.java:2455)
+[2015-08-16 02:00:32] 	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2906)
+[2015-08-16 02:00:32] 	... 15 more
+[2015-08-16 02:00:32] com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.Connection was implicitly closed due to underlying exception/error:
+
+
+** BEGIN NESTED EXCEPTION ** 
+
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException
+MESSAGE: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+
+STACKTRACE:
+
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+	at sun.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1074)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3009)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2895)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3438)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:1951)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2101)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2554)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1761)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2046)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1964)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1949)
+	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:222)
+	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.io.EOFException: Can not read response from server. Expected to read 4 bytes, read 0 bytes before connection was unexpectedly lost.
+	at com.mysql.jdbc.MysqlIO.readFully(MysqlIO.java:2455)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:2906)
+	... 15 more
+
+
+** END NESTED EXCEPTION **
+
+
+[2015-08-16 02:00:32] 	at sun.reflect.GeneratedConstructorAccessor16.newInstance(Unknown Source)
+[2015-08-16 02:00:32] 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+[2015-08-16 02:00:32] 	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+[2015-08-16 02:00:32] 	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+[2015-08-16 02:00:32] 	at com.mysql.jdbc.Util.getInstance(Util.java:381)
+[2015-08-16 02:00:32] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:984)
+[2015-08-16 02:00:32] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:956)
+[2015-08-16 02:00:32] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:926)
+[2015-08-16 02:00:32] 	at com.mysql.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:1115)
+[2015-08-16 02:00:32] 	at com.mysql.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:4111)
+[2015-08-16 02:00:32] 	at com.mysql.jdbc.ConnectionImpl.prepareStatement(ConnectionImpl.java:4077)
+[2015-08-16 02:00:32] 	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:219)
+[2015-08-16 02:00:32] 	at com.vencillio.core.network.mysql.ExternalDatabase$InteralQuery.call(ExternalDatabase.java:1)
+[2015-08-16 02:00:32] 	at java.util.concurrent.FutureTask.run(Unknown Source)
+[2015-08-16 02:00:32] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[2015-08-16 02:00:32] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[2015-08-16 02:00:32] 	at java.lang.Thread.run(Unknown Source)
+[2015-08-16 12:18:53] java.lang.ArrayIndexOutOfBoundsException: 281
+[2015-08-16 12:18:53] 	at com.vencillio.rs2.content.bank.Bank.changeTabAmount(Bank.java:395)
+[2015-08-16 12:18:53] 	at com.vencillio.rs2.content.bank.Bank.withdraw(Bank.java:330)
+[2015-08-16 12:18:53] 	at com.vencillio.rs2.entity.player.net.in.impl.ItemPackets.withdrawBankItem(ItemPackets.java:948)
+[2015-08-16 12:18:53] 	at com.vencillio.rs2.entity.player.net.in.impl.ItemPackets.handle(ItemPackets.java:136)
+[2015-08-16 12:18:53] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2015-08-16 12:18:53] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2015-08-16 12:18:53] 	at com.vencillio.rs2.entity.World.process(World.java:314)
+[2015-08-16 12:18:53] 	at com.vencillio.core.GameThread.cycle(GameThread.java:123)
+[2015-08-16 12:18:53] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-08-16 15:32:49] java.lang.NullPointerException
+[2015-08-16 15:32:49] java.lang.NullPointerException
+[2015-08-16 20:12:27] java.lang.ArrayIndexOutOfBoundsException: -16
+[2015-08-16 20:12:27] 	at com.vencillio.core.util.NameUtil.longToName(NameUtil.java:18)
+[2015-08-16 20:12:27] 	at com.vencillio.rs2.content.PrivateMessaging.addFriend(PrivateMessaging.java:27)
+[2015-08-16 20:12:27] 	at com.vencillio.rs2.entity.player.net.in.impl.PrivateMessagingPacket.handle(PrivateMessagingPacket.java:27)
+[2015-08-16 20:12:27] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2015-08-16 20:12:27] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2015-08-16 20:12:27] 	at com.vencillio.rs2.entity.World.process(World.java:314)
+[2015-08-16 20:12:27] 	at com.vencillio.core.GameThread.cycle(GameThread.java:123)
+[2015-08-16 20:12:27] 	at com.vencillio.core.GameThread.run(GameThread.java:138)

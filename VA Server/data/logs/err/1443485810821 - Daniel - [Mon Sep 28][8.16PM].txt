@@ -1,0 +1,16 @@
+Logging started at 2015-09-28 20:16:50
+File name: C:\Users\Daniel\Dropbox\Vencillio Advanced\VA Source\.\data\logs\err\1443485810821 - Daniel - [Mon Sep 28][8.16PM].txt
+System.getProperty("os.name"): "Windows 8.1"
+
+[2015-09-28 20:22:11] java.lang.NumberFormatException: For input string: "20:22"
+[2015-09-28 20:22:11] 	at java.lang.NumberFormatException.forInputString(Unknown Source)
+[2015-09-28 20:22:11] 	at java.lang.Integer.parseInt(Unknown Source)
+[2015-09-28 20:22:11] 	at java.lang.Integer.parseInt(Unknown Source)
+[2015-09-28 20:22:11] 	at com.vencillio.core.util.Misc.convertTime(Misc.java:126)
+[2015-09-28 20:22:11] 	at com.vencillio.rs2.entity.player.net.in.command.impl.OwnerCommand.handleCommand(OwnerCommand.java:44)
+[2015-09-28 20:22:11] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2015-09-28 20:22:11] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2015-09-28 20:22:11] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2015-09-28 20:22:11] 	at com.vencillio.rs2.entity.World.process(World.java:316)
+[2015-09-28 20:22:11] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2015-09-28 20:22:11] 	at com.vencillio.core.GameThread.run(GameThread.java:139)

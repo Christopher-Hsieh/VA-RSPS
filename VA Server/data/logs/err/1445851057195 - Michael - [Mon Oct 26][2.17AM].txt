@@ -1,0 +1,16 @@
+Logging started at 2015-10-26 02:17:37
+File name: C:\Users\Michael\Dropbox\Vencillio Advanced\VA Source\.\data\logs\err\1445851057195 - Michael - [Mon Oct 26][2.17AM].txt
+System.getProperty("os.name"): "Windows 10"
+
+[2015-10-26 02:18:03] java.lang.NumberFormatException: For input string: ""
+[2015-10-26 02:18:03] 	at java.lang.NumberFormatException.forInputString(Unknown Source)
+[2015-10-26 02:18:03] 	at java.lang.Integer.parseInt(Unknown Source)
+[2015-10-26 02:18:03] 	at java.lang.Integer.parseInt(Unknown Source)
+[2015-10-26 02:18:03] 	at com.vencillio.rs2.entity.player.net.in.command.CommandParser.nextInt(CommandParser.java:46)
+[2015-10-26 02:18:03] 	at com.vencillio.rs2.entity.player.net.in.command.impl.AdministratorCommand.handleCommand(AdministratorCommand.java:80)
+[2015-10-26 02:18:03] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2015-10-26 02:18:03] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2015-10-26 02:18:03] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2015-10-26 02:18:03] 	at com.vencillio.rs2.entity.World.process(World.java:319)
+[2015-10-26 02:18:03] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2015-10-26 02:18:03] 	at com.vencillio.core.GameThread.run(GameThread.java:139)

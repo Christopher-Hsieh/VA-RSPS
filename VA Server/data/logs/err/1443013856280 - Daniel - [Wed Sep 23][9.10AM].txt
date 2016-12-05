@@ -1,0 +1,15 @@
+Logging started at 2015-09-23 09:10:56
+File name: C:\Users\Daniel\Dropbox\Vencillio Advanced\VA Source\.\data\logs\err\1443013856280 - Daniel - [Wed Sep 23][9.10AM].txt
+System.getProperty("os.name"): "Windows 8.1"
+
+[2015-09-25 00:20:45] Exception in thread "Main Thread" 
+[2015-09-25 00:20:45] java.lang.NoSuchMethodError: com.vencillio.rs2.content.skill.ranged.BoltSpecials.checkForBoltSpecial(Lcom/vencillio/rs2/entity/player/Player;Lcom/vencillio/rs2/entity/Entity;)V
+[2015-09-25 00:20:45] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.onHit(PlayerCombatInterface.java:449)
+[2015-09-25 00:20:45] 	at com.vencillio.rs2.entity.player.Player.onHit(Player.java:1475)
+[2015-09-25 00:20:45] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:317)
+[2015-09-25 00:20:45] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-25 00:20:45] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-25 00:20:45] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-25 00:20:45] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-25 00:20:45] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-25 00:20:45] 	at com.vencillio.core.GameThread.run(GameThread.java:138)

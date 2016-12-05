@@ -1,0 +1,9 @@
+Logging started at 2015-09-18 03:32:05
+File name: C:\Users\Daniel\Dropbox\Vencillio Advanced\VA Source\.\data\logs\err\1442561525349 - Daniel - [Fri Sep 18][3.32AM].txt
+System.getProperty("os.name"): "Windows 8.1"
+
+[2015-09-18 03:32:35] java.lang.NullPointerException
+[2015-09-18 03:32:35] 	at com.vencillio.rs2.entity.player.Player.process(Player.java:1508)
+[2015-09-18 03:32:35] 	at com.vencillio.rs2.entity.World.process(World.java:317)
+[2015-09-18 03:32:35] 	at com.vencillio.core.GameThread.cycle(GameThread.java:123)
+[2015-09-18 03:32:35] 	at com.vencillio.core.GameThread.run(GameThread.java:138)

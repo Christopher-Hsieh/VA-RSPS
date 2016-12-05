@@ -1,0 +1,24 @@
+Logging started at 2015-09-09 18:56:13
+File name: C:\Users\root\Dropbox\Vencillio Advanced\VA Source\.\data\logs\err\1441821373306 - root - [Wed Sep 9][6.56PM].txt
+System.getProperty("os.name"): "Windows Server 2008 R2"
+
+[2015-09-09 19:05:32] java.lang.NumberFormatException: For input string: "zion"
+[2015-09-09 19:05:32] 	at java.lang.NumberFormatException.forInputString(Unknown Source)
+[2015-09-09 19:05:32] 	at java.lang.Long.parseLong(Unknown Source)
+[2015-09-09 19:05:32] 	at java.lang.Long.parseLong(Unknown Source)
+[2015-09-09 19:05:32] 	at com.vencillio.rs2.entity.player.net.in.command.impl.PlayerCommand.handleCommand(PlayerCommand.java:154)
+[2015-09-09 19:05:32] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2015-09-09 19:05:32] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2015-09-09 19:05:32] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2015-09-09 19:05:32] 	at com.vencillio.rs2.entity.World.process(World.java:313)
+[2015-09-09 19:05:32] 	at com.vencillio.core.GameThread.cycle(GameThread.java:123)
+[2015-09-09 19:05:32] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-09 19:29:55] java.lang.IllegalArgumentException: bound must be positive
+[2015-09-09 19:29:55] 	at java.util.Random.nextInt(Unknown Source)
+[2015-09-09 19:29:55] 	at com.vencillio.rs2.entity.mob.MobDrops.rollRareDrop(MobDrops.java:573)
+[2015-09-09 19:29:55] 	at com.vencillio.rs2.entity.mob.MobDrops.dropItems(MobDrops.java:420)
+[2015-09-09 19:29:55] 	at com.vencillio.core.task.impl.MobDeathTask$2.execute(MobDeathTask.java:47)
+[2015-09-09 19:29:55] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-09 19:29:55] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-09 19:29:55] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-09 19:29:55] 	at com.vencillio.core.GameThread.run(GameThread.java:138)

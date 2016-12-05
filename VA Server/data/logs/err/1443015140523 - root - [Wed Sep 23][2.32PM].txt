@@ -1,0 +1,2278 @@
+Logging started at 2015-09-23 14:32:20
+File name: C:\Users\root\Dropbox\Vencillio Advanced\VA Source\.\data\logs\err\1443015140523 - root - [Wed Sep 23][2.32PM].txt
+System.getProperty("os.name"): "Windows Server 2008 R2"
+
+[2015-09-23 14:52:26] java.lang.NullPointerException
+[2015-09-23 14:52:26] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 14:52:26] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 14:52:26] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 14:52:26] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 14:52:26] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 14:52:26] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 14:52:26] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 14:52:29] java.lang.NullPointerException
+[2015-09-23 14:52:29] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 14:52:29] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 14:52:29] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 14:52:29] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 14:52:29] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 14:52:29] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 14:52:29] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 14:52:32] java.lang.NullPointerException
+[2015-09-23 14:52:32] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 14:52:32] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 14:52:32] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 14:52:32] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 14:52:32] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 14:52:32] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 14:52:32] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 14:52:34] java.lang.NullPointerException
+[2015-09-23 14:52:34] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 14:52:34] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 14:52:34] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 14:52:34] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 14:52:34] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 14:52:34] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 14:52:34] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 14:52:36] java.lang.NullPointerException
+[2015-09-23 14:52:36] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 14:52:36] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 14:52:36] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 14:52:36] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 14:52:36] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 14:52:36] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 14:52:36] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 14:52:48] java.lang.NullPointerException
+[2015-09-23 14:52:48] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 14:52:48] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 14:52:48] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 14:52:48] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 14:52:48] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 14:52:48] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 14:52:48] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 14:52:51] java.lang.NullPointerException
+[2015-09-23 14:52:51] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 14:52:51] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 14:52:51] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 14:52:51] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 14:52:51] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 14:52:51] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 14:52:51] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 14:52:53] java.lang.NullPointerException
+[2015-09-23 14:52:53] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 14:52:53] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 14:52:53] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 14:52:53] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 14:52:53] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 14:52:53] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 14:52:53] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 14:52:55] java.lang.NullPointerException
+[2015-09-23 14:52:55] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 14:52:55] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 14:52:55] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 14:52:55] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 14:52:55] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 14:52:55] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 14:52:55] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 14:52:58] java.lang.NullPointerException
+[2015-09-23 14:52:58] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 14:52:58] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 14:52:58] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 14:52:58] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 14:52:58] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 14:52:58] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 14:52:58] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 14:53:00] java.lang.NullPointerException
+[2015-09-23 14:53:00] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 14:53:00] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 14:53:00] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 14:53:00] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 14:53:00] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 14:53:00] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 14:53:00] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 14:53:34] java.lang.NullPointerException
+[2015-09-23 14:53:34] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 14:53:34] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 14:53:34] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 14:53:34] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 14:53:34] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 14:53:34] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 14:53:34] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 14:53:36] java.lang.NullPointerException
+[2015-09-23 14:53:36] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 14:53:36] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 14:53:36] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 14:53:36] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 14:53:36] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 14:53:36] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 14:53:36] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 14:53:38] java.lang.NullPointerException
+[2015-09-23 14:53:38] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 14:53:38] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 14:53:38] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 14:53:38] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 14:53:38] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 14:53:38] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 14:53:38] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 14:53:41] java.lang.NullPointerException
+[2015-09-23 14:53:41] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 14:53:41] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 14:53:41] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 14:53:41] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 14:53:41] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 14:53:41] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 14:53:41] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 14:53:43] java.lang.NullPointerException
+[2015-09-23 14:53:43] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 14:53:43] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 14:53:43] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 14:53:43] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 14:53:43] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 14:53:43] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 14:53:43] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 14:53:47] java.lang.NullPointerException
+[2015-09-23 14:53:47] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 14:53:47] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 14:53:47] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 14:53:47] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 14:53:47] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 14:53:47] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 14:53:47] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 14:53:49] java.lang.NullPointerException
+[2015-09-23 14:53:49] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 14:53:49] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 14:53:49] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 14:53:49] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 14:53:49] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 14:53:49] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 14:53:49] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 14:53:51] java.lang.NullPointerException
+[2015-09-23 14:53:51] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 14:53:51] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 14:53:51] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 14:53:51] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 14:53:51] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 14:53:51] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 14:53:51] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 14:53:54] java.lang.NullPointerException
+[2015-09-23 14:53:54] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 14:53:54] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 14:53:54] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 14:53:54] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 14:53:54] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 14:53:54] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 14:53:54] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 14:54:04] java.lang.NullPointerException
+[2015-09-23 14:54:04] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 14:54:04] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 14:54:04] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 14:54:04] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 14:54:04] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 14:54:04] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 14:54:04] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 14:54:06] java.lang.NullPointerException
+[2015-09-23 14:54:06] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 14:54:06] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 14:54:06] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 14:54:06] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 14:54:06] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 14:54:06] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 14:54:06] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 14:54:08] java.lang.NullPointerException
+[2015-09-23 14:54:08] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 14:54:08] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 14:54:08] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 14:54:08] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 14:54:08] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 14:54:08] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 14:54:08] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 14:54:11] java.lang.NullPointerException
+[2015-09-23 14:54:11] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 14:54:11] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 14:54:11] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 14:54:11] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 14:54:11] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 14:54:11] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 14:54:11] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 14:54:15] java.lang.NullPointerException
+[2015-09-23 14:54:15] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 14:54:15] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 14:54:15] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 14:54:15] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 14:54:15] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 14:54:15] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 14:54:15] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 14:54:18] java.lang.NullPointerException
+[2015-09-23 14:54:18] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 14:54:18] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 14:54:18] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 14:54:18] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 14:54:18] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 14:54:18] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 14:54:18] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 14:54:20] java.lang.NullPointerException
+[2015-09-23 14:54:20] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 14:54:20] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 14:54:20] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 14:54:20] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 14:54:20] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 14:54:20] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 14:54:20] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 14:54:22] java.lang.NullPointerException
+[2015-09-23 14:54:22] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 14:54:22] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 14:54:22] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 14:54:22] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 14:54:22] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 14:54:22] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 14:54:22] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 14:55:50] java.lang.NumberFormatException: For input string: "\"
+[2015-09-23 14:55:50] 	at java.lang.NumberFormatException.forInputString(Unknown Source)
+[2015-09-23 14:55:50] 	at java.lang.Long.parseLong(Unknown Source)
+[2015-09-23 14:55:50] 	at java.lang.Long.parseLong(Unknown Source)
+[2015-09-23 14:55:50] 	at com.vencillio.rs2.entity.player.net.in.command.impl.PlayerCommand.handleCommand(PlayerCommand.java:177)
+[2015-09-23 14:55:50] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2015-09-23 14:55:50] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2015-09-23 14:55:50] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2015-09-23 14:55:50] 	at com.vencillio.rs2.entity.World.process(World.java:315)
+[2015-09-23 14:55:50] 	at com.vencillio.core.GameThread.cycle(GameThread.java:123)
+[2015-09-23 14:55:50] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 14:57:24] java.lang.NullPointerException
+[2015-09-23 14:57:24] 	at com.vencillio.rs2.content.skill.agility.obstacle.interaction.ObstacleInteraction.courseRewards(ObstacleInteraction.java:191)
+[2015-09-23 14:57:24] 	at com.vencillio.rs2.content.skill.agility.obstacle.interaction.ObstacleInteraction$1.onStop(ObstacleInteraction.java:158)
+[2015-09-23 14:57:24] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:62)
+[2015-09-23 14:57:24] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 14:57:24] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 14:58:03] java.lang.NullPointerException
+[2015-09-23 14:58:03] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 14:58:03] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 14:58:03] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 14:58:03] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 14:58:03] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 14:58:03] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 14:58:03] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 14:58:03] java.lang.NullPointerException
+[2015-09-23 14:58:03] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 14:58:03] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 14:58:03] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 14:58:03] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 14:58:03] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 14:58:03] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 14:58:03] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 14:58:05] java.lang.NullPointerException
+[2015-09-23 14:58:05] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 14:58:05] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 14:58:05] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 14:58:05] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 14:58:05] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 14:58:05] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 14:58:05] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 14:58:05] java.lang.NullPointerException
+[2015-09-23 14:58:05] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 14:58:05] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 14:58:05] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 14:58:05] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 14:58:05] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 14:58:05] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 14:58:05] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 14:58:07] java.lang.NullPointerException
+[2015-09-23 14:58:07] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 14:58:07] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 14:58:07] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 14:58:07] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 14:58:07] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 14:58:07] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 14:58:07] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 14:58:07] java.lang.NullPointerException
+[2015-09-23 14:58:07] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 14:58:07] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 14:58:07] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 14:58:07] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 14:58:07] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 14:58:07] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 14:58:07] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 15:53:50] java.lang.NumberFormatException: For input string: "1.3000000"
+[2015-09-23 15:53:50] 	at java.lang.NumberFormatException.forInputString(Unknown Source)
+[2015-09-23 15:53:50] 	at java.lang.Long.parseLong(Unknown Source)
+[2015-09-23 15:53:50] 	at java.lang.Long.parseLong(Unknown Source)
+[2015-09-23 15:53:50] 	at com.vencillio.rs2.entity.player.net.in.command.impl.PlayerCommand.handleCommand(PlayerCommand.java:177)
+[2015-09-23 15:53:50] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2015-09-23 15:53:50] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2015-09-23 15:53:50] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2015-09-23 15:53:50] 	at com.vencillio.rs2.entity.World.process(World.java:315)
+[2015-09-23 15:53:50] 	at com.vencillio.core.GameThread.cycle(GameThread.java:123)
+[2015-09-23 15:53:50] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 16:09:30] java.lang.IndexOutOfBoundsException: Readable byte limit exceeded: 12
+[2015-09-23 16:09:30] 	at org.jboss.netty.buffer.AbstractChannelBuffer.readByte(AbstractChannelBuffer.java:236)
+[2015-09-23 16:09:30] 	at com.vencillio.core.network.StreamBuffer$InBuffer.readByte(StreamBuffer.java:120)
+[2015-09-23 16:09:30] 	at com.vencillio.core.network.StreamBuffer$InBuffer.readByte(StreamBuffer.java:107)
+[2015-09-23 16:09:30] 	at com.vencillio.core.network.StreamBuffer$InBuffer.readShort(StreamBuffer.java:467)
+[2015-09-23 16:09:30] 	at com.vencillio.core.network.StreamBuffer$InBuffer.readShort(StreamBuffer.java:412)
+[2015-09-23 16:09:30] 	at com.vencillio.rs2.entity.player.net.in.impl.ItemPackets.handle(ItemPackets.java:796)
+[2015-09-23 16:09:30] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2015-09-23 16:09:30] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2015-09-23 16:09:30] 	at com.vencillio.rs2.entity.World.process(World.java:315)
+[2015-09-23 16:09:30] 	at com.vencillio.core.GameThread.cycle(GameThread.java:123)
+[2015-09-23 16:09:30] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 16:14:50] java.lang.IndexOutOfBoundsException: Readable byte limit exceeded: 12
+[2015-09-23 16:14:50] 	at org.jboss.netty.buffer.AbstractChannelBuffer.readByte(AbstractChannelBuffer.java:236)
+[2015-09-23 16:14:50] 	at com.vencillio.core.network.StreamBuffer$InBuffer.readByte(StreamBuffer.java:120)
+[2015-09-23 16:14:50] 	at com.vencillio.core.network.StreamBuffer$InBuffer.readByte(StreamBuffer.java:107)
+[2015-09-23 16:14:50] 	at com.vencillio.core.network.StreamBuffer$InBuffer.readShort(StreamBuffer.java:467)
+[2015-09-23 16:14:50] 	at com.vencillio.core.network.StreamBuffer$InBuffer.readShort(StreamBuffer.java:412)
+[2015-09-23 16:14:50] 	at com.vencillio.rs2.entity.player.net.in.impl.ItemPackets.handle(ItemPackets.java:796)
+[2015-09-23 16:14:50] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2015-09-23 16:14:50] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2015-09-23 16:14:50] 	at com.vencillio.rs2.entity.World.process(World.java:315)
+[2015-09-23 16:14:50] 	at com.vencillio.core.GameThread.cycle(GameThread.java:123)
+[2015-09-23 16:14:50] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 16:26:39] java.lang.NullPointerException
+[2015-09-23 16:26:39] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 16:26:39] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 16:26:39] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 16:26:39] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 16:26:39] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 16:26:39] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 16:26:39] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 16:26:43] java.lang.NullPointerException
+[2015-09-23 16:26:43] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 16:26:43] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 16:26:43] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 16:26:43] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 16:26:43] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 16:26:43] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 16:26:43] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 16:26:48] java.lang.NullPointerException
+[2015-09-23 16:26:48] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 16:26:48] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 16:26:48] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 16:26:48] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 16:26:48] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 16:26:48] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 16:26:48] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 16:26:52] java.lang.NullPointerException
+[2015-09-23 16:26:52] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 16:26:52] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 16:26:52] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 16:26:52] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 16:26:52] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 16:26:52] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 16:26:52] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 16:26:56] java.lang.NullPointerException
+[2015-09-23 16:26:56] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 16:26:56] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 16:26:56] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 16:26:56] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 16:26:56] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 16:26:56] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 16:26:56] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 16:27:00] java.lang.NullPointerException
+[2015-09-23 16:27:00] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 16:27:00] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 16:27:00] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 16:27:00] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 16:27:00] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 16:27:00] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 16:27:00] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 16:27:04] java.lang.NullPointerException
+[2015-09-23 16:27:04] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 16:27:04] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 16:27:04] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 16:27:04] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 16:27:04] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 16:27:04] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 16:27:04] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 16:32:00] java.lang.NullPointerException
+[2015-09-23 16:32:00] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 16:32:00] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 16:32:00] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 16:32:00] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 16:32:00] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 16:32:00] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 16:32:00] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 16:32:04] java.lang.NullPointerException
+[2015-09-23 16:32:04] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 16:32:04] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 16:32:04] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 16:32:04] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 16:32:04] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 16:32:04] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 16:32:04] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 16:32:08] java.lang.NullPointerException
+[2015-09-23 16:32:08] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 16:32:08] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 16:32:08] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 16:32:08] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 16:32:08] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 16:32:08] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 16:32:08] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 16:32:12] java.lang.NullPointerException
+[2015-09-23 16:32:12] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 16:32:12] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 16:32:12] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 16:32:12] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 16:32:12] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 16:32:12] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 16:32:12] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 16:32:20] java.lang.NullPointerException
+[2015-09-23 16:32:20] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 16:32:20] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 16:32:20] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 16:32:20] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 16:32:20] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 16:32:20] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 16:32:20] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 16:32:24] java.lang.NullPointerException
+[2015-09-23 16:32:24] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 16:32:24] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 16:32:24] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 16:32:24] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 16:32:24] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 16:32:24] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 16:32:24] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 16:32:28] java.lang.NullPointerException
+[2015-09-23 16:32:28] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 16:32:28] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 16:32:28] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 16:32:28] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 16:32:28] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 16:32:28] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 16:32:28] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 16:32:32] java.lang.NullPointerException
+[2015-09-23 16:32:32] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 16:32:32] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 16:32:32] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 16:32:32] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 16:32:32] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 16:32:32] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 16:32:32] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 16:32:37] java.lang.NullPointerException
+[2015-09-23 16:32:37] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 16:32:37] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 16:32:37] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 16:32:37] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 16:32:37] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 16:32:37] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 16:32:37] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 16:32:41] java.lang.NullPointerException
+[2015-09-23 16:32:41] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 16:32:41] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 16:32:41] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 16:32:41] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 16:32:41] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 16:32:41] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 16:32:41] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 16:32:45] java.lang.NullPointerException
+[2015-09-23 16:32:45] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 16:32:45] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 16:32:45] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 16:32:45] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 16:32:45] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 16:32:45] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 16:32:45] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 16:32:49] java.lang.NullPointerException
+[2015-09-23 16:32:49] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 16:32:49] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 16:32:49] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 16:32:49] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 16:32:49] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 16:32:49] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 16:32:49] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 16:32:53] java.lang.NullPointerException
+[2015-09-23 16:32:53] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 16:32:53] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 16:32:53] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 16:32:53] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 16:32:53] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 16:32:53] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 16:32:53] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 16:32:57] java.lang.NullPointerException
+[2015-09-23 16:32:57] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 16:32:57] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 16:32:57] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 16:32:57] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 16:32:57] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 16:32:57] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 16:32:57] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 16:34:18] java.lang.NullPointerException
+[2015-09-23 16:34:18] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 16:34:18] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 16:34:18] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 16:34:18] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 16:34:18] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 16:34:18] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 16:34:18] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 16:34:47] java.lang.NullPointerException
+[2015-09-23 16:34:47] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 16:34:47] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 16:34:47] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 16:34:47] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 16:34:47] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 16:34:47] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 16:34:47] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 16:34:51] java.lang.NullPointerException
+[2015-09-23 16:34:51] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 16:34:51] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 16:34:51] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 16:34:51] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 16:34:51] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 16:34:51] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 16:34:51] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 16:34:59] java.lang.NullPointerException
+[2015-09-23 16:34:59] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 16:34:59] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 16:34:59] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 16:34:59] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 16:34:59] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 16:34:59] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 16:34:59] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 16:35:03] java.lang.NullPointerException
+[2015-09-23 16:35:03] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 16:35:03] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 16:35:03] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 16:35:03] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 16:35:03] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 16:35:03] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 16:35:03] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 16:35:15] java.lang.NullPointerException
+[2015-09-23 16:35:15] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 16:35:15] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 16:35:15] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 16:35:15] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 16:35:15] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 16:35:15] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 16:35:15] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 16:46:48] java.lang.NullPointerException
+[2015-09-23 16:46:48] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 16:46:48] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 16:46:48] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 16:46:48] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 16:46:48] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 16:46:48] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 16:46:48] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 16:47:16] java.lang.NullPointerException
+[2015-09-23 16:47:16] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 16:47:16] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 16:47:16] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 16:47:16] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 16:47:16] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 16:47:16] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 16:47:16] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 16:47:25] java.lang.NullPointerException
+[2015-09-23 16:47:25] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 16:47:25] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 16:47:25] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 16:47:25] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 16:47:25] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 16:47:25] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 16:47:25] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 16:47:33] java.lang.NullPointerException
+[2015-09-23 16:47:33] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 16:47:33] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 16:47:33] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 16:47:33] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 16:47:33] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 16:47:33] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 16:47:33] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 16:58:18] java.lang.IndexOutOfBoundsException: Readable byte limit exceeded: 12
+[2015-09-23 16:58:18] 	at org.jboss.netty.buffer.AbstractChannelBuffer.readByte(AbstractChannelBuffer.java:236)
+[2015-09-23 16:58:18] 	at com.vencillio.core.network.StreamBuffer$InBuffer.readByte(StreamBuffer.java:120)
+[2015-09-23 16:58:18] 	at com.vencillio.core.network.StreamBuffer$InBuffer.readByte(StreamBuffer.java:107)
+[2015-09-23 16:58:18] 	at com.vencillio.core.network.StreamBuffer$InBuffer.readShort(StreamBuffer.java:467)
+[2015-09-23 16:58:18] 	at com.vencillio.core.network.StreamBuffer$InBuffer.readShort(StreamBuffer.java:412)
+[2015-09-23 16:58:18] 	at com.vencillio.rs2.entity.player.net.in.impl.ItemPackets.handle(ItemPackets.java:796)
+[2015-09-23 16:58:18] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2015-09-23 16:58:18] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2015-09-23 16:58:18] 	at com.vencillio.rs2.entity.World.process(World.java:315)
+[2015-09-23 16:58:18] 	at com.vencillio.core.GameThread.cycle(GameThread.java:123)
+[2015-09-23 16:58:18] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 17:02:15] java.lang.NullPointerException
+[2015-09-23 17:02:15] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 17:02:15] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 17:02:15] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 17:02:15] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 17:02:15] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 17:02:15] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 17:02:15] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 17:02:22] java.lang.NullPointerException
+[2015-09-23 17:02:22] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 17:02:22] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 17:02:22] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 17:02:22] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 17:02:22] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 17:02:22] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 17:02:22] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 17:02:25] java.lang.NullPointerException
+[2015-09-23 17:02:25] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 17:02:25] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 17:02:25] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 17:02:25] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 17:02:25] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 17:02:25] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 17:02:25] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 17:02:29] java.lang.NullPointerException
+[2015-09-23 17:02:29] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 17:02:29] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 17:02:29] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 17:02:29] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 17:02:29] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 17:02:29] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 17:02:29] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 17:02:31] java.lang.NullPointerException
+[2015-09-23 17:02:31] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 17:02:31] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 17:02:31] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 17:02:31] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 17:02:31] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 17:02:31] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 17:02:31] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 17:02:33] java.lang.NullPointerException
+[2015-09-23 17:02:33] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 17:02:33] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 17:02:33] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 17:02:33] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 17:02:33] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 17:02:33] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 17:02:33] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 17:02:36] java.lang.NullPointerException
+[2015-09-23 17:02:36] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 17:02:36] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 17:02:36] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 17:02:36] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 17:02:36] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 17:02:36] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 17:02:36] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 17:28:08] java.lang.NullPointerException
+[2015-09-23 17:28:08] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 17:28:08] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 17:28:08] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 17:28:08] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 17:28:08] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 17:28:08] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 17:28:08] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 17:28:10] java.lang.NullPointerException
+[2015-09-23 17:28:10] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 17:28:10] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 17:28:10] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 17:28:10] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 17:28:10] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 17:28:10] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 17:28:10] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 17:28:13] java.lang.NullPointerException
+[2015-09-23 17:28:13] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 17:28:13] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 17:28:13] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 17:28:13] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 17:28:13] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 17:28:13] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 17:28:13] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 17:28:15] java.lang.NullPointerException
+[2015-09-23 17:28:15] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 17:28:15] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 17:28:15] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 17:28:15] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 17:28:15] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 17:28:15] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 17:28:15] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 17:28:17] java.lang.NullPointerException
+[2015-09-23 17:28:17] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 17:28:17] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 17:28:17] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 17:28:17] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 17:28:17] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 17:28:17] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 17:28:17] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 17:28:20] java.lang.NullPointerException
+[2015-09-23 17:28:20] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 17:28:20] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 17:28:20] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 17:28:20] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 17:28:20] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 17:28:20] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 17:28:20] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 17:28:22] java.lang.NullPointerException
+[2015-09-23 17:28:22] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 17:28:22] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 17:28:22] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 17:28:22] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 17:28:22] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 17:28:22] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 17:28:22] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 17:28:25] java.lang.NullPointerException
+[2015-09-23 17:28:25] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 17:28:25] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 17:28:25] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 17:28:25] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 17:28:25] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 17:28:25] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 17:28:25] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 17:28:27] java.lang.NullPointerException
+[2015-09-23 17:28:27] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 17:28:27] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 17:28:27] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 17:28:27] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 17:28:27] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 17:28:27] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 17:28:27] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 17:28:29] java.lang.NullPointerException
+[2015-09-23 17:28:29] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 17:28:29] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 17:28:29] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 17:28:29] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 17:28:29] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 17:28:29] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 17:28:29] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 17:28:32] java.lang.NullPointerException
+[2015-09-23 17:28:32] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 17:28:32] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 17:28:32] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 17:28:32] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 17:28:32] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 17:28:32] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 17:28:32] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 17:28:34] java.lang.NullPointerException
+[2015-09-23 17:28:34] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 17:28:34] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 17:28:34] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 17:28:34] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 17:28:34] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 17:28:34] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 17:28:34] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 17:28:36] java.lang.NullPointerException
+[2015-09-23 17:28:36] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 17:28:36] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 17:28:36] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 17:28:36] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 17:28:36] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 17:28:36] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 17:28:36] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 17:28:39] java.lang.NullPointerException
+[2015-09-23 17:28:39] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 17:28:39] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 17:28:39] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 17:28:39] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 17:28:39] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 17:28:39] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 17:28:39] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 17:28:41] java.lang.NullPointerException
+[2015-09-23 17:28:41] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 17:28:41] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 17:28:41] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 17:28:41] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 17:28:41] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 17:28:41] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 17:28:41] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 17:28:44] java.lang.NullPointerException
+[2015-09-23 17:28:44] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 17:28:44] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 17:28:44] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 17:28:44] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 17:28:44] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 17:28:44] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 17:28:44] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 17:28:46] java.lang.NullPointerException
+[2015-09-23 17:28:46] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 17:28:46] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 17:28:46] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 17:28:46] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 17:28:46] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 17:28:46] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 17:28:46] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 17:34:45] java.lang.NullPointerException
+[2015-09-23 17:34:45] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 17:34:45] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 17:34:45] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 17:34:45] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 17:34:45] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 17:34:45] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 17:34:45] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 17:34:49] java.lang.NullPointerException
+[2015-09-23 17:34:49] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 17:34:49] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 17:34:49] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 17:34:49] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 17:34:49] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 17:34:49] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 17:34:49] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 17:34:52] java.lang.NullPointerException
+[2015-09-23 17:34:52] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 17:34:52] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 17:34:52] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 17:34:52] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 17:34:52] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 17:34:52] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 17:34:52] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 17:35:58] java.lang.NullPointerException
+[2015-09-23 17:35:58] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 17:35:58] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 17:35:58] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 17:35:58] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 17:35:58] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 17:35:58] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 17:35:58] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 17:36:00] java.lang.NullPointerException
+[2015-09-23 17:36:00] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 17:36:00] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 17:36:00] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 17:36:00] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 17:36:00] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 17:36:00] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 17:36:00] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 17:36:02] java.lang.NullPointerException
+[2015-09-23 17:36:02] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 17:36:02] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 17:36:02] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 17:36:02] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 17:36:02] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 17:36:02] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 17:36:02] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 17:36:05] java.lang.NullPointerException
+[2015-09-23 17:36:05] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 17:36:05] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 17:36:05] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 17:36:05] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 17:36:05] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 17:36:05] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 17:36:05] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 17:36:07] java.lang.NullPointerException
+[2015-09-23 17:36:07] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 17:36:07] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 17:36:07] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 17:36:07] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 17:36:07] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 17:36:07] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 17:36:07] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 17:36:12] java.lang.NullPointerException
+[2015-09-23 17:36:12] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 17:36:12] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 17:36:12] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 17:36:12] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 17:36:12] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 17:36:12] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 17:36:12] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 17:36:14] java.lang.NullPointerException
+[2015-09-23 17:36:14] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 17:36:14] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 17:36:14] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 17:36:14] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 17:36:14] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 17:36:14] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 17:36:14] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 17:36:14] java.lang.NullPointerException
+[2015-09-23 17:36:14] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 17:36:14] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 17:36:14] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 17:36:14] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 17:36:14] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 17:36:14] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 17:36:14] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 18:08:19] java.lang.IndexOutOfBoundsException: Readable byte limit exceeded: 12
+[2015-09-23 18:08:19] 	at org.jboss.netty.buffer.AbstractChannelBuffer.readByte(AbstractChannelBuffer.java:236)
+[2015-09-23 18:08:19] 	at com.vencillio.core.network.StreamBuffer$InBuffer.readByte(StreamBuffer.java:120)
+[2015-09-23 18:08:19] 	at com.vencillio.core.network.StreamBuffer$InBuffer.readByte(StreamBuffer.java:107)
+[2015-09-23 18:08:19] 	at com.vencillio.core.network.StreamBuffer$InBuffer.readShort(StreamBuffer.java:467)
+[2015-09-23 18:08:19] 	at com.vencillio.core.network.StreamBuffer$InBuffer.readShort(StreamBuffer.java:412)
+[2015-09-23 18:08:19] 	at com.vencillio.rs2.entity.player.net.in.impl.ItemPackets.handle(ItemPackets.java:796)
+[2015-09-23 18:08:19] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2015-09-23 18:08:19] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2015-09-23 18:08:19] 	at com.vencillio.rs2.entity.World.process(World.java:315)
+[2015-09-23 18:08:19] 	at com.vencillio.core.GameThread.cycle(GameThread.java:123)
+[2015-09-23 18:08:19] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 18:17:15] java.lang.IndexOutOfBoundsException: Readable byte limit exceeded: 12
+[2015-09-23 18:17:15] 	at org.jboss.netty.buffer.AbstractChannelBuffer.readByte(AbstractChannelBuffer.java:236)
+[2015-09-23 18:17:15] 	at com.vencillio.core.network.StreamBuffer$InBuffer.readByte(StreamBuffer.java:120)
+[2015-09-23 18:17:15] 	at com.vencillio.core.network.StreamBuffer$InBuffer.readByte(StreamBuffer.java:107)
+[2015-09-23 18:17:15] 	at com.vencillio.core.network.StreamBuffer$InBuffer.readShort(StreamBuffer.java:467)
+[2015-09-23 18:17:15] 	at com.vencillio.core.network.StreamBuffer$InBuffer.readShort(StreamBuffer.java:412)
+[2015-09-23 18:17:15] 	at com.vencillio.rs2.entity.player.net.in.impl.ItemPackets.handle(ItemPackets.java:796)
+[2015-09-23 18:17:15] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2015-09-23 18:17:15] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2015-09-23 18:17:15] 	at com.vencillio.rs2.entity.World.process(World.java:315)
+[2015-09-23 18:17:15] 	at com.vencillio.core.GameThread.cycle(GameThread.java:123)
+[2015-09-23 18:17:15] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 18:20:41] java.lang.IndexOutOfBoundsException: Readable byte limit exceeded: 12
+[2015-09-23 18:20:41] 	at org.jboss.netty.buffer.AbstractChannelBuffer.readByte(AbstractChannelBuffer.java:236)
+[2015-09-23 18:20:41] 	at com.vencillio.core.network.StreamBuffer$InBuffer.readByte(StreamBuffer.java:120)
+[2015-09-23 18:20:41] 	at com.vencillio.core.network.StreamBuffer$InBuffer.readByte(StreamBuffer.java:107)
+[2015-09-23 18:20:41] 	at com.vencillio.core.network.StreamBuffer$InBuffer.readShort(StreamBuffer.java:467)
+[2015-09-23 18:20:41] 	at com.vencillio.core.network.StreamBuffer$InBuffer.readShort(StreamBuffer.java:412)
+[2015-09-23 18:20:41] 	at com.vencillio.rs2.entity.player.net.in.impl.ItemPackets.handle(ItemPackets.java:796)
+[2015-09-23 18:20:41] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2015-09-23 18:20:41] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2015-09-23 18:20:41] 	at com.vencillio.rs2.entity.World.process(World.java:315)
+[2015-09-23 18:20:41] 	at com.vencillio.core.GameThread.cycle(GameThread.java:123)
+[2015-09-23 18:20:41] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 18:23:54] java.lang.IndexOutOfBoundsException: Readable byte limit exceeded: 12
+[2015-09-23 18:23:54] 	at org.jboss.netty.buffer.AbstractChannelBuffer.readByte(AbstractChannelBuffer.java:236)
+[2015-09-23 18:23:54] 	at com.vencillio.core.network.StreamBuffer$InBuffer.readByte(StreamBuffer.java:120)
+[2015-09-23 18:23:54] 	at com.vencillio.core.network.StreamBuffer$InBuffer.readByte(StreamBuffer.java:107)
+[2015-09-23 18:23:54] 	at com.vencillio.core.network.StreamBuffer$InBuffer.readShort(StreamBuffer.java:467)
+[2015-09-23 18:23:54] 	at com.vencillio.core.network.StreamBuffer$InBuffer.readShort(StreamBuffer.java:412)
+[2015-09-23 18:23:54] 	at com.vencillio.rs2.entity.player.net.in.impl.ItemPackets.handle(ItemPackets.java:796)
+[2015-09-23 18:23:54] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2015-09-23 18:23:54] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2015-09-23 18:23:54] 	at com.vencillio.rs2.entity.World.process(World.java:315)
+[2015-09-23 18:23:54] 	at com.vencillio.core.GameThread.cycle(GameThread.java:123)
+[2015-09-23 18:23:54] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 18:25:20] java.lang.IndexOutOfBoundsException: Readable byte limit exceeded: 12
+[2015-09-23 18:25:20] 	at org.jboss.netty.buffer.AbstractChannelBuffer.readByte(AbstractChannelBuffer.java:236)
+[2015-09-23 18:25:20] 	at com.vencillio.core.network.StreamBuffer$InBuffer.readByte(StreamBuffer.java:120)
+[2015-09-23 18:25:20] 	at com.vencillio.core.network.StreamBuffer$InBuffer.readByte(StreamBuffer.java:107)
+[2015-09-23 18:25:20] 	at com.vencillio.core.network.StreamBuffer$InBuffer.readShort(StreamBuffer.java:467)
+[2015-09-23 18:25:20] 	at com.vencillio.core.network.StreamBuffer$InBuffer.readShort(StreamBuffer.java:412)
+[2015-09-23 18:25:20] 	at com.vencillio.rs2.entity.player.net.in.impl.ItemPackets.handle(ItemPackets.java:796)
+[2015-09-23 18:25:20] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2015-09-23 18:25:20] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2015-09-23 18:25:20] 	at com.vencillio.rs2.entity.World.process(World.java:315)
+[2015-09-23 18:25:20] 	at com.vencillio.core.GameThread.cycle(GameThread.java:123)
+[2015-09-23 18:25:20] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 18:26:48] java.lang.IndexOutOfBoundsException: Readable byte limit exceeded: 12
+[2015-09-23 18:26:48] 	at org.jboss.netty.buffer.AbstractChannelBuffer.readByte(AbstractChannelBuffer.java:236)
+[2015-09-23 18:26:48] 	at com.vencillio.core.network.StreamBuffer$InBuffer.readByte(StreamBuffer.java:120)
+[2015-09-23 18:26:48] 	at com.vencillio.core.network.StreamBuffer$InBuffer.readByte(StreamBuffer.java:107)
+[2015-09-23 18:26:48] 	at com.vencillio.core.network.StreamBuffer$InBuffer.readShort(StreamBuffer.java:467)
+[2015-09-23 18:26:48] 	at com.vencillio.core.network.StreamBuffer$InBuffer.readShort(StreamBuffer.java:412)
+[2015-09-23 18:26:48] 	at com.vencillio.rs2.entity.player.net.in.impl.ItemPackets.handle(ItemPackets.java:796)
+[2015-09-23 18:26:48] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2015-09-23 18:26:48] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2015-09-23 18:26:48] 	at com.vencillio.rs2.entity.World.process(World.java:315)
+[2015-09-23 18:26:48] 	at com.vencillio.core.GameThread.cycle(GameThread.java:123)
+[2015-09-23 18:26:48] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 18:37:00] java.lang.IndexOutOfBoundsException: Readable byte limit exceeded: 12
+[2015-09-23 18:37:00] 	at org.jboss.netty.buffer.AbstractChannelBuffer.readByte(AbstractChannelBuffer.java:236)
+[2015-09-23 18:37:00] 	at com.vencillio.core.network.StreamBuffer$InBuffer.readByte(StreamBuffer.java:120)
+[2015-09-23 18:37:00] 	at com.vencillio.core.network.StreamBuffer$InBuffer.readByte(StreamBuffer.java:107)
+[2015-09-23 18:37:00] 	at com.vencillio.core.network.StreamBuffer$InBuffer.readShort(StreamBuffer.java:467)
+[2015-09-23 18:37:00] 	at com.vencillio.core.network.StreamBuffer$InBuffer.readShort(StreamBuffer.java:412)
+[2015-09-23 18:37:00] 	at com.vencillio.rs2.entity.player.net.in.impl.ItemPackets.handle(ItemPackets.java:796)
+[2015-09-23 18:37:00] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2015-09-23 18:37:00] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2015-09-23 18:37:00] 	at com.vencillio.rs2.entity.World.process(World.java:315)
+[2015-09-23 18:37:00] 	at com.vencillio.core.GameThread.cycle(GameThread.java:123)
+[2015-09-23 18:37:00] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 18:37:41] java.lang.IndexOutOfBoundsException: Readable byte limit exceeded: 12
+[2015-09-23 18:37:41] 	at org.jboss.netty.buffer.AbstractChannelBuffer.readByte(AbstractChannelBuffer.java:236)
+[2015-09-23 18:37:41] 	at com.vencillio.core.network.StreamBuffer$InBuffer.readByte(StreamBuffer.java:120)
+[2015-09-23 18:37:41] 	at com.vencillio.core.network.StreamBuffer$InBuffer.readByte(StreamBuffer.java:107)
+[2015-09-23 18:37:41] 	at com.vencillio.core.network.StreamBuffer$InBuffer.readShort(StreamBuffer.java:467)
+[2015-09-23 18:37:41] 	at com.vencillio.core.network.StreamBuffer$InBuffer.readShort(StreamBuffer.java:412)
+[2015-09-23 18:37:41] 	at com.vencillio.rs2.entity.player.net.in.impl.ItemPackets.handle(ItemPackets.java:796)
+[2015-09-23 18:37:41] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2015-09-23 18:37:41] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2015-09-23 18:37:41] 	at com.vencillio.rs2.entity.World.process(World.java:315)
+[2015-09-23 18:37:41] 	at com.vencillio.core.GameThread.cycle(GameThread.java:123)
+[2015-09-23 18:37:41] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 18:42:15] java.lang.IndexOutOfBoundsException: Readable byte limit exceeded: 12
+[2015-09-23 18:42:15] 	at org.jboss.netty.buffer.AbstractChannelBuffer.readByte(AbstractChannelBuffer.java:236)
+[2015-09-23 18:42:15] 	at com.vencillio.core.network.StreamBuffer$InBuffer.readByte(StreamBuffer.java:120)
+[2015-09-23 18:42:15] 	at com.vencillio.core.network.StreamBuffer$InBuffer.readByte(StreamBuffer.java:107)
+[2015-09-23 18:42:15] 	at com.vencillio.core.network.StreamBuffer$InBuffer.readShort(StreamBuffer.java:467)
+[2015-09-23 18:42:15] 	at com.vencillio.core.network.StreamBuffer$InBuffer.readShort(StreamBuffer.java:412)
+[2015-09-23 18:42:15] 	at com.vencillio.rs2.entity.player.net.in.impl.ItemPackets.handle(ItemPackets.java:796)
+[2015-09-23 18:42:15] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2015-09-23 18:42:15] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2015-09-23 18:42:15] 	at com.vencillio.rs2.entity.World.process(World.java:315)
+[2015-09-23 18:42:15] 	at com.vencillio.core.GameThread.cycle(GameThread.java:123)
+[2015-09-23 18:42:15] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 18:43:38] java.lang.IndexOutOfBoundsException: Readable byte limit exceeded: 12
+[2015-09-23 18:43:38] 	at org.jboss.netty.buffer.AbstractChannelBuffer.readByte(AbstractChannelBuffer.java:236)
+[2015-09-23 18:43:38] 	at com.vencillio.core.network.StreamBuffer$InBuffer.readByte(StreamBuffer.java:120)
+[2015-09-23 18:43:38] 	at com.vencillio.core.network.StreamBuffer$InBuffer.readByte(StreamBuffer.java:107)
+[2015-09-23 18:43:38] 	at com.vencillio.core.network.StreamBuffer$InBuffer.readShort(StreamBuffer.java:467)
+[2015-09-23 18:43:38] 	at com.vencillio.core.network.StreamBuffer$InBuffer.readShort(StreamBuffer.java:412)
+[2015-09-23 18:43:38] 	at com.vencillio.rs2.entity.player.net.in.impl.ItemPackets.handle(ItemPackets.java:796)
+[2015-09-23 18:43:38] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2015-09-23 18:43:38] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2015-09-23 18:43:38] 	at com.vencillio.rs2.entity.World.process(World.java:315)
+[2015-09-23 18:43:38] 	at com.vencillio.core.GameThread.cycle(GameThread.java:123)
+[2015-09-23 18:43:38] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 18:45:14] java.lang.IndexOutOfBoundsException: Readable byte limit exceeded: 12
+[2015-09-23 18:45:14] 	at org.jboss.netty.buffer.AbstractChannelBuffer.readByte(AbstractChannelBuffer.java:236)
+[2015-09-23 18:45:14] 	at com.vencillio.core.network.StreamBuffer$InBuffer.readByte(StreamBuffer.java:120)
+[2015-09-23 18:45:14] 	at com.vencillio.core.network.StreamBuffer$InBuffer.readByte(StreamBuffer.java:107)
+[2015-09-23 18:45:14] 	at com.vencillio.core.network.StreamBuffer$InBuffer.readShort(StreamBuffer.java:467)
+[2015-09-23 18:45:14] 	at com.vencillio.core.network.StreamBuffer$InBuffer.readShort(StreamBuffer.java:412)
+[2015-09-23 18:45:14] 	at com.vencillio.rs2.entity.player.net.in.impl.ItemPackets.handle(ItemPackets.java:796)
+[2015-09-23 18:45:14] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2015-09-23 18:45:14] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2015-09-23 18:45:14] 	at com.vencillio.rs2.entity.World.process(World.java:315)
+[2015-09-23 18:45:14] 	at com.vencillio.core.GameThread.cycle(GameThread.java:123)
+[2015-09-23 18:45:14] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 18:54:54] java.lang.IndexOutOfBoundsException: Readable byte limit exceeded: 12
+[2015-09-23 18:54:54] 	at org.jboss.netty.buffer.AbstractChannelBuffer.readByte(AbstractChannelBuffer.java:236)
+[2015-09-23 18:54:54] 	at com.vencillio.core.network.StreamBuffer$InBuffer.readByte(StreamBuffer.java:120)
+[2015-09-23 18:54:54] 	at com.vencillio.core.network.StreamBuffer$InBuffer.readByte(StreamBuffer.java:107)
+[2015-09-23 18:54:54] 	at com.vencillio.core.network.StreamBuffer$InBuffer.readShort(StreamBuffer.java:467)
+[2015-09-23 18:54:54] 	at com.vencillio.core.network.StreamBuffer$InBuffer.readShort(StreamBuffer.java:412)
+[2015-09-23 18:54:54] 	at com.vencillio.rs2.entity.player.net.in.impl.ItemPackets.handle(ItemPackets.java:796)
+[2015-09-23 18:54:54] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2015-09-23 18:54:54] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2015-09-23 18:54:54] 	at com.vencillio.rs2.entity.World.process(World.java:315)
+[2015-09-23 18:54:54] 	at com.vencillio.core.GameThread.cycle(GameThread.java:123)
+[2015-09-23 18:54:54] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 19:02:45] java.lang.NullPointerException
+[2015-09-23 19:02:45] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 19:02:45] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 19:02:45] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 19:02:45] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 19:02:45] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 19:02:45] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 19:02:45] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 19:02:48] java.lang.NullPointerException
+[2015-09-23 19:02:48] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 19:02:48] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 19:02:48] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 19:02:48] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 19:02:48] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 19:02:48] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 19:02:48] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 19:02:51] java.lang.NullPointerException
+[2015-09-23 19:02:51] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 19:02:51] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 19:02:51] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 19:02:51] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 19:02:51] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 19:02:51] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 19:02:51] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 19:02:54] java.lang.NullPointerException
+[2015-09-23 19:02:54] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 19:02:54] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 19:02:54] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 19:02:54] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 19:02:54] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 19:02:54] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 19:02:54] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 19:02:57] java.lang.NullPointerException
+[2015-09-23 19:02:57] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 19:02:57] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 19:02:57] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 19:02:57] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 19:02:57] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 19:02:57] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 19:02:57] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 19:03:00] java.lang.NullPointerException
+[2015-09-23 19:03:00] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 19:03:00] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 19:03:00] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 19:03:00] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 19:03:00] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 19:03:00] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 19:03:00] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 19:11:12] java.lang.NullPointerException
+[2015-09-23 19:11:12] 	at com.vencillio.rs2.content.dialogue.DialogueManager.sendStatement(DialogueManager.java:170)
+[2015-09-23 19:11:12] 	at com.vencillio.rs2.content.shopping.Shopping.sendSellPrice(Shopping.java:316)
+[2015-09-23 19:11:12] 	at com.vencillio.rs2.entity.player.net.in.impl.ItemPackets.handle(ItemPackets.java:208)
+[2015-09-23 19:11:12] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2015-09-23 19:11:12] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2015-09-23 19:11:12] 	at com.vencillio.rs2.entity.World.process(World.java:315)
+[2015-09-23 19:11:12] 	at com.vencillio.core.GameThread.cycle(GameThread.java:123)
+[2015-09-23 19:11:12] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 19:11:29] java.lang.IndexOutOfBoundsException: Readable byte limit exceeded: 12
+[2015-09-23 19:11:29] 	at org.jboss.netty.buffer.AbstractChannelBuffer.readByte(AbstractChannelBuffer.java:236)
+[2015-09-23 19:11:29] 	at com.vencillio.core.network.StreamBuffer$InBuffer.readByte(StreamBuffer.java:120)
+[2015-09-23 19:11:29] 	at com.vencillio.core.network.StreamBuffer$InBuffer.readByte(StreamBuffer.java:107)
+[2015-09-23 19:11:29] 	at com.vencillio.core.network.StreamBuffer$InBuffer.readShort(StreamBuffer.java:467)
+[2015-09-23 19:11:29] 	at com.vencillio.core.network.StreamBuffer$InBuffer.readShort(StreamBuffer.java:412)
+[2015-09-23 19:11:29] 	at com.vencillio.rs2.entity.player.net.in.impl.ItemPackets.handle(ItemPackets.java:796)
+[2015-09-23 19:11:29] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2015-09-23 19:11:29] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2015-09-23 19:11:29] 	at com.vencillio.rs2.entity.World.process(World.java:315)
+[2015-09-23 19:11:29] 	at com.vencillio.core.GameThread.cycle(GameThread.java:123)
+[2015-09-23 19:11:29] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 19:31:54] java.lang.NullPointerException
+[2015-09-23 19:31:54] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 19:31:54] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 19:31:54] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 19:31:54] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 19:31:54] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 19:31:54] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 19:31:54] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 19:31:59] java.lang.NullPointerException
+[2015-09-23 19:31:59] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 19:31:59] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 19:31:59] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 19:31:59] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 19:31:59] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 19:31:59] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 19:31:59] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 19:42:23] java.lang.NullPointerException
+[2015-09-23 19:42:23] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 19:42:23] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 19:42:23] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 19:42:23] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 19:42:23] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 19:42:23] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 19:42:23] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 19:42:28] java.lang.NullPointerException
+[2015-09-23 19:42:28] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 19:42:28] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 19:42:28] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 19:42:28] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 19:42:28] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 19:42:28] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 19:42:28] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 19:42:31] java.lang.NullPointerException
+[2015-09-23 19:42:31] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 19:42:31] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 19:42:31] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 19:42:31] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 19:42:31] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 19:42:31] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 19:42:31] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 19:42:35] java.lang.NullPointerException
+[2015-09-23 19:42:35] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 19:42:35] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 19:42:35] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 19:42:35] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 19:42:35] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 19:42:35] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 19:42:35] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 19:42:38] java.lang.NullPointerException
+[2015-09-23 19:42:38] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 19:42:38] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 19:42:38] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 19:42:38] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 19:42:38] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 19:42:38] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 19:42:38] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 19:42:42] java.lang.NullPointerException
+[2015-09-23 19:42:42] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 19:42:42] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 19:42:42] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 19:42:42] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 19:42:42] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 19:42:42] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 19:42:42] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 19:42:46] java.lang.NullPointerException
+[2015-09-23 19:42:46] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 19:42:46] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 19:42:46] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 19:42:46] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 19:42:46] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 19:42:46] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 19:42:46] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 19:42:51] java.lang.NullPointerException
+[2015-09-23 19:42:51] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 19:42:51] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 19:42:51] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 19:42:51] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 19:42:51] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 19:42:51] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 19:42:51] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 19:42:54] java.lang.NullPointerException
+[2015-09-23 19:42:54] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 19:42:54] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 19:42:54] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 19:42:54] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 19:42:54] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 19:42:54] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 19:42:54] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 19:42:57] java.lang.NullPointerException
+[2015-09-23 19:42:57] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 19:42:57] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 19:42:57] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 19:42:57] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 19:42:57] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 19:42:57] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 19:42:57] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 19:43:00] java.lang.NullPointerException
+[2015-09-23 19:43:00] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 19:43:00] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 19:43:00] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 19:43:00] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 19:43:00] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 19:43:00] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 19:43:00] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 19:43:05] java.lang.NullPointerException
+[2015-09-23 19:43:05] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 19:43:05] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 19:43:05] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 19:43:05] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 19:43:05] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 19:43:05] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 19:43:05] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 19:43:09] java.lang.NullPointerException
+[2015-09-23 19:43:09] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 19:43:09] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 19:43:09] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 19:43:09] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 19:43:09] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 19:43:09] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 19:43:09] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 19:43:24] java.lang.NumberFormatException: For input string: "294t2"
+[2015-09-23 19:43:24] 	at java.lang.NumberFormatException.forInputString(Unknown Source)
+[2015-09-23 19:43:24] 	at java.lang.Long.parseLong(Unknown Source)
+[2015-09-23 19:43:24] 	at java.lang.Long.parseLong(Unknown Source)
+[2015-09-23 19:43:24] 	at com.vencillio.rs2.entity.player.net.in.command.impl.AdministratorCommand.handleCommand(AdministratorCommand.java:157)
+[2015-09-23 19:43:24] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2015-09-23 19:43:24] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2015-09-23 19:43:24] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2015-09-23 19:43:24] 	at com.vencillio.rs2.entity.World.process(World.java:315)
+[2015-09-23 19:43:24] 	at com.vencillio.core.GameThread.cycle(GameThread.java:123)
+[2015-09-23 19:43:24] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 19:45:21] java.lang.NullPointerException
+[2015-09-23 19:45:21] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 19:45:21] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 19:45:21] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 19:45:21] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 19:45:21] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 19:45:21] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 19:45:21] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 19:45:28] java.lang.NullPointerException
+[2015-09-23 19:45:28] 	at com.vencillio.rs2.entity.Entity$1.execute(Entity.java:774)
+[2015-09-23 19:45:28] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 19:45:28] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 19:45:28] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 19:45:28] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 19:47:54] java.lang.NullPointerException
+[2015-09-23 19:47:54] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 19:47:54] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 19:47:54] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 19:47:54] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 19:47:54] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 19:47:54] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 19:47:54] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 19:47:56] java.lang.NullPointerException
+[2015-09-23 19:47:56] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 19:47:56] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 19:47:56] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 19:47:56] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 19:47:56] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 19:47:56] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 19:47:56] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 19:47:59] java.lang.NullPointerException
+[2015-09-23 19:47:59] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 19:47:59] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 19:47:59] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 19:47:59] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 19:47:59] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 19:47:59] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 19:47:59] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 19:48:01] java.lang.NullPointerException
+[2015-09-23 19:48:01] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 19:48:01] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 19:48:01] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 19:48:01] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 19:48:01] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 19:48:01] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 19:48:01] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 19:49:13] java.lang.NullPointerException
+[2015-09-23 19:49:13] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 19:49:13] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 19:49:13] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 19:49:13] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 19:49:13] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 19:49:13] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 19:49:13] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 19:49:15] java.lang.NullPointerException
+[2015-09-23 19:49:15] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 19:49:15] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 19:49:15] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 19:49:15] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 19:49:15] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 19:49:15] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 19:49:15] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 19:49:37] java.lang.NullPointerException
+[2015-09-23 19:49:37] 	at com.vencillio.rs2.entity.Entity$1.execute(Entity.java:774)
+[2015-09-23 19:49:37] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 19:49:37] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 19:49:37] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 19:49:37] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 19:50:00] java.lang.NullPointerException
+[2015-09-23 19:50:00] 	at com.vencillio.rs2.entity.Entity$1.execute(Entity.java:774)
+[2015-09-23 19:50:00] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 19:50:00] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 19:50:00] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 19:50:00] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 19:50:54] java.lang.NullPointerException
+[2015-09-23 19:50:54] 	at com.vencillio.rs2.entity.Entity$1.execute(Entity.java:774)
+[2015-09-23 19:50:54] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 19:50:54] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 19:50:54] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 19:50:54] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 19:51:10] java.lang.NullPointerException
+[2015-09-23 19:51:10] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 19:51:10] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 19:51:10] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 19:51:10] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 19:51:10] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 19:51:10] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 19:51:10] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 19:51:13] java.lang.NullPointerException
+[2015-09-23 19:51:13] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 19:51:13] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 19:51:13] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 19:51:13] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 19:51:13] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 19:51:13] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 19:51:13] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 19:51:16] java.lang.NullPointerException
+[2015-09-23 19:51:16] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 19:51:16] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 19:51:16] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 19:51:16] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 19:51:16] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 19:51:16] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 19:51:16] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 19:51:19] java.lang.NullPointerException
+[2015-09-23 19:51:19] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 19:51:19] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 19:51:19] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 19:51:19] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 19:51:19] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 19:51:19] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 19:51:19] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 19:51:21] java.lang.NullPointerException
+[2015-09-23 19:51:21] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 19:51:21] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 19:51:21] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 19:51:21] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 19:51:21] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 19:51:21] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 19:51:21] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 19:51:24] java.lang.NullPointerException
+[2015-09-23 19:51:24] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 19:51:24] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 19:51:24] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 19:51:24] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 19:51:24] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 19:51:24] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 19:51:24] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 19:51:27] java.lang.NullPointerException
+[2015-09-23 19:51:27] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 19:51:27] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 19:51:27] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 19:51:27] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 19:51:27] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 19:51:27] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 19:51:27] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 19:51:30] java.lang.NullPointerException
+[2015-09-23 19:51:30] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 19:51:30] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 19:51:30] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 19:51:30] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 19:51:30] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 19:51:30] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 19:51:30] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 19:51:33] java.lang.NullPointerException
+[2015-09-23 19:51:33] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 19:51:33] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 19:51:33] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 19:51:33] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 19:51:33] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 19:51:33] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 19:51:33] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 19:51:36] java.lang.NullPointerException
+[2015-09-23 19:51:36] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 19:51:36] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 19:51:36] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 19:51:36] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 19:51:36] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 19:51:36] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 19:51:36] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 19:51:39] java.lang.NullPointerException
+[2015-09-23 19:51:39] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 19:51:39] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 19:51:39] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 19:51:39] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 19:51:39] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 19:51:39] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 19:51:39] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 19:51:42] java.lang.NullPointerException
+[2015-09-23 19:51:42] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 19:51:42] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 19:51:42] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 19:51:42] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 19:51:42] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 19:51:42] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 19:51:42] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 19:51:45] java.lang.NullPointerException
+[2015-09-23 19:51:45] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 19:51:45] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 19:51:45] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 19:51:45] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 19:51:45] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 19:51:45] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 19:51:45] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 19:51:48] java.lang.NullPointerException
+[2015-09-23 19:51:48] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 19:51:48] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 19:51:48] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 19:51:48] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 19:51:48] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 19:51:48] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 19:51:48] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 19:51:51] java.lang.NullPointerException
+[2015-09-23 19:51:51] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 19:51:51] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 19:51:51] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 19:51:51] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 19:51:51] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 19:51:51] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 19:51:51] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 19:51:54] java.lang.NullPointerException
+[2015-09-23 19:51:54] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 19:51:54] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 19:51:54] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 19:51:54] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 19:51:54] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 19:51:54] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 19:51:54] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 19:55:21] java.lang.NullPointerException
+[2015-09-23 19:55:21] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 19:55:21] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 19:55:21] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 19:55:21] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 19:55:21] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 19:55:21] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 19:55:21] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 19:55:21] java.lang.NullPointerException
+[2015-09-23 19:55:21] 	at com.vencillio.rs2.content.combat.PlayerCombatInterface.hit(PlayerCombatInterface.java:305)
+[2015-09-23 19:55:21] 	at com.vencillio.rs2.entity.player.Player.hit(Player.java:1102)
+[2015-09-23 19:55:21] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-09-23 19:55:21] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 19:55:21] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 19:55:21] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 19:55:21] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 19:57:07] java.lang.NumberFormatException: For input string: "super"
+[2015-09-23 19:57:07] 	at java.lang.NumberFormatException.forInputString(Unknown Source)
+[2015-09-23 19:57:07] 	at java.lang.Integer.parseInt(Unknown Source)
+[2015-09-23 19:57:07] 	at java.lang.Integer.parseInt(Unknown Source)
+[2015-09-23 19:57:07] 	at com.vencillio.rs2.entity.player.net.in.command.impl.AdministratorCommand.handleCommand(AdministratorCommand.java:112)
+[2015-09-23 19:57:07] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2015-09-23 19:57:07] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2015-09-23 19:57:07] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2015-09-23 19:57:07] 	at com.vencillio.rs2.entity.World.process(World.java:315)
+[2015-09-23 19:57:07] 	at com.vencillio.core.GameThread.cycle(GameThread.java:123)
+[2015-09-23 19:57:07] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 20:03:01] java.lang.IndexOutOfBoundsException: Readable byte limit exceeded: 12
+[2015-09-23 20:03:01] 	at org.jboss.netty.buffer.AbstractChannelBuffer.readByte(AbstractChannelBuffer.java:236)
+[2015-09-23 20:03:01] 	at com.vencillio.core.network.StreamBuffer$InBuffer.readByte(StreamBuffer.java:120)
+[2015-09-23 20:03:01] 	at com.vencillio.core.network.StreamBuffer$InBuffer.readByte(StreamBuffer.java:107)
+[2015-09-23 20:03:01] 	at com.vencillio.core.network.StreamBuffer$InBuffer.readShort(StreamBuffer.java:467)
+[2015-09-23 20:03:01] 	at com.vencillio.core.network.StreamBuffer$InBuffer.readShort(StreamBuffer.java:412)
+[2015-09-23 20:03:01] 	at com.vencillio.rs2.entity.player.net.in.impl.ItemPackets.handle(ItemPackets.java:796)
+[2015-09-23 20:03:01] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2015-09-23 20:03:01] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2015-09-23 20:03:01] 	at com.vencillio.rs2.entity.World.process(World.java:315)
+[2015-09-23 20:03:01] 	at com.vencillio.core.GameThread.cycle(GameThread.java:123)
+[2015-09-23 20:03:01] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 20:10:35] java.lang.IndexOutOfBoundsException: Readable byte limit exceeded: 12
+[2015-09-23 20:10:35] 	at org.jboss.netty.buffer.AbstractChannelBuffer.readByte(AbstractChannelBuffer.java:236)
+[2015-09-23 20:10:35] 	at com.vencillio.core.network.StreamBuffer$InBuffer.readByte(StreamBuffer.java:120)
+[2015-09-23 20:10:35] 	at com.vencillio.core.network.StreamBuffer$InBuffer.readByte(StreamBuffer.java:107)
+[2015-09-23 20:10:35] 	at com.vencillio.core.network.StreamBuffer$InBuffer.readShort(StreamBuffer.java:467)
+[2015-09-23 20:10:35] 	at com.vencillio.core.network.StreamBuffer$InBuffer.readShort(StreamBuffer.java:412)
+[2015-09-23 20:10:35] 	at com.vencillio.rs2.entity.player.net.in.impl.ItemPackets.handle(ItemPackets.java:796)
+[2015-09-23 20:10:35] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2015-09-23 20:10:35] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2015-09-23 20:10:35] 	at com.vencillio.rs2.entity.World.process(World.java:315)
+[2015-09-23 20:10:35] 	at com.vencillio.core.GameThread.cycle(GameThread.java:123)
+[2015-09-23 20:10:35] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 20:43:34] java.lang.NullPointerException
+[2015-09-23 20:43:34] 	at com.vencillio.rs2.content.skill.mining.Mining$Pickaxe.get(Mining.java:115)
+[2015-09-23 20:43:34] 	at com.vencillio.rs2.content.skill.mining.Mining.clickRock(Mining.java:213)
+[2015-09-23 20:43:34] 	at com.vencillio.rs2.entity.player.WalkToActions.finishObjectClick(WalkToActions.java:921)
+[2015-09-23 20:43:34] 	at com.vencillio.rs2.entity.player.WalkToActions$7.onDestination(WalkToActions.java:269)
+[2015-09-23 20:43:34] 	at com.vencillio.core.task.impl.WalkToTask.execute(WalkToTask.java:39)
+[2015-09-23 20:43:34] 	at com.vencillio.core.task.TaskQueue.queue(TaskQueue.java:117)
+[2015-09-23 20:43:34] 	at com.vencillio.rs2.entity.player.WalkToActions.clickObject(WalkToActions.java:264)
+[2015-09-23 20:43:34] 	at com.vencillio.rs2.entity.player.net.in.impl.ObjectPacket.handle(ObjectPacket.java:71)
+[2015-09-23 20:43:34] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2015-09-23 20:43:34] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2015-09-23 20:43:34] 	at com.vencillio.rs2.entity.World.process(World.java:315)
+[2015-09-23 20:43:34] 	at com.vencillio.core.GameThread.cycle(GameThread.java:123)
+[2015-09-23 20:43:34] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 20:43:37] java.lang.NullPointerException
+[2015-09-23 20:43:37] 	at com.vencillio.rs2.content.skill.mining.Mining$Pickaxe.get(Mining.java:115)
+[2015-09-23 20:43:37] 	at com.vencillio.rs2.content.skill.mining.Mining.clickRock(Mining.java:213)
+[2015-09-23 20:43:37] 	at com.vencillio.rs2.entity.player.WalkToActions.finishObjectClick(WalkToActions.java:921)
+[2015-09-23 20:43:37] 	at com.vencillio.rs2.entity.player.WalkToActions$7.onDestination(WalkToActions.java:269)
+[2015-09-23 20:43:37] 	at com.vencillio.core.task.impl.WalkToTask.execute(WalkToTask.java:39)
+[2015-09-23 20:43:37] 	at com.vencillio.core.task.TaskQueue.queue(TaskQueue.java:117)
+[2015-09-23 20:43:37] 	at com.vencillio.rs2.entity.player.WalkToActions.clickObject(WalkToActions.java:264)
+[2015-09-23 20:43:37] 	at com.vencillio.rs2.entity.player.net.in.impl.ObjectPacket.handle(ObjectPacket.java:71)
+[2015-09-23 20:43:37] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2015-09-23 20:43:37] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2015-09-23 20:43:37] 	at com.vencillio.rs2.entity.World.process(World.java:315)
+[2015-09-23 20:43:37] 	at com.vencillio.core.GameThread.cycle(GameThread.java:123)
+[2015-09-23 20:43:37] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 20:43:41] java.lang.NullPointerException
+[2015-09-23 20:43:41] 	at com.vencillio.rs2.content.skill.mining.Mining$Pickaxe.get(Mining.java:115)
+[2015-09-23 20:43:41] 	at com.vencillio.rs2.content.skill.mining.Mining.clickRock(Mining.java:213)
+[2015-09-23 20:43:41] 	at com.vencillio.rs2.entity.player.WalkToActions.finishObjectClick(WalkToActions.java:921)
+[2015-09-23 20:43:41] 	at com.vencillio.rs2.entity.player.WalkToActions$7.onDestination(WalkToActions.java:269)
+[2015-09-23 20:43:41] 	at com.vencillio.core.task.impl.WalkToTask.execute(WalkToTask.java:39)
+[2015-09-23 20:43:41] 	at com.vencillio.core.task.TaskQueue.queue(TaskQueue.java:117)
+[2015-09-23 20:43:41] 	at com.vencillio.rs2.entity.player.WalkToActions.clickObject(WalkToActions.java:264)
+[2015-09-23 20:43:41] 	at com.vencillio.rs2.entity.player.net.in.impl.ObjectPacket.handle(ObjectPacket.java:71)
+[2015-09-23 20:43:41] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2015-09-23 20:43:41] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2015-09-23 20:43:41] 	at com.vencillio.rs2.entity.World.process(World.java:315)
+[2015-09-23 20:43:41] 	at com.vencillio.core.GameThread.cycle(GameThread.java:123)
+[2015-09-23 20:43:41] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 20:43:51] java.lang.NullPointerException
+[2015-09-23 20:43:51] 	at com.vencillio.rs2.content.skill.mining.Mining$Pickaxe.get(Mining.java:115)
+[2015-09-23 20:43:51] 	at com.vencillio.rs2.content.skill.mining.Mining.clickRock(Mining.java:213)
+[2015-09-23 20:43:51] 	at com.vencillio.rs2.entity.player.WalkToActions.finishObjectClick(WalkToActions.java:921)
+[2015-09-23 20:43:51] 	at com.vencillio.rs2.entity.player.WalkToActions$7.onDestination(WalkToActions.java:269)
+[2015-09-23 20:43:51] 	at com.vencillio.core.task.impl.WalkToTask.execute(WalkToTask.java:39)
+[2015-09-23 20:43:51] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-23 20:43:51] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-23 20:43:51] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-23 20:43:51] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 20:43:53] java.lang.NullPointerException
+[2015-09-23 20:43:53] 	at com.vencillio.rs2.content.skill.mining.Mining$Pickaxe.get(Mining.java:115)
+[2015-09-23 20:43:53] 	at com.vencillio.rs2.content.skill.mining.Mining.clickRock(Mining.java:213)
+[2015-09-23 20:43:53] 	at com.vencillio.rs2.entity.player.WalkToActions.finishObjectClick(WalkToActions.java:921)
+[2015-09-23 20:43:53] 	at com.vencillio.rs2.entity.player.WalkToActions$7.onDestination(WalkToActions.java:269)
+[2015-09-23 20:43:53] 	at com.vencillio.core.task.impl.WalkToTask.execute(WalkToTask.java:39)
+[2015-09-23 20:43:53] 	at com.vencillio.core.task.TaskQueue.queue(TaskQueue.java:117)
+[2015-09-23 20:43:53] 	at com.vencillio.rs2.entity.player.WalkToActions.clickObject(WalkToActions.java:264)
+[2015-09-23 20:43:53] 	at com.vencillio.rs2.entity.player.net.in.impl.ObjectPacket.handle(ObjectPacket.java:71)
+[2015-09-23 20:43:53] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2015-09-23 20:43:53] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2015-09-23 20:43:53] 	at com.vencillio.rs2.entity.World.process(World.java:315)
+[2015-09-23 20:43:53] 	at com.vencillio.core.GameThread.cycle(GameThread.java:123)
+[2015-09-23 20:43:53] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 20:43:54] java.lang.NullPointerException
+[2015-09-23 20:43:54] 	at com.vencillio.rs2.content.skill.mining.Mining$Pickaxe.get(Mining.java:115)
+[2015-09-23 20:43:54] 	at com.vencillio.rs2.content.skill.mining.Mining.clickRock(Mining.java:213)
+[2015-09-23 20:43:54] 	at com.vencillio.rs2.entity.player.WalkToActions.finishObjectClick(WalkToActions.java:921)
+[2015-09-23 20:43:54] 	at com.vencillio.rs2.entity.player.WalkToActions$7.onDestination(WalkToActions.java:269)
+[2015-09-23 20:43:54] 	at com.vencillio.core.task.impl.WalkToTask.execute(WalkToTask.java:39)
+[2015-09-23 20:43:54] 	at com.vencillio.core.task.TaskQueue.queue(TaskQueue.java:117)
+[2015-09-23 20:43:54] 	at com.vencillio.rs2.entity.player.WalkToActions.clickObject(WalkToActions.java:264)
+[2015-09-23 20:43:54] 	at com.vencillio.rs2.entity.player.net.in.impl.ObjectPacket.handle(ObjectPacket.java:71)
+[2015-09-23 20:43:54] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2015-09-23 20:43:54] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2015-09-23 20:43:54] 	at com.vencillio.rs2.entity.World.process(World.java:315)
+[2015-09-23 20:43:54] 	at com.vencillio.core.GameThread.cycle(GameThread.java:123)
+[2015-09-23 20:43:54] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 20:43:56] java.lang.NumberFormatException: For input string: "give"
+[2015-09-23 20:43:56] 	at java.lang.NumberFormatException.forInputString(Unknown Source)
+[2015-09-23 20:43:56] 	at java.lang.Integer.parseInt(Unknown Source)
+[2015-09-23 20:43:56] 	at java.lang.Integer.parseInt(Unknown Source)
+[2015-09-23 20:43:56] 	at com.vencillio.rs2.entity.player.net.in.command.CommandParser.nextInt(CommandParser.java:46)
+[2015-09-23 20:43:56] 	at com.vencillio.rs2.entity.player.net.in.command.impl.AdministratorCommand.handleCommand(AdministratorCommand.java:153)
+[2015-09-23 20:43:56] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2015-09-23 20:43:56] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2015-09-23 20:43:56] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2015-09-23 20:43:56] 	at com.vencillio.rs2.entity.World.process(World.java:315)
+[2015-09-23 20:43:56] 	at com.vencillio.core.GameThread.cycle(GameThread.java:123)
+[2015-09-23 20:43:56] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 20:47:54] java.lang.NumberFormatException: For input string: "WIN_10_WEAPON_GAMES"
+[2015-09-23 20:47:54] 	at java.lang.NumberFormatException.forInputString(Unknown Source)
+[2015-09-23 20:47:54] 	at java.lang.Integer.parseInt(Unknown Source)
+[2015-09-23 20:47:54] 	at java.lang.Integer.parseInt(Unknown Source)
+[2015-09-23 20:47:54] 	at com.vencillio.rs2.content.LoyaltyShop.handleButtons(LoyaltyShop.java:164)
+[2015-09-23 20:47:54] 	at com.vencillio.rs2.entity.player.net.in.impl.ClickButtonPacket.handle(ClickButtonPacket.java:156)
+[2015-09-23 20:47:54] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2015-09-23 20:47:54] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2015-09-23 20:47:54] 	at com.vencillio.rs2.entity.World.process(World.java:315)
+[2015-09-23 20:47:54] 	at com.vencillio.core.GameThread.cycle(GameThread.java:123)
+[2015-09-23 20:47:54] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 21:08:24] java.lang.ArrayIndexOutOfBoundsException: 25
+[2015-09-23 21:08:24] 	at com.vencillio.rs2.entity.player.net.in.command.impl.PlayerCommand.handleCommand(PlayerCommand.java:301)
+[2015-09-23 21:08:24] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2015-09-23 21:08:24] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2015-09-23 21:08:24] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2015-09-23 21:08:24] 	at com.vencillio.rs2.entity.World.process(World.java:315)
+[2015-09-23 21:08:24] 	at com.vencillio.core.GameThread.cycle(GameThread.java:123)
+[2015-09-23 21:08:24] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-23 21:31:06] java.lang.NullPointerException
+[2015-09-23 21:31:08] java.lang.NullPointerException
+[2015-09-23 21:31:11] java.lang.NullPointerException
+[2015-09-23 21:31:14] java.lang.NullPointerException
+[2015-09-23 21:31:19] java.lang.NullPointerException
+[2015-09-23 21:31:22] java.lang.NullPointerException
+[2015-09-23 21:31:25] java.lang.NullPointerException
+[2015-09-23 21:31:28] java.lang.NullPointerException
+[2015-09-23 21:31:31] java.lang.NullPointerException
+[2015-09-23 21:31:34] java.lang.NullPointerException
+[2015-09-23 21:31:37] java.lang.NullPointerException
+[2015-09-23 21:31:51] java.lang.NullPointerException
+[2015-09-23 21:31:54] java.lang.NullPointerException
+[2015-09-23 21:31:57] java.lang.NullPointerException
+[2015-09-23 21:32:00] java.lang.NullPointerException
+[2015-09-23 21:32:03] java.lang.NullPointerException
+[2015-09-23 21:33:02] java.lang.NullPointerException
+[2015-09-23 22:07:27] java.lang.NullPointerException
+[2015-09-23 22:07:29] java.lang.NullPointerException
+[2015-09-23 22:07:32] java.lang.NullPointerException
+[2015-09-23 22:07:34] java.lang.NullPointerException
+[2015-09-23 22:07:36] java.lang.NullPointerException
+[2015-09-23 22:07:39] java.lang.NullPointerException
+[2015-09-23 22:07:41] java.lang.NullPointerException
+[2015-09-23 22:07:43] java.lang.NullPointerException
+[2015-09-23 22:07:46] java.lang.NullPointerException
+[2015-09-23 22:07:48] java.lang.NullPointerException
+[2015-09-23 22:07:50] java.lang.NullPointerException
+[2015-09-23 22:07:53] java.lang.NullPointerException
+[2015-09-23 22:07:55] java.lang.NullPointerException
+[2015-09-23 22:07:58] java.lang.NullPointerException
+[2015-09-23 22:08:00] java.lang.NullPointerException
+[2015-09-23 22:08:02] java.lang.NullPointerException
+[2015-09-23 22:08:05] java.lang.NullPointerException
+[2015-09-23 22:08:07] java.lang.NullPointerException
+[2015-09-23 22:14:23] java.lang.NullPointerException
+[2015-09-23 22:35:41] java.lang.NullPointerException
+[2015-09-23 22:35:44] java.lang.NullPointerException
+[2015-09-23 22:35:47] java.lang.NullPointerException
+[2015-09-23 22:35:50] java.lang.NullPointerException
+[2015-09-23 22:35:53] java.lang.NullPointerException
+[2015-09-23 22:46:05] java.lang.NullPointerException
+[2015-09-23 22:54:08] java.lang.NullPointerException
+[2015-09-23 22:54:12] java.lang.NullPointerException
+[2015-09-23 22:54:16] java.lang.NullPointerException
+[2015-09-23 22:54:20] java.lang.NullPointerException
+[2015-09-23 22:54:45] java.lang.NullPointerException
+[2015-09-23 22:54:50] java.lang.NullPointerException
+[2015-09-23 22:54:54] java.lang.NullPointerException
+[2015-09-23 22:54:58] java.lang.NullPointerException
+[2015-09-23 22:55:43] java.lang.NullPointerException
+[2015-09-23 22:55:47] java.lang.NullPointerException
+[2015-09-23 22:55:53] java.lang.NullPointerException
+[2015-09-23 23:03:38] java.lang.NullPointerException
+[2015-09-23 23:03:41] java.lang.NullPointerException
+[2015-09-23 23:03:46] java.lang.NullPointerException
+[2015-09-23 23:03:49] java.lang.NullPointerException
+[2015-09-23 23:03:50] java.lang.NullPointerException
+[2015-09-23 23:03:53] java.lang.NullPointerException
+[2015-09-23 23:03:54] java.lang.NullPointerException
+[2015-09-23 23:03:57] java.lang.NullPointerException
+[2015-09-23 23:04:00] java.lang.NullPointerException
+[2015-09-23 23:04:03] java.lang.NullPointerException
+[2015-09-23 23:04:03] java.lang.NullPointerException
+[2015-09-23 23:04:05] java.lang.NullPointerException
+[2015-09-23 23:04:07] java.lang.NullPointerException
+[2015-09-23 23:04:09] java.lang.NullPointerException
+[2015-09-23 23:04:12] java.lang.NullPointerException
+[2015-09-23 23:04:16] java.lang.NullPointerException
+[2015-09-23 23:04:20] java.lang.NullPointerException
+[2015-09-23 23:04:22] java.lang.NullPointerException
+[2015-09-23 23:04:23] java.lang.NullPointerException
+[2015-09-23 23:04:26] java.lang.NullPointerException
+[2015-09-23 23:04:27] java.lang.NullPointerException
+[2015-09-23 23:12:45] java.lang.NullPointerException
+[2015-09-23 23:12:49] java.lang.NullPointerException
+[2015-09-23 23:12:52] java.lang.NullPointerException
+[2015-09-23 23:14:02] java.lang.NullPointerException
+[2015-09-23 23:14:06] java.lang.NullPointerException
+[2015-09-23 23:14:10] java.lang.NullPointerException
+[2015-09-23 23:14:13] java.lang.NullPointerException
+[2015-09-23 23:14:17] java.lang.NullPointerException
+[2015-09-23 23:14:20] java.lang.NullPointerException
+[2015-09-23 23:14:24] java.lang.NullPointerException
+[2015-09-23 23:14:27] java.lang.NullPointerException
+[2015-09-23 23:14:31] java.lang.NullPointerException
+[2015-09-23 23:14:34] java.lang.NullPointerException
+[2015-09-23 23:14:38] java.lang.NullPointerException
+[2015-09-23 23:14:38] java.lang.NullPointerException
+[2015-09-23 23:14:40] java.lang.NullPointerException
+[2015-09-23 23:14:41] java.lang.NullPointerException
+[2015-09-23 23:22:24] java.lang.NullPointerException
+[2015-09-23 23:22:28] java.lang.NullPointerException
+[2015-09-23 23:22:32] java.lang.NullPointerException
+[2015-09-23 23:22:36] java.lang.NullPointerException
+[2015-09-23 23:22:40] java.lang.NullPointerException
+[2015-09-23 23:22:44] java.lang.NullPointerException
+[2015-09-23 23:22:49] java.lang.NullPointerException
+[2015-09-23 23:22:53] java.lang.NullPointerException
+[2015-09-23 23:22:57] java.lang.NullPointerException
+[2015-09-23 23:23:01] java.lang.NullPointerException
+[2015-09-23 23:27:37] java.lang.NullPointerException
+[2015-09-23 23:27:41] java.lang.NullPointerException
+[2015-09-23 23:27:45] java.lang.NullPointerException
+[2015-09-23 23:27:49] java.lang.NullPointerException
+[2015-09-23 23:27:53] java.lang.NullPointerException
+[2015-09-23 23:28:48] java.lang.NullPointerException
+[2015-09-23 23:31:47] java.lang.NullPointerException
+[2015-09-23 23:34:34] java.lang.NullPointerException
+[2015-09-23 23:40:20] java.lang.NullPointerException
+[2015-09-23 23:43:21] java.lang.NullPointerException
+[2015-09-23 23:46:57] java.lang.NullPointerException
+[2015-09-23 23:49:58] java.lang.NullPointerException
+[2015-09-23 23:52:26] java.lang.NullPointerException
+[2015-09-24 00:00:06] java.lang.NullPointerException
+[2015-09-24 00:00:09] java.lang.NullPointerException
+[2015-09-24 00:00:12] java.lang.NullPointerException
+[2015-09-24 00:00:15] java.lang.NullPointerException
+[2015-09-24 00:00:18] java.lang.NullPointerException
+[2015-09-24 00:00:21] java.lang.NullPointerException
+[2015-09-24 00:00:24] java.lang.NullPointerException
+[2015-09-24 00:00:27] java.lang.NullPointerException
+[2015-09-24 00:00:30] java.lang.NullPointerException
+[2015-09-24 00:00:33] java.lang.NullPointerException
+[2015-09-24 00:00:36] java.lang.NullPointerException
+[2015-09-24 00:00:39] java.lang.NullPointerException
+[2015-09-24 00:00:41] java.lang.NullPointerException
+[2015-09-24 00:00:44] java.lang.NullPointerException
+[2015-09-24 00:00:47] java.lang.NullPointerException
+[2015-09-24 00:00:50] java.lang.NullPointerException
+[2015-09-24 00:00:57] java.lang.NullPointerException
+[2015-09-24 00:01:00] java.lang.NullPointerException
+[2015-09-24 00:01:03] java.lang.NullPointerException
+[2015-09-24 00:01:06] java.lang.NullPointerException
+[2015-09-24 00:01:09] java.lang.NullPointerException
+[2015-09-24 00:05:15] java.lang.NullPointerException
+[2015-09-24 00:05:16] java.lang.NullPointerException
+[2015-09-24 00:05:20] java.lang.NullPointerException
+[2015-09-24 00:05:21] java.lang.NullPointerException
+[2015-09-24 00:06:30] java.lang.NullPointerException
+[2015-09-24 00:06:35] java.lang.NullPointerException
+[2015-09-24 00:06:39] java.lang.NullPointerException
+[2015-09-24 00:06:39] java.lang.NullPointerException
+[2015-09-24 00:06:42] java.lang.NullPointerException
+[2015-09-24 00:06:42] java.lang.NullPointerException
+[2015-09-24 00:13:34] java.lang.IndexOutOfBoundsException: Readable byte limit exceeded: 12
+[2015-09-24 00:13:34] 	at org.jboss.netty.buffer.AbstractChannelBuffer.readByte(AbstractChannelBuffer.java:236)
+[2015-09-24 00:13:34] 	at com.vencillio.core.network.StreamBuffer$InBuffer.readByte(StreamBuffer.java:120)
+[2015-09-24 00:13:34] 	at com.vencillio.core.network.StreamBuffer$InBuffer.readByte(StreamBuffer.java:107)
+[2015-09-24 00:13:34] 	at com.vencillio.core.network.StreamBuffer$InBuffer.readShort(StreamBuffer.java:467)
+[2015-09-24 00:13:34] 	at com.vencillio.core.network.StreamBuffer$InBuffer.readShort(StreamBuffer.java:412)
+[2015-09-24 00:13:34] 	at com.vencillio.rs2.entity.player.net.in.impl.ItemPackets.handle(ItemPackets.java:796)
+[2015-09-24 00:13:34] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2015-09-24 00:13:34] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2015-09-24 00:13:34] 	at com.vencillio.rs2.entity.World.process(World.java:315)
+[2015-09-24 00:13:34] 	at com.vencillio.core.GameThread.cycle(GameThread.java:123)
+[2015-09-24 00:13:34] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-24 00:46:55] java.lang.NullPointerException
+[2015-09-24 00:51:48] java.lang.NullPointerException
+[2015-09-24 00:51:48] 	at com.vencillio.rs2.content.skill.mining.Mining$Pickaxe.get(Mining.java:115)
+[2015-09-24 00:51:48] 	at com.vencillio.rs2.content.skill.mining.Mining.clickRock(Mining.java:213)
+[2015-09-24 00:51:48] 	at com.vencillio.rs2.entity.player.WalkToActions.finishObjectClick(WalkToActions.java:921)
+[2015-09-24 00:51:48] 	at com.vencillio.rs2.entity.player.WalkToActions$7.onDestination(WalkToActions.java:269)
+[2015-09-24 00:51:48] 	at com.vencillio.core.task.impl.WalkToTask.execute(WalkToTask.java:39)
+[2015-09-24 00:51:48] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-24 00:51:48] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-24 00:51:48] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-24 00:51:48] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-24 00:51:51] java.lang.NullPointerException
+[2015-09-24 00:51:51] 	at com.vencillio.rs2.content.skill.mining.Mining$Pickaxe.get(Mining.java:115)
+[2015-09-24 00:51:51] 	at com.vencillio.rs2.content.skill.mining.Mining.clickRock(Mining.java:213)
+[2015-09-24 00:51:51] 	at com.vencillio.rs2.entity.player.WalkToActions.finishObjectClick(WalkToActions.java:921)
+[2015-09-24 00:51:51] 	at com.vencillio.rs2.entity.player.WalkToActions$7.onDestination(WalkToActions.java:269)
+[2015-09-24 00:51:51] 	at com.vencillio.core.task.impl.WalkToTask.execute(WalkToTask.java:39)
+[2015-09-24 00:51:51] 	at com.vencillio.core.task.TaskQueue.queue(TaskQueue.java:117)
+[2015-09-24 00:51:51] 	at com.vencillio.rs2.entity.player.WalkToActions.clickObject(WalkToActions.java:264)
+[2015-09-24 00:51:51] 	at com.vencillio.rs2.entity.player.net.in.impl.ObjectPacket.handle(ObjectPacket.java:71)
+[2015-09-24 00:51:51] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2015-09-24 00:51:51] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2015-09-24 00:51:51] 	at com.vencillio.rs2.entity.World.process(World.java:315)
+[2015-09-24 00:51:51] 	at com.vencillio.core.GameThread.cycle(GameThread.java:123)
+[2015-09-24 00:51:51] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-24 00:51:52] java.lang.NullPointerException
+[2015-09-24 00:51:52] 	at com.vencillio.rs2.content.skill.mining.Mining$Pickaxe.get(Mining.java:115)
+[2015-09-24 00:51:52] 	at com.vencillio.rs2.content.skill.mining.Mining.clickRock(Mining.java:213)
+[2015-09-24 00:51:52] 	at com.vencillio.rs2.entity.player.WalkToActions.finishObjectClick(WalkToActions.java:921)
+[2015-09-24 00:51:52] 	at com.vencillio.rs2.entity.player.WalkToActions$7.onDestination(WalkToActions.java:269)
+[2015-09-24 00:51:52] 	at com.vencillio.core.task.impl.WalkToTask.execute(WalkToTask.java:39)
+[2015-09-24 00:51:52] 	at com.vencillio.core.task.TaskQueue.queue(TaskQueue.java:117)
+[2015-09-24 00:51:52] 	at com.vencillio.rs2.entity.player.WalkToActions.clickObject(WalkToActions.java:264)
+[2015-09-24 00:51:52] 	at com.vencillio.rs2.entity.player.net.in.impl.ObjectPacket.handle(ObjectPacket.java:71)
+[2015-09-24 00:51:52] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2015-09-24 00:51:52] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2015-09-24 00:51:52] 	at com.vencillio.rs2.entity.World.process(World.java:315)
+[2015-09-24 00:51:52] 	at com.vencillio.core.GameThread.cycle(GameThread.java:123)
+[2015-09-24 00:51:52] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-24 00:51:54] java.lang.NullPointerException
+[2015-09-24 00:51:54] 	at com.vencillio.rs2.content.skill.mining.Mining$Pickaxe.get(Mining.java:115)
+[2015-09-24 00:51:54] 	at com.vencillio.rs2.content.skill.mining.Mining.clickRock(Mining.java:213)
+[2015-09-24 00:51:54] 	at com.vencillio.rs2.entity.player.WalkToActions.finishObjectClick(WalkToActions.java:921)
+[2015-09-24 00:51:54] 	at com.vencillio.rs2.entity.player.WalkToActions$7.onDestination(WalkToActions.java:269)
+[2015-09-24 00:51:54] 	at com.vencillio.core.task.impl.WalkToTask.execute(WalkToTask.java:39)
+[2015-09-24 00:51:54] 	at com.vencillio.core.task.TaskQueue.queue(TaskQueue.java:117)
+[2015-09-24 00:51:54] 	at com.vencillio.rs2.entity.player.WalkToActions.clickObject(WalkToActions.java:264)
+[2015-09-24 00:51:54] 	at com.vencillio.rs2.entity.player.net.in.impl.ObjectPacket.handle(ObjectPacket.java:71)
+[2015-09-24 00:51:54] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2015-09-24 00:51:54] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2015-09-24 00:51:54] 	at com.vencillio.rs2.entity.World.process(World.java:315)
+[2015-09-24 00:51:54] 	at com.vencillio.core.GameThread.cycle(GameThread.java:123)
+[2015-09-24 00:51:54] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-24 00:51:55] java.lang.NullPointerException
+[2015-09-24 00:51:55] 	at com.vencillio.rs2.content.skill.mining.Mining$Pickaxe.get(Mining.java:115)
+[2015-09-24 00:51:55] 	at com.vencillio.rs2.content.skill.mining.Mining.clickRock(Mining.java:213)
+[2015-09-24 00:51:55] 	at com.vencillio.rs2.entity.player.WalkToActions.finishObjectClick(WalkToActions.java:921)
+[2015-09-24 00:51:55] 	at com.vencillio.rs2.entity.player.WalkToActions$7.onDestination(WalkToActions.java:269)
+[2015-09-24 00:51:55] 	at com.vencillio.core.task.impl.WalkToTask.execute(WalkToTask.java:39)
+[2015-09-24 00:51:55] 	at com.vencillio.core.task.TaskQueue.queue(TaskQueue.java:117)
+[2015-09-24 00:51:55] 	at com.vencillio.rs2.entity.player.WalkToActions.clickObject(WalkToActions.java:264)
+[2015-09-24 00:51:55] 	at com.vencillio.rs2.entity.player.net.in.impl.ObjectPacket.handle(ObjectPacket.java:71)
+[2015-09-24 00:51:55] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2015-09-24 00:51:55] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2015-09-24 00:51:55] 	at com.vencillio.rs2.entity.World.process(World.java:315)
+[2015-09-24 00:51:55] 	at com.vencillio.core.GameThread.cycle(GameThread.java:123)
+[2015-09-24 00:51:55] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-24 00:52:00] java.lang.NullPointerException
+[2015-09-24 00:52:00] 	at com.vencillio.rs2.content.skill.mining.Mining$Pickaxe.get(Mining.java:115)
+[2015-09-24 00:52:00] 	at com.vencillio.rs2.content.skill.mining.Mining.clickRock(Mining.java:213)
+[2015-09-24 00:52:00] 	at com.vencillio.rs2.entity.player.WalkToActions.finishObjectClick(WalkToActions.java:921)
+[2015-09-24 00:52:00] 	at com.vencillio.rs2.entity.player.WalkToActions$7.onDestination(WalkToActions.java:269)
+[2015-09-24 00:52:00] 	at com.vencillio.core.task.impl.WalkToTask.execute(WalkToTask.java:39)
+[2015-09-24 00:52:00] 	at com.vencillio.core.task.TaskQueue.queue(TaskQueue.java:117)
+[2015-09-24 00:52:00] 	at com.vencillio.rs2.entity.player.WalkToActions.clickObject(WalkToActions.java:264)
+[2015-09-24 00:52:00] 	at com.vencillio.rs2.entity.player.net.in.impl.ObjectPacket.handle(ObjectPacket.java:71)
+[2015-09-24 00:52:00] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2015-09-24 00:52:00] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2015-09-24 00:52:00] 	at com.vencillio.rs2.entity.World.process(World.java:315)
+[2015-09-24 00:52:00] 	at com.vencillio.core.GameThread.cycle(GameThread.java:123)
+[2015-09-24 00:52:00] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-24 00:52:02] java.lang.NullPointerException
+[2015-09-24 00:52:02] 	at com.vencillio.rs2.content.skill.mining.Mining$Pickaxe.get(Mining.java:115)
+[2015-09-24 00:52:02] 	at com.vencillio.rs2.content.skill.mining.Mining.clickRock(Mining.java:213)
+[2015-09-24 00:52:02] 	at com.vencillio.rs2.entity.player.WalkToActions.finishObjectClick(WalkToActions.java:921)
+[2015-09-24 00:52:02] 	at com.vencillio.rs2.entity.player.WalkToActions$7.onDestination(WalkToActions.java:269)
+[2015-09-24 00:52:02] 	at com.vencillio.core.task.impl.WalkToTask.execute(WalkToTask.java:39)
+[2015-09-24 00:52:02] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-24 00:52:02] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-24 00:52:02] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-24 00:52:02] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-24 00:52:04] java.lang.NullPointerException
+[2015-09-24 00:52:04] 	at com.vencillio.rs2.content.skill.mining.Mining$Pickaxe.get(Mining.java:115)
+[2015-09-24 00:52:04] 	at com.vencillio.rs2.content.skill.mining.Mining.clickRock(Mining.java:213)
+[2015-09-24 00:52:04] 	at com.vencillio.rs2.entity.player.WalkToActions.finishObjectClick(WalkToActions.java:921)
+[2015-09-24 00:52:04] 	at com.vencillio.rs2.entity.player.WalkToActions$7.onDestination(WalkToActions.java:269)
+[2015-09-24 00:52:04] 	at com.vencillio.core.task.impl.WalkToTask.execute(WalkToTask.java:39)
+[2015-09-24 00:52:04] 	at com.vencillio.core.task.TaskQueue.queue(TaskQueue.java:117)
+[2015-09-24 00:52:04] 	at com.vencillio.rs2.entity.player.WalkToActions.clickObject(WalkToActions.java:264)
+[2015-09-24 00:52:04] 	at com.vencillio.rs2.entity.player.net.in.impl.ObjectPacket.handle(ObjectPacket.java:71)
+[2015-09-24 00:52:04] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2015-09-24 00:52:04] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2015-09-24 00:52:04] 	at com.vencillio.rs2.entity.World.process(World.java:315)
+[2015-09-24 00:52:04] 	at com.vencillio.core.GameThread.cycle(GameThread.java:123)
+[2015-09-24 00:52:04] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-24 00:52:05] java.lang.NullPointerException
+[2015-09-24 00:52:23] 	at com.vencillio.rs2.content.skill.mining.Mining$Pickaxe.get(Mining.java:115)
+[2015-09-24 00:52:23] 	at com.vencillio.rs2.content.skill.mining.Mining.clickRock(Mining.java:213)
+[2015-09-24 00:52:23] 	at com.vencillio.rs2.entity.player.WalkToActions.finishObjectClick(WalkToActions.java:921)
+[2015-09-24 00:52:23] 	at com.vencillio.rs2.entity.player.WalkToActions$7.onDestination(WalkToActions.java:269)
+[2015-09-24 00:52:23] 	at com.vencillio.core.task.impl.WalkToTask.execute(WalkToTask.java:39)
+[2015-09-24 00:52:23] 	at com.vencillio.core.task.TaskQueue.queue(TaskQueue.java:117)
+[2015-09-24 00:52:23] 	at com.vencillio.rs2.entity.player.WalkToActions.clickObject(WalkToActions.java:264)
+[2015-09-24 00:52:23] 	at com.vencillio.rs2.entity.player.net.in.impl.ObjectPacket.handle(ObjectPacket.java:71)
+[2015-09-24 00:52:23] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2015-09-24 00:52:23] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2015-09-24 00:52:23] 	at com.vencillio.rs2.entity.World.process(World.java:315)
+[2015-09-24 00:52:23] 	at com.vencillio.core.GameThread.cycle(GameThread.java:123)
+[2015-09-24 00:52:23] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-24 00:52:59] java.lang.NullPointerException
+[2015-09-24 00:52:59] 	at com.vencillio.rs2.content.skill.mining.Mining$Pickaxe.get(Mining.java:115)
+[2015-09-24 00:52:59] 	at com.vencillio.rs2.content.skill.mining.Mining.clickRock(Mining.java:213)
+[2015-09-24 00:52:59] 	at com.vencillio.rs2.entity.player.WalkToActions.finishObjectClick(WalkToActions.java:921)
+[2015-09-24 00:52:59] 	at com.vencillio.rs2.entity.player.WalkToActions$7.onDestination(WalkToActions.java:269)
+[2015-09-24 00:52:59] 	at com.vencillio.core.task.impl.WalkToTask.execute(WalkToTask.java:39)
+[2015-09-24 00:52:59] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-24 00:52:59] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-24 00:52:59] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-24 00:52:59] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-24 00:53:02] java.lang.NullPointerException
+[2015-09-24 00:53:02] 	at com.vencillio.rs2.content.skill.mining.Mining$Pickaxe.get(Mining.java:115)
+[2015-09-24 00:53:02] 	at com.vencillio.rs2.content.skill.mining.Mining.clickRock(Mining.java:213)
+[2015-09-24 00:53:02] 	at com.vencillio.rs2.entity.player.WalkToActions.finishObjectClick(WalkToActions.java:921)
+[2015-09-24 00:53:02] 	at com.vencillio.rs2.entity.player.WalkToActions$7.onDestination(WalkToActions.java:269)
+[2015-09-24 00:53:02] 	at com.vencillio.core.task.impl.WalkToTask.execute(WalkToTask.java:39)
+[2015-09-24 00:53:02] 	at com.vencillio.core.task.TaskQueue.queue(TaskQueue.java:117)
+[2015-09-24 00:53:02] 	at com.vencillio.rs2.entity.player.WalkToActions.clickObject(WalkToActions.java:264)
+[2015-09-24 00:53:02] 	at com.vencillio.rs2.entity.player.net.in.impl.ObjectPacket.handle(ObjectPacket.java:71)
+[2015-09-24 00:53:02] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2015-09-24 00:53:02] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2015-09-24 00:53:02] 	at com.vencillio.rs2.entity.World.process(World.java:315)
+[2015-09-24 00:53:02] 	at com.vencillio.core.GameThread.cycle(GameThread.java:123)
+[2015-09-24 00:53:02] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-24 00:53:12] java.lang.NullPointerException
+[2015-09-24 00:53:12] 	at com.vencillio.rs2.content.skill.mining.Mining$Pickaxe.get(Mining.java:115)
+[2015-09-24 00:53:12] 	at com.vencillio.rs2.content.skill.mining.Mining.clickRock(Mining.java:213)
+[2015-09-24 00:53:12] 	at com.vencillio.rs2.entity.player.WalkToActions.finishObjectClick(WalkToActions.java:921)
+[2015-09-24 00:53:12] 	at com.vencillio.rs2.entity.player.WalkToActions$7.onDestination(WalkToActions.java:269)
+[2015-09-24 00:53:12] 	at com.vencillio.core.task.impl.WalkToTask.execute(WalkToTask.java:39)
+[2015-09-24 00:53:12] 	at com.vencillio.core.task.TaskQueue.queue(TaskQueue.java:117)
+[2015-09-24 00:53:12] 	at com.vencillio.rs2.entity.player.WalkToActions.clickObject(WalkToActions.java:264)
+[2015-09-24 00:53:12] 	at com.vencillio.rs2.entity.player.net.in.impl.ObjectPacket.handle(ObjectPacket.java:71)
+[2015-09-24 00:53:12] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2015-09-24 00:53:12] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2015-09-24 00:53:12] 	at com.vencillio.rs2.entity.World.process(World.java:315)
+[2015-09-24 00:53:12] 	at com.vencillio.core.GameThread.cycle(GameThread.java:123)
+[2015-09-24 00:53:12] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-24 00:53:16] java.lang.NullPointerException
+[2015-09-24 00:53:16] 	at com.vencillio.rs2.content.skill.mining.Mining$Pickaxe.get(Mining.java:115)
+[2015-09-24 00:53:16] 	at com.vencillio.rs2.content.skill.mining.Mining.clickRock(Mining.java:213)
+[2015-09-24 00:53:16] 	at com.vencillio.rs2.entity.player.WalkToActions.finishObjectClick(WalkToActions.java:921)
+[2015-09-24 00:53:16] 	at com.vencillio.rs2.entity.player.WalkToActions$7.onDestination(WalkToActions.java:269)
+[2015-09-24 00:53:16] 	at com.vencillio.core.task.impl.WalkToTask.execute(WalkToTask.java:39)
+[2015-09-24 00:53:16] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-24 00:53:16] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-24 00:53:16] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-24 00:53:16] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-24 00:53:18] java.lang.NullPointerException
+[2015-09-24 00:53:18] 	at com.vencillio.rs2.content.skill.mining.Mining$Pickaxe.get(Mining.java:115)
+[2015-09-24 00:53:18] 	at com.vencillio.rs2.content.skill.mining.Mining.clickRock(Mining.java:213)
+[2015-09-24 00:53:18] 	at com.vencillio.rs2.entity.player.WalkToActions.finishObjectClick(WalkToActions.java:921)
+[2015-09-24 00:53:18] 	at com.vencillio.rs2.entity.player.WalkToActions$7.onDestination(WalkToActions.java:269)
+[2015-09-24 00:53:18] 	at com.vencillio.core.task.impl.WalkToTask.execute(WalkToTask.java:39)
+[2015-09-24 00:53:18] 	at com.vencillio.core.task.TaskQueue.queue(TaskQueue.java:117)
+[2015-09-24 00:53:18] 	at com.vencillio.rs2.entity.player.WalkToActions.clickObject(WalkToActions.java:264)
+[2015-09-24 00:53:18] 	at com.vencillio.rs2.entity.player.net.in.impl.ObjectPacket.handle(ObjectPacket.java:71)
+[2015-09-24 00:53:18] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2015-09-24 00:53:18] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2015-09-24 00:53:18] 	at com.vencillio.rs2.entity.World.process(World.java:315)
+[2015-09-24 00:53:18] 	at com.vencillio.core.GameThread.cycle(GameThread.java:123)
+[2015-09-24 00:53:18] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-24 00:53:18] java.lang.NullPointerException
+[2015-09-24 00:53:18] 	at com.vencillio.rs2.content.skill.mining.Mining$Pickaxe.get(Mining.java:115)
+[2015-09-24 00:53:18] 	at com.vencillio.rs2.content.skill.mining.Mining.clickRock(Mining.java:213)
+[2015-09-24 00:53:18] 	at com.vencillio.rs2.entity.player.WalkToActions.finishObjectClick(WalkToActions.java:921)
+[2015-09-24 00:53:18] 	at com.vencillio.rs2.entity.player.WalkToActions$7.onDestination(WalkToActions.java:269)
+[2015-09-24 00:53:18] 	at com.vencillio.core.task.impl.WalkToTask.execute(WalkToTask.java:39)
+[2015-09-24 00:53:18] 	at com.vencillio.core.task.TaskQueue.queue(TaskQueue.java:117)
+[2015-09-24 00:53:18] 	at com.vencillio.rs2.entity.player.WalkToActions.clickObject(WalkToActions.java:264)
+[2015-09-24 00:53:18] 	at com.vencillio.rs2.entity.player.net.in.impl.ObjectPacket.handle(ObjectPacket.java:71)
+[2015-09-24 00:53:18] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2015-09-24 00:53:18] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2015-09-24 00:53:18] 	at com.vencillio.rs2.entity.World.process(World.java:315)
+[2015-09-24 00:53:18] 	at com.vencillio.core.GameThread.cycle(GameThread.java:123)
+[2015-09-24 00:53:18] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-24 00:53:18] java.lang.NullPointerException
+[2015-09-24 00:53:18] 	at com.vencillio.rs2.content.skill.mining.Mining$Pickaxe.get(Mining.java:115)
+[2015-09-24 00:53:18] 	at com.vencillio.rs2.content.skill.mining.Mining.clickRock(Mining.java:213)
+[2015-09-24 00:53:18] 	at com.vencillio.rs2.entity.player.WalkToActions.finishObjectClick(WalkToActions.java:921)
+[2015-09-24 00:53:18] 	at com.vencillio.rs2.entity.player.WalkToActions$7.onDestination(WalkToActions.java:269)
+[2015-09-24 00:53:18] 	at com.vencillio.core.task.impl.WalkToTask.execute(WalkToTask.java:39)
+[2015-09-24 00:53:18] 	at com.vencillio.core.task.TaskQueue.queue(TaskQueue.java:117)
+[2015-09-24 00:53:18] 	at com.vencillio.rs2.entity.player.WalkToActions.clickObject(WalkToActions.java:264)
+[2015-09-24 00:53:18] 	at com.vencillio.rs2.entity.player.net.in.impl.ObjectPacket.handle(ObjectPacket.java:71)
+[2015-09-24 00:53:18] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2015-09-24 00:53:18] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2015-09-24 00:53:18] 	at com.vencillio.rs2.entity.World.process(World.java:315)
+[2015-09-24 00:53:18] 	at com.vencillio.core.GameThread.cycle(GameThread.java:123)
+[2015-09-24 00:53:18] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-24 00:53:21] java.lang.NullPointerException
+[2015-09-24 00:53:21] 	at com.vencillio.rs2.content.skill.mining.Mining$Pickaxe.get(Mining.java:115)
+[2015-09-24 00:53:21] 	at com.vencillio.rs2.content.skill.mining.Mining.clickRock(Mining.java:213)
+[2015-09-24 00:53:21] 	at com.vencillio.rs2.entity.player.WalkToActions.finishObjectClick(WalkToActions.java:921)
+[2015-09-24 00:53:21] 	at com.vencillio.rs2.entity.player.WalkToActions$7.onDestination(WalkToActions.java:269)
+[2015-09-24 00:53:21] 	at com.vencillio.core.task.impl.WalkToTask.execute(WalkToTask.java:39)
+[2015-09-24 00:53:21] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-24 00:53:21] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-24 00:53:21] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-24 00:53:21] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-24 00:53:34] java.lang.NullPointerException
+[2015-09-24 00:53:34] 	at com.vencillio.rs2.content.skill.mining.Mining$Pickaxe.get(Mining.java:115)
+[2015-09-24 00:53:34] 	at com.vencillio.rs2.content.skill.mining.Mining.clickRock(Mining.java:213)
+[2015-09-24 00:53:34] 	at com.vencillio.rs2.entity.player.WalkToActions.finishObjectClick(WalkToActions.java:921)
+[2015-09-24 00:53:34] 	at com.vencillio.rs2.entity.player.WalkToActions$7.onDestination(WalkToActions.java:269)
+[2015-09-24 00:53:34] 	at com.vencillio.core.task.impl.WalkToTask.execute(WalkToTask.java:39)
+[2015-09-24 00:53:34] 	at com.vencillio.core.task.TaskQueue.queue(TaskQueue.java:117)
+[2015-09-24 00:53:34] 	at com.vencillio.rs2.entity.player.WalkToActions.clickObject(WalkToActions.java:264)
+[2015-09-24 00:53:34] 	at com.vencillio.rs2.entity.player.net.in.impl.ObjectPacket.handle(ObjectPacket.java:71)
+[2015-09-24 00:53:34] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2015-09-24 00:53:34] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2015-09-24 00:53:34] 	at com.vencillio.rs2.entity.World.process(World.java:315)
+[2015-09-24 00:53:34] 	at com.vencillio.core.GameThread.cycle(GameThread.java:123)
+[2015-09-24 00:53:34] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-24 00:53:38] java.lang.NullPointerException
+[2015-09-24 00:53:38] 	at com.vencillio.rs2.content.skill.mining.Mining$Pickaxe.get(Mining.java:115)
+[2015-09-24 00:53:38] 	at com.vencillio.rs2.content.skill.mining.Mining.clickRock(Mining.java:213)
+[2015-09-24 00:53:38] 	at com.vencillio.rs2.entity.player.WalkToActions.finishObjectClick(WalkToActions.java:921)
+[2015-09-24 00:53:38] 	at com.vencillio.rs2.entity.player.WalkToActions$7.onDestination(WalkToActions.java:269)
+[2015-09-24 00:53:38] 	at com.vencillio.core.task.impl.WalkToTask.execute(WalkToTask.java:39)
+[2015-09-24 00:53:38] 	at com.vencillio.core.task.TaskQueue.queue(TaskQueue.java:117)
+[2015-09-24 00:53:38] 	at com.vencillio.rs2.entity.player.WalkToActions.clickObject(WalkToActions.java:264)
+[2015-09-24 00:53:38] 	at com.vencillio.rs2.entity.player.net.in.impl.ObjectPacket.handle(ObjectPacket.java:71)
+[2015-09-24 00:53:38] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2015-09-24 00:53:38] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2015-09-24 00:53:38] 	at com.vencillio.rs2.entity.World.process(World.java:315)
+[2015-09-24 00:53:38] 	at com.vencillio.core.GameThread.cycle(GameThread.java:123)
+[2015-09-24 00:53:38] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-24 00:53:40] java.lang.NullPointerException
+[2015-09-24 00:53:40] 	at com.vencillio.rs2.content.skill.mining.Mining$Pickaxe.get(Mining.java:115)
+[2015-09-24 00:53:40] 	at com.vencillio.rs2.content.skill.mining.Mining.clickRock(Mining.java:213)
+[2015-09-24 00:53:40] 	at com.vencillio.rs2.entity.player.WalkToActions.finishObjectClick(WalkToActions.java:921)
+[2015-09-24 00:53:40] 	at com.vencillio.rs2.entity.player.WalkToActions$7.onDestination(WalkToActions.java:269)
+[2015-09-24 00:53:40] 	at com.vencillio.core.task.impl.WalkToTask.execute(WalkToTask.java:39)
+[2015-09-24 00:53:40] 	at com.vencillio.core.task.TaskQueue.queue(TaskQueue.java:117)
+[2015-09-24 00:53:40] 	at com.vencillio.rs2.entity.player.WalkToActions.clickObject(WalkToActions.java:264)
+[2015-09-24 00:53:40] 	at com.vencillio.rs2.entity.player.net.in.impl.ObjectPacket.handle(ObjectPacket.java:71)
+[2015-09-24 00:53:40] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2015-09-24 00:53:40] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2015-09-24 00:53:40] 	at com.vencillio.rs2.entity.World.process(World.java:315)
+[2015-09-24 00:53:40] 	at com.vencillio.core.GameThread.cycle(GameThread.java:123)
+[2015-09-24 00:53:40] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-24 00:53:46] java.lang.NullPointerException
+[2015-09-24 00:53:46] 	at com.vencillio.rs2.content.skill.mining.Mining$Pickaxe.get(Mining.java:115)
+[2015-09-24 00:53:46] 	at com.vencillio.rs2.content.skill.mining.Mining.clickRock(Mining.java:213)
+[2015-09-24 00:53:46] 	at com.vencillio.rs2.entity.player.WalkToActions.finishObjectClick(WalkToActions.java:921)
+[2015-09-24 00:53:46] 	at com.vencillio.rs2.entity.player.WalkToActions$7.onDestination(WalkToActions.java:269)
+[2015-09-24 00:53:46] 	at com.vencillio.core.task.impl.WalkToTask.execute(WalkToTask.java:39)
+[2015-09-24 00:53:46] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-24 00:53:46] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-24 00:53:46] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-24 00:53:46] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-24 00:53:54] java.lang.NullPointerException
+[2015-09-24 00:53:54] 	at com.vencillio.rs2.content.skill.mining.Mining$Pickaxe.get(Mining.java:115)
+[2015-09-24 00:53:54] 	at com.vencillio.rs2.content.skill.mining.Mining.clickRock(Mining.java:213)
+[2015-09-24 00:53:54] 	at com.vencillio.rs2.entity.player.WalkToActions.finishObjectClick(WalkToActions.java:921)
+[2015-09-24 00:53:54] 	at com.vencillio.rs2.entity.player.WalkToActions$7.onDestination(WalkToActions.java:269)
+[2015-09-24 00:53:54] 	at com.vencillio.core.task.impl.WalkToTask.execute(WalkToTask.java:39)
+[2015-09-24 00:53:54] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-24 00:53:54] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-24 00:53:54] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-24 00:53:54] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-24 00:53:56] java.lang.NullPointerException
+[2015-09-24 00:53:56] 	at com.vencillio.rs2.content.skill.mining.Mining$Pickaxe.get(Mining.java:115)
+[2015-09-24 00:53:56] 	at com.vencillio.rs2.content.skill.mining.Mining.clickRock(Mining.java:213)
+[2015-09-24 00:53:56] 	at com.vencillio.rs2.entity.player.WalkToActions.finishObjectClick(WalkToActions.java:921)
+[2015-09-24 00:53:56] 	at com.vencillio.rs2.entity.player.WalkToActions$7.onDestination(WalkToActions.java:269)
+[2015-09-24 00:53:56] 	at com.vencillio.core.task.impl.WalkToTask.execute(WalkToTask.java:39)
+[2015-09-24 00:53:56] 	at com.vencillio.core.task.TaskQueue.queue(TaskQueue.java:117)
+[2015-09-24 00:53:56] 	at com.vencillio.rs2.entity.player.WalkToActions.clickObject(WalkToActions.java:264)
+[2015-09-24 00:53:56] 	at com.vencillio.rs2.entity.player.net.in.impl.ObjectPacket.handle(ObjectPacket.java:71)
+[2015-09-24 00:53:56] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2015-09-24 00:53:56] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2015-09-24 00:53:56] 	at com.vencillio.rs2.entity.World.process(World.java:315)
+[2015-09-24 00:53:56] 	at com.vencillio.core.GameThread.cycle(GameThread.java:123)
+[2015-09-24 00:53:56] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-24 00:58:05] java.lang.NullPointerException
+[2015-09-24 00:58:10] java.lang.NullPointerException
+[2015-09-24 00:58:14] java.lang.NullPointerException
+[2015-09-24 00:58:18] java.lang.NullPointerException
+[2015-09-24 00:58:22] java.lang.NullPointerException
+[2015-09-24 00:58:26] java.lang.NullPointerException
+[2015-09-24 00:58:30] java.lang.NullPointerException
+[2015-09-24 00:58:34] java.lang.NullPointerException
+[2015-09-24 00:59:46] java.lang.NullPointerException
+[2015-09-24 00:59:51] java.lang.NullPointerException
+[2015-09-24 00:59:57] java.lang.NullPointerException
+[2015-09-24 01:00:01] java.lang.NullPointerException
+[2015-09-24 01:00:09] java.lang.NullPointerException
+[2015-09-24 01:00:15] java.lang.NullPointerException
+[2015-09-24 01:35:12] java.lang.NumberFormatException: For input string: "noflexzone"
+[2015-09-24 01:35:12] 	at java.lang.NumberFormatException.forInputString(Unknown Source)
+[2015-09-24 01:35:12] 	at java.lang.Integer.parseInt(Unknown Source)
+[2015-09-24 01:35:12] 	at java.lang.Integer.parseInt(Unknown Source)
+[2015-09-24 01:35:12] 	at com.vencillio.rs2.entity.player.net.in.impl.StringInputPacket.handle(StringInputPacket.java:41)
+[2015-09-24 01:35:12] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2015-09-24 01:35:12] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2015-09-24 01:35:12] 	at com.vencillio.rs2.entity.World.process(World.java:315)
+[2015-09-24 01:35:12] 	at com.vencillio.core.GameThread.cycle(GameThread.java:123)
+[2015-09-24 01:35:12] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-24 01:35:53] java.lang.NumberFormatException: For input string: "noflexzone"
+[2015-09-24 01:35:53] 	at java.lang.NumberFormatException.forInputString(Unknown Source)
+[2015-09-24 01:35:53] 	at java.lang.Integer.parseInt(Unknown Source)
+[2015-09-24 01:35:53] 	at java.lang.Integer.parseInt(Unknown Source)
+[2015-09-24 01:35:53] 	at com.vencillio.rs2.entity.player.net.in.impl.StringInputPacket.handle(StringInputPacket.java:41)
+[2015-09-24 01:35:53] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2015-09-24 01:35:53] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2015-09-24 01:35:53] 	at com.vencillio.rs2.entity.World.process(World.java:315)
+[2015-09-24 01:35:53] 	at com.vencillio.core.GameThread.cycle(GameThread.java:123)
+[2015-09-24 01:35:53] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-24 02:13:57] java.lang.NullPointerException
+[2015-09-24 02:14:00] java.lang.NullPointerException
+[2015-09-24 02:39:46] java.lang.NumberFormatException: For input string: "200k"
+[2015-09-24 02:39:46] 	at java.lang.NumberFormatException.forInputString(Unknown Source)
+[2015-09-24 02:39:46] 	at java.lang.Integer.parseInt(Unknown Source)
+[2015-09-24 02:39:46] 	at java.lang.Integer.parseInt(Unknown Source)
+[2015-09-24 02:39:46] 	at com.vencillio.rs2.entity.player.net.in.impl.StringInputPacket.handle(StringInputPacket.java:41)
+[2015-09-24 02:39:46] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2015-09-24 02:39:46] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2015-09-24 02:39:46] 	at com.vencillio.rs2.entity.World.process(World.java:315)
+[2015-09-24 02:39:46] 	at com.vencillio.core.GameThread.cycle(GameThread.java:123)
+[2015-09-24 02:39:46] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-24 02:40:07] java.lang.NumberFormatException: For input string: "650k"
+[2015-09-24 02:40:07] 	at java.lang.NumberFormatException.forInputString(Unknown Source)
+[2015-09-24 02:40:07] 	at java.lang.Integer.parseInt(Unknown Source)
+[2015-09-24 02:40:07] 	at java.lang.Integer.parseInt(Unknown Source)
+[2015-09-24 02:40:07] 	at com.vencillio.rs2.entity.player.net.in.impl.StringInputPacket.handle(StringInputPacket.java:41)
+[2015-09-24 02:40:07] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2015-09-24 02:40:07] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2015-09-24 02:40:07] 	at com.vencillio.rs2.entity.World.process(World.java:315)
+[2015-09-24 02:40:07] 	at com.vencillio.core.GameThread.cycle(GameThread.java:123)
+[2015-09-24 02:40:07] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-24 03:07:01] java.lang.NumberFormatException: For input string: "600000 hasty"
+[2015-09-24 03:07:01] 	at java.lang.NumberFormatException.forInputString(Unknown Source)
+[2015-09-24 03:07:01] 	at java.lang.Integer.parseInt(Unknown Source)
+[2015-09-24 03:07:01] 	at java.lang.Integer.parseInt(Unknown Source)
+[2015-09-24 03:07:01] 	at com.vencillio.rs2.entity.player.net.in.impl.StringInputPacket.handle(StringInputPacket.java:41)
+[2015-09-24 03:07:01] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2015-09-24 03:07:01] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2015-09-24 03:07:01] 	at com.vencillio.rs2.entity.World.process(World.java:315)
+[2015-09-24 03:07:01] 	at com.vencillio.core.GameThread.cycle(GameThread.java:123)
+[2015-09-24 03:07:01] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-24 03:07:30] java.lang.NumberFormatException: For input string: "hasty"
+[2015-09-24 03:07:30] 	at java.lang.NumberFormatException.forInputString(Unknown Source)
+[2015-09-24 03:07:30] 	at java.lang.Integer.parseInt(Unknown Source)
+[2015-09-24 03:07:30] 	at java.lang.Integer.parseInt(Unknown Source)
+[2015-09-24 03:07:30] 	at com.vencillio.rs2.entity.player.net.in.impl.StringInputPacket.handle(StringInputPacket.java:41)
+[2015-09-24 03:07:30] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2015-09-24 03:07:30] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2015-09-24 03:07:30] 	at com.vencillio.rs2.entity.World.process(World.java:315)
+[2015-09-24 03:07:30] 	at com.vencillio.core.GameThread.cycle(GameThread.java:123)
+[2015-09-24 03:07:30] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-24 03:07:46] java.lang.NumberFormatException: For input string: "hasty"
+[2015-09-24 03:07:46] 	at java.lang.NumberFormatException.forInputString(Unknown Source)
+[2015-09-24 03:07:46] 	at java.lang.Integer.parseInt(Unknown Source)
+[2015-09-24 03:07:46] 	at java.lang.Integer.parseInt(Unknown Source)
+[2015-09-24 03:07:46] 	at com.vencillio.rs2.entity.player.net.in.impl.StringInputPacket.handle(StringInputPacket.java:41)
+[2015-09-24 03:07:46] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2015-09-24 03:07:46] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2015-09-24 03:07:46] 	at com.vencillio.rs2.entity.World.process(World.java:315)
+[2015-09-24 03:07:46] 	at com.vencillio.core.GameThread.cycle(GameThread.java:123)
+[2015-09-24 03:07:46] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-24 03:13:59] java.lang.NullPointerException
+[2015-09-24 03:14:01] java.lang.NullPointerException
+[2015-09-24 03:14:03] java.lang.NullPointerException
+[2015-09-24 03:14:06] java.lang.NullPointerException
+[2015-09-24 03:14:08] java.lang.NullPointerException
+[2015-09-24 03:14:11] java.lang.NullPointerException
+[2015-09-24 03:14:18] java.lang.NullPointerException
+[2015-09-24 03:14:21] java.lang.NullPointerException
+[2015-09-24 03:14:37] java.lang.NullPointerException
+[2015-09-24 03:14:39] java.lang.NullPointerException
+[2015-09-24 03:14:41] java.lang.NullPointerException
+[2015-09-24 03:14:46] java.lang.NullPointerException
+[2015-09-24 03:14:49] java.lang.NullPointerException
+[2015-09-24 03:14:55] java.lang.NullPointerException
+[2015-09-24 03:14:57] java.lang.NullPointerException
+[2015-09-24 03:15:23] java.lang.NullPointerException
+[2015-09-24 03:15:25] java.lang.NullPointerException
+[2015-09-24 03:15:43] java.lang.NullPointerException
+[2015-09-24 03:15:45] java.lang.NullPointerException
+[2015-09-24 03:15:48] java.lang.NullPointerException
+[2015-09-24 03:15:50] java.lang.NullPointerException
+[2015-09-24 03:15:52] java.lang.NullPointerException
+[2015-09-24 03:16:13] java.lang.NullPointerException
+[2015-09-24 03:16:15] java.lang.NullPointerException
+[2015-09-24 03:21:23] java.lang.NullPointerException
+[2015-09-24 03:21:25] java.lang.NullPointerException
+[2015-09-24 03:21:27] java.lang.NullPointerException
+[2015-09-24 03:21:28] java.lang.NullPointerException
+[2015-09-24 03:21:29] java.lang.NullPointerException
+[2015-09-24 03:21:30] java.lang.NullPointerException
+[2015-09-24 03:21:32] java.lang.NullPointerException
+[2015-09-24 03:21:36] java.lang.NullPointerException
+[2015-09-24 03:38:23] java.lang.NullPointerException
+[2015-09-24 03:38:23] java.lang.NullPointerException
+[2015-09-24 03:38:25] java.lang.NullPointerException
+[2015-09-24 03:38:25] java.lang.NullPointerException
+[2015-09-24 03:38:27] java.lang.NullPointerException
+[2015-09-24 04:00:18] java.lang.NullPointerException
+[2015-09-24 04:00:22] java.lang.NullPointerException
+[2015-09-24 04:02:35] java.lang.NullPointerException
+[2015-09-24 04:04:06] java.lang.NullPointerException
+[2015-09-24 04:04:19] java.lang.NullPointerException
+[2015-09-24 05:04:50] java.lang.NullPointerException
+[2015-09-24 05:04:50] 	at com.vencillio.rs2.content.combat.formula.RangeFormulas.calculateRangeAttack(RangeFormulas.java:78)
+[2015-09-24 05:04:50] 	at com.vencillio.rs2.content.combat.impl.Ranged.execute(Ranged.java:41)
+[2015-09-24 05:04:50] 	at com.vencillio.rs2.content.combat.Combat.attack(Combat.java:92)
+[2015-09-24 05:04:50] 	at com.vencillio.rs2.content.combat.Combat.process(Combat.java:215)
+[2015-09-24 05:04:50] 	at com.vencillio.rs2.entity.player.Player.process(Player.java:1525)
+[2015-09-24 05:04:50] 	at com.vencillio.rs2.entity.World.process(World.java:317)
+[2015-09-24 05:04:50] 	at com.vencillio.core.GameThread.cycle(GameThread.java:123)
+[2015-09-24 05:04:50] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-24 05:04:50] java.lang.NullPointerException
+[2015-09-24 05:04:50] 	at com.vencillio.rs2.entity.player.net.Client.send(Client.java:329)
+[2015-09-24 05:04:50] 	at com.vencillio.rs2.entity.player.net.out.impl.SendLogout.execute(SendLogout.java:13)
+[2015-09-24 05:04:50] 	at com.vencillio.rs2.entity.player.Player.logout(Player.java:1451)
+[2015-09-24 05:04:50] 	at com.vencillio.rs2.entity.World.process(World.java:328)
+[2015-09-24 05:04:50] 	at com.vencillio.core.GameThread.cycle(GameThread.java:123)
+[2015-09-24 05:04:50] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-24 05:10:37] java.lang.NullPointerException
+[2015-09-24 06:50:56] java.lang.NullPointerException
+[2015-09-24 06:51:57] java.lang.NullPointerException
+[2015-09-24 06:52:01] java.lang.NullPointerException
+[2015-09-24 06:52:05] java.lang.NullPointerException
+[2015-09-24 06:52:10] java.lang.NullPointerException
+[2015-09-24 06:52:14] java.lang.NullPointerException
+[2015-09-24 06:53:54] java.lang.NullPointerException
+[2015-09-24 06:53:58] java.lang.NullPointerException
+[2015-09-24 06:55:34] java.lang.NullPointerException
+[2015-09-24 06:55:38] java.lang.NullPointerException
+[2015-09-24 06:55:42] java.lang.NullPointerException
+[2015-09-24 06:55:46] java.lang.NullPointerException
+[2015-09-24 06:56:10] java.lang.NullPointerException
+[2015-09-24 06:56:15] java.lang.NullPointerException
+[2015-09-24 06:56:19] java.lang.NullPointerException
+[2015-09-24 06:56:23] java.lang.NullPointerException
+[2015-09-24 06:56:27] java.lang.NullPointerException
+[2015-09-24 06:56:31] java.lang.NullPointerException
+[2015-09-24 06:56:35] java.lang.NullPointerException
+[2015-09-24 06:56:39] java.lang.NullPointerException
+[2015-09-24 07:07:13] java.lang.NullPointerException
+[2015-09-24 07:07:13] 	at com.vencillio.rs2.entity.Entity$1.execute(Entity.java:774)
+[2015-09-24 07:07:13] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-24 07:07:13] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-24 07:07:13] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-24 07:07:13] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-24 07:14:56] java.lang.NullPointerException
+[2015-09-24 07:14:56] 	at com.vencillio.rs2.entity.Entity$1.execute(Entity.java:774)
+[2015-09-24 07:14:56] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-24 07:14:56] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-24 07:14:56] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-24 07:14:56] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-24 07:35:01] java.lang.NullPointerException
+[2015-09-24 07:35:01] 	at com.vencillio.rs2.entity.Entity$1.execute(Entity.java:774)
+[2015-09-24 07:35:01] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-24 07:35:01] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-24 07:35:01] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-24 07:35:01] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-24 08:02:21] java.lang.NullPointerException
+[2015-09-24 08:02:21] 	at com.vencillio.rs2.entity.Entity$1.execute(Entity.java:774)
+[2015-09-24 08:02:21] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-24 08:02:21] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-24 08:02:21] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-24 08:02:21] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-24 08:03:51] java.lang.NullPointerException
+[2015-09-24 08:03:55] java.lang.NullPointerException
+[2015-09-24 08:03:59] java.lang.NullPointerException
+[2015-09-24 08:04:03] java.lang.NullPointerException
+[2015-09-24 08:04:07] java.lang.NullPointerException
+[2015-09-24 08:04:11] java.lang.NullPointerException
+[2015-09-24 08:12:44] java.lang.NullPointerException
+[2015-09-24 08:12:44] 	at com.vencillio.rs2.entity.Entity$1.execute(Entity.java:774)
+[2015-09-24 08:12:44] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-24 08:12:44] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-24 08:12:44] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-24 08:12:44] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-24 08:33:28] java.lang.NullPointerException
+[2015-09-24 08:33:28] 	at com.vencillio.rs2.entity.Entity$1.execute(Entity.java:774)
+[2015-09-24 08:33:28] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-24 08:33:28] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-24 08:33:28] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-24 08:33:28] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-24 08:35:46] java.lang.NullPointerException
+[2015-09-24 08:48:20] java.lang.NullPointerException
+[2015-09-24 08:48:20] 	at com.vencillio.rs2.entity.Entity$1.execute(Entity.java:774)
+[2015-09-24 08:48:20] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-24 08:48:20] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-24 08:48:20] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-24 08:48:20] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-24 09:08:04] java.lang.NullPointerException
+[2015-09-24 09:08:04] 	at com.vencillio.rs2.entity.Entity$1.execute(Entity.java:774)
+[2015-09-24 09:08:04] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-24 09:08:04] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-24 09:08:04] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-24 09:08:04] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-24 09:10:43] java.lang.NullPointerException
+[2015-09-24 09:10:43] 	at com.vencillio.rs2.entity.Entity$1.execute(Entity.java:774)
+[2015-09-24 09:10:43] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-24 09:10:43] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-24 09:10:43] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-24 09:10:43] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-24 09:13:26] java.lang.NullPointerException
+[2015-09-24 09:13:26] 	at com.vencillio.rs2.entity.Entity$1.execute(Entity.java:774)
+[2015-09-24 09:13:26] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-24 09:13:26] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-24 09:13:26] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-24 09:13:26] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-24 09:18:50] java.lang.NullPointerException
+[2015-09-24 09:18:50] 	at com.vencillio.rs2.entity.Entity$1.execute(Entity.java:774)
+[2015-09-24 09:18:50] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-24 09:18:50] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-24 09:18:50] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-24 09:18:50] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-24 09:24:16] java.lang.NullPointerException
+[2015-09-24 09:24:16] 	at com.vencillio.rs2.entity.Entity$1.execute(Entity.java:774)
+[2015-09-24 09:24:16] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-09-24 09:24:16] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-09-24 09:24:16] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-09-24 09:24:16] 	at com.vencillio.core.GameThread.run(GameThread.java:138)

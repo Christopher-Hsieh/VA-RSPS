@@ -1,0 +1,22 @@
+Logging started at 2015-09-18 03:33:09
+File name: C:\Users\root\Dropbox\Vencillio Advanced\VA Source\.\data\logs\err\1442543589784 - root - [Fri Sep 18][3.33AM].txt
+System.getProperty("os.name"): "Windows Server 2008 R2"
+
+[2015-09-18 04:01:15] java.lang.ArrayIndexOutOfBoundsException: 25
+[2015-09-18 04:01:15] 	at com.vencillio.rs2.entity.player.net.in.impl.ChatInterfacePacket.handleEnterX(ChatInterfacePacket.java:113)
+[2015-09-18 04:01:15] 	at com.vencillio.rs2.entity.player.net.in.impl.ChatInterfacePacket.handle(ChatInterfacePacket.java:40)
+[2015-09-18 04:01:15] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2015-09-18 04:01:15] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2015-09-18 04:01:15] 	at com.vencillio.rs2.entity.World.process(World.java:315)
+[2015-09-18 04:01:15] 	at com.vencillio.core.GameThread.cycle(GameThread.java:123)
+[2015-09-18 04:01:15] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-18 04:26:43] java.lang.NumberFormatException: For input string: "500k"
+[2015-09-18 04:26:43] 	at java.lang.NumberFormatException.forInputString(Unknown Source)
+[2015-09-18 04:26:43] 	at java.lang.Integer.parseInt(Unknown Source)
+[2015-09-18 04:26:43] 	at java.lang.Integer.parseInt(Unknown Source)
+[2015-09-18 04:26:43] 	at com.vencillio.rs2.entity.player.net.in.impl.StringInputPacket.handle(StringInputPacket.java:38)
+[2015-09-18 04:26:43] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2015-09-18 04:26:43] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2015-09-18 04:26:43] 	at com.vencillio.rs2.entity.World.process(World.java:315)
+[2015-09-18 04:26:43] 	at com.vencillio.core.GameThread.cycle(GameThread.java:123)
+[2015-09-18 04:26:43] 	at com.vencillio.core.GameThread.run(GameThread.java:138)

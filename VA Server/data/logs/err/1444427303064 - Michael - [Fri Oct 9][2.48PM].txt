@@ -1,0 +1,24 @@
+Logging started at 2015-10-09 14:48:23
+File name: C:\Users\Michael\Dropbox\Vencillio Advanced\VA Source\.\data\logs\err\1444427303064 - Michael - [Fri Oct 9][2.48PM].txt
+System.getProperty("os.name"): "Windows 10"
+
+[2015-10-09 17:05:15] java.lang.NumberFormatException: For input string: "ecu"
+[2015-10-09 17:05:15] 	at java.lang.NumberFormatException.forInputString(Unknown Source)
+[2015-10-09 17:05:15] 	at java.lang.Integer.parseInt(Unknown Source)
+[2015-10-09 17:05:15] 	at java.lang.Integer.parseInt(Unknown Source)
+[2015-10-09 17:05:15] 	at com.vencillio.rs2.entity.player.net.in.command.impl.AdministratorCommand.handleCommand(AdministratorCommand.java:112)
+[2015-10-09 17:05:15] 	at com.vencillio.rs2.entity.player.net.in.impl.CommandPacket.handle(CommandPacket.java:54)
+[2015-10-09 17:05:15] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2015-10-09 17:05:15] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2015-10-09 17:05:15] 	at com.vencillio.rs2.entity.World.process(World.java:319)
+[2015-10-09 17:05:15] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2015-10-09 17:05:15] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
+[2015-10-09 17:08:07] java.lang.NullPointerException
+[2015-10-09 17:08:07] 	at com.vencillio.rs2.entity.pathfinding.StraightPathFinder.canAttackOver(StraightPathFinder.java:30)
+[2015-10-09 17:08:07] 	at com.vencillio.rs2.entity.pathfinding.StraightPathFinder.isInteractionPathClear(StraightPathFinder.java:67)
+[2015-10-09 17:08:07] 	at com.vencillio.rs2.entity.following.Following.getCombatFollowLocation(Following.java:93)
+[2015-10-09 17:08:07] 	at com.vencillio.rs2.entity.following.Following.updateWaypoint(Following.java:271)
+[2015-10-09 17:08:07] 	at com.vencillio.rs2.entity.mob.Mob.reset(Mob.java:815)
+[2015-10-09 17:08:07] 	at com.vencillio.rs2.entity.World.process(World.java:404)
+[2015-10-09 17:08:07] 	at com.vencillio.core.GameThread.cycle(GameThread.java:124)
+[2015-10-09 17:08:07] 	at com.vencillio.core.GameThread.run(GameThread.java:139)

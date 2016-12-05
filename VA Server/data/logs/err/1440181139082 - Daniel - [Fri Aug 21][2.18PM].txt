@@ -1,0 +1,14 @@
+Logging started at 2015-08-21 14:18:59
+File name: C:\Users\Daniel\Dropbox\Vencillio Advanced\VA Source\.\data\logs\err\1440181139082 - Daniel - [Fri Aug 21][2.18PM].txt
+System.getProperty("os.name"): "Windows 8.1"
+
+[2015-08-21 14:26:59] java.lang.NullPointerException
+[2015-08-21 14:26:59] 	at com.vencillio.rs2.entity.mob.impl.GiantMole$1.execute(GiantMole.java:61)
+[2015-08-21 14:26:59] 	at com.vencillio.core.task.TaskQueue.queue(TaskQueue.java:117)
+[2015-08-21 14:26:59] 	at com.vencillio.rs2.entity.mob.impl.GiantMole.special(GiantMole.java:57)
+[2015-08-21 14:26:59] 	at com.vencillio.rs2.entity.mob.impl.GiantMole.hit(GiantMole.java:43)
+[2015-08-21 14:26:59] 	at com.vencillio.core.task.impl.HitTask.execute(HitTask.java:64)
+[2015-08-21 14:26:59] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-08-21 14:26:59] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-08-21 14:26:59] 	at com.vencillio.core.GameThread.cycle(GameThread.java:115)
+[2015-08-21 14:26:59] 	at com.vencillio.core.GameThread.run(GameThread.java:138)

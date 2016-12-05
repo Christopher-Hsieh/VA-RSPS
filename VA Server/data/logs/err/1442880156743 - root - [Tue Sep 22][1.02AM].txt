@@ -1,0 +1,24 @@
+Logging started at 2015-09-22 01:02:36
+File name: C:\Users\root\Dropbox\Vencillio Advanced\VA Source\.\data\logs\err\1442880156743 - root - [Tue Sep 22][1.02AM].txt
+System.getProperty("os.name"): "Windows Server 2008 R2"
+
+[2015-09-22 01:17:05] java.lang.NumberFormatException: For input string: "50k"
+[2015-09-22 01:17:05] 	at java.lang.NumberFormatException.forInputString(Unknown Source)
+[2015-09-22 01:17:05] 	at java.lang.Integer.parseInt(Unknown Source)
+[2015-09-22 01:17:05] 	at java.lang.Integer.parseInt(Unknown Source)
+[2015-09-22 01:17:05] 	at com.vencillio.rs2.entity.player.net.in.impl.StringInputPacket.handle(StringInputPacket.java:38)
+[2015-09-22 01:17:05] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2015-09-22 01:17:05] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2015-09-22 01:17:05] 	at com.vencillio.rs2.entity.World.process(World.java:315)
+[2015-09-22 01:17:05] 	at com.vencillio.core.GameThread.cycle(GameThread.java:123)
+[2015-09-22 01:17:05] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-22 01:17:21] java.lang.NumberFormatException: For input string: "50k"
+[2015-09-22 01:17:21] 	at java.lang.NumberFormatException.forInputString(Unknown Source)
+[2015-09-22 01:17:21] 	at java.lang.Integer.parseInt(Unknown Source)
+[2015-09-22 01:17:21] 	at java.lang.Integer.parseInt(Unknown Source)
+[2015-09-22 01:17:21] 	at com.vencillio.rs2.entity.player.net.in.impl.StringInputPacket.handle(StringInputPacket.java:38)
+[2015-09-22 01:17:21] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2015-09-22 01:17:21] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2015-09-22 01:17:21] 	at com.vencillio.rs2.entity.World.process(World.java:315)
+[2015-09-22 01:17:21] 	at com.vencillio.core.GameThread.cycle(GameThread.java:123)
+[2015-09-22 01:17:21] 	at com.vencillio.core.GameThread.run(GameThread.java:138)

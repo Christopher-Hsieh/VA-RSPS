@@ -1,0 +1,4 @@
+Logging started at 2015-09-24 21:41:26
+File name: C:\Users\Mack\Dropbox\Vencillio Advanced\VA Source\.\data\logs\err\1443145286805 - Mack - [Thu Sep 24][9.41PM].txt
+System.getProperty("os.name"): "Windows 8.1"
+

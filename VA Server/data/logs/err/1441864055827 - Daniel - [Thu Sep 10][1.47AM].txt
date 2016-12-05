@@ -1,0 +1,58 @@
+Logging started at 2015-09-10 01:47:35
+File name: C:\Users\Daniel\Dropbox\Vencillio Advanced\VA Source\.\data\logs\err\1441864055827 - Daniel - [Thu Sep 10][1.47AM].txt
+System.getProperty("os.name"): "Windows 8.1"
+
+[2015-09-10 01:48:18] java.lang.NullPointerException
+[2015-09-10 01:48:18] 	at com.vencillio.rs2.entity.pathfinding.StraightPathFinder.canAttackOver(StraightPathFinder.java:30)
+[2015-09-10 01:48:18] 	at com.vencillio.rs2.entity.pathfinding.StraightPathFinder.isInteractionPathClear(StraightPathFinder.java:67)
+[2015-09-10 01:48:18] 	at com.vencillio.rs2.entity.following.Following.getCombatFollowLocation(Following.java:93)
+[2015-09-10 01:48:18] 	at com.vencillio.rs2.entity.following.Following.updateWaypoint(Following.java:271)
+[2015-09-10 01:48:18] 	at com.vencillio.rs2.entity.mob.Mob.reset(Mob.java:806)
+[2015-09-10 01:48:18] 	at com.vencillio.rs2.entity.World.process(World.java:398)
+[2015-09-10 01:48:18] 	at com.vencillio.core.GameThread.cycle(GameThread.java:123)
+[2015-09-10 01:48:18] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-10 02:19:55] java.lang.NullPointerException
+[2015-09-10 02:19:55] 	at com.vencillio.rs2.entity.player.InterfaceManager.getParents(InterfaceManager.java:16)
+[2015-09-10 02:19:55] 	at com.vencillio.rs2.entity.player.InterfaceManager.verify(InterfaceManager.java:88)
+[2015-09-10 02:19:55] 	at com.vencillio.rs2.entity.player.net.in.impl.ItemPackets.handle(ItemPackets.java:93)
+[2015-09-10 02:19:55] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2015-09-10 02:19:55] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2015-09-10 02:19:55] 	at com.vencillio.rs2.entity.World.process(World.java:313)
+[2015-09-10 02:19:55] 	at com.vencillio.core.GameThread.cycle(GameThread.java:123)
+[2015-09-10 02:19:55] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-10 02:21:14] java.lang.NullPointerException
+[2015-09-10 02:21:14] 	at com.vencillio.rs2.entity.player.InterfaceManager.getParents(InterfaceManager.java:16)
+[2015-09-10 02:21:14] 	at com.vencillio.rs2.entity.player.InterfaceManager.verify(InterfaceManager.java:88)
+[2015-09-10 02:21:14] 	at com.vencillio.rs2.entity.player.net.in.impl.ItemPackets.handle(ItemPackets.java:93)
+[2015-09-10 02:21:14] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2015-09-10 02:21:14] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2015-09-10 02:21:14] 	at com.vencillio.rs2.entity.World.process(World.java:313)
+[2015-09-10 02:21:14] 	at com.vencillio.core.GameThread.cycle(GameThread.java:123)
+[2015-09-10 02:21:14] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-10 02:22:06] java.lang.NullPointerException
+[2015-09-10 02:22:06] 	at com.vencillio.rs2.entity.player.InterfaceManager.getParents(InterfaceManager.java:16)
+[2015-09-10 02:22:06] 	at com.vencillio.rs2.entity.player.InterfaceManager.verify(InterfaceManager.java:88)
+[2015-09-10 02:22:06] 	at com.vencillio.rs2.entity.player.net.in.impl.ItemPackets.handle(ItemPackets.java:93)
+[2015-09-10 02:22:06] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2015-09-10 02:22:06] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2015-09-10 02:22:06] 	at com.vencillio.rs2.entity.World.process(World.java:313)
+[2015-09-10 02:22:06] 	at com.vencillio.core.GameThread.cycle(GameThread.java:123)
+[2015-09-10 02:22:06] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-10 02:24:01] java.lang.NullPointerException
+[2015-09-10 02:24:01] 	at com.vencillio.rs2.entity.player.InterfaceManager.getParents(InterfaceManager.java:16)
+[2015-09-10 02:24:01] 	at com.vencillio.rs2.entity.player.InterfaceManager.verify(InterfaceManager.java:88)
+[2015-09-10 02:24:01] 	at com.vencillio.rs2.entity.player.net.in.impl.ItemPackets.handle(ItemPackets.java:93)
+[2015-09-10 02:24:01] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:149)
+[2015-09-10 02:24:01] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2015-09-10 02:24:01] 	at com.vencillio.rs2.entity.World.process(World.java:313)
+[2015-09-10 02:24:01] 	at com.vencillio.core.GameThread.cycle(GameThread.java:123)
+[2015-09-10 02:24:01] 	at com.vencillio.core.GameThread.run(GameThread.java:138)
+[2015-09-10 02:24:13] java.lang.NullPointerException
+[2015-09-10 02:24:13] 	at com.vencillio.rs2.entity.player.InterfaceManager.getParents(InterfaceManager.java:16)
+[2015-09-10 02:24:13] 	at com.vencillio.rs2.entity.player.InterfaceManager.verify(InterfaceManager.java:88)
+[2015-09-10 02:24:13] 	at com.vencillio.rs2.entity.player.net.in.impl.ItemPackets.handle(ItemPackets.java:93)
+[2015-09-10 02:24:13] 	at com.vencillio.rs2.entity.player.net.in.PacketHandler.handlePacket(PacketHandler.java:151)
+[2015-09-10 02:24:13] 	at com.vencillio.rs2.entity.player.net.Client.processIncomingPackets(Client.java:211)
+[2015-09-10 02:24:13] 	at com.vencillio.rs2.entity.World.process(World.java:313)
+[2015-09-10 02:24:13] 	at com.vencillio.core.GameThread.cycle(GameThread.java:123)
+[2015-09-10 02:24:13] 	at com.vencillio.core.GameThread.run(GameThread.java:138)

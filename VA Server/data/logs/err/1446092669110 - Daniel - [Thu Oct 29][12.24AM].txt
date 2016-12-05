@@ -1,0 +1,11 @@
+Logging started at 2015-10-29 00:24:29
+File name: C:\Users\Daniel\Dropbox\Vencillio Advanced\VA Source\.\data\logs\err\1446092669110 - Daniel - [Thu Oct 29][12.24AM].txt
+System.getProperty("os.name"): "Windows 8.1"
+
+[2015-10-29 00:27:10] java.lang.NullPointerException
+[2015-10-29 00:27:10] 	at com.vencillio.rs2.entity.player.Player.teleport(Player.java:1866)
+[2015-10-29 00:27:10] 	at com.vencillio.core.task.impl.PlayerDeathTask.execute(PlayerDeathTask.java:76)
+[2015-10-29 00:27:10] 	at com.vencillio.core.task.Task.run(Task.java:183)
+[2015-10-29 00:27:10] 	at com.vencillio.core.task.TaskQueue.process(TaskQueue.java:78)
+[2015-10-29 00:27:10] 	at com.vencillio.core.GameThread.cycle(GameThread.java:116)
+[2015-10-29 00:27:10] 	at com.vencillio.core.GameThread.run(GameThread.java:139)
