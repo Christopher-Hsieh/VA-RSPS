@@ -364,36 +364,102 @@
     0
   ],
   "inventory": [
-    null,
     {
-      "id": 3162,
+      "id": 995,
+      "amount": 500000
+    },
+    {
+      "id": 386,
+      "amount": 75
+    },
+    {
+      "id": 2437,
+      "amount": 10
+    },
+    {
+      "id": 2441,
+      "amount": 10
+    },
+    {
+      "id": 2443,
+      "amount": 10
+    },
+    {
+      "id": 2445,
+      "amount": 10
+    },
+    {
+      "id": 3041,
+      "amount": 10
+    },
+    {
+      "id": 3025,
+      "amount": 10
+    },
+    {
+      "id": 1323,
       "amount": 1
     },
     {
-      "id": 3162,
+      "id": 1333,
       "amount": 1
     },
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
+    {
+      "id": 4587,
+      "amount": 1
+    },
+    {
+      "id": 1215,
+      "amount": 1
+    },
+    {
+      "id": 841,
+      "amount": 1
+    },
+    {
+      "id": 853,
+      "amount": 1
+    },
+    {
+      "id": 861,
+      "amount": 1
+    },
+    {
+      "id": 884,
+      "amount": 500
+    },
+    {
+      "id": 10025,
+      "amount": 1
+    },
+    {
+      "id": 3105,
+      "amount": 1
+    },
+    {
+      "id": 1725,
+      "amount": 1
+    },
+    {
+      "id": 658,
+      "amount": 1
+    },
+    {
+      "id": 544,
+      "amount": 1
+    },
+    {
+      "id": 542,
+      "amount": 1
+    },
+    {
+      "id": 1540,
+      "amount": 1
+    },
+    {
+      "id": 4393,
+      "amount": 1
+    },
     null,
     null,
     null,
@@ -416,10 +482,7 @@
     null
   ],
   "shopItems": [
-    {
-      "id": 3162,
-      "amount": 1
-    },
+    null,
     null,
     null,
     null,
@@ -457,7 +520,7 @@
     null
   ],
   "shopPrices": [
-    11,
+    0,
     0,
     0,
     0,

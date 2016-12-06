@@ -1,35 +1,125 @@
 {
   "bank": [
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
-    null,
+    {
+      "id": 385,
+      "amount": 75
+    },
+    {
+      "id": 2436,
+      "amount": 10
+    },
+    {
+      "id": 2440,
+      "amount": 10
+    },
+    {
+      "id": 2442,
+      "amount": 10
+    },
+    {
+      "id": 2444,
+      "amount": 10
+    },
+    {
+      "id": 3040,
+      "amount": 10
+    },
+    {
+      "id": 3024,
+      "amount": 10
+    },
+    {
+      "id": 1323,
+      "amount": 1
+    },
+    {
+      "id": 1333,
+      "amount": 1
+    },
+    {
+      "id": 4587,
+      "amount": 1
+    },
+    {
+      "id": 1215,
+      "amount": 1
+    },
+    {
+      "id": 841,
+      "amount": 1
+    },
+    {
+      "id": 853,
+      "amount": 1
+    },
+    {
+      "id": 861,
+      "amount": 1
+    },
+    {
+      "id": 884,
+      "amount": 500
+    },
+    {
+      "id": 3105,
+      "amount": 1
+    },
+    {
+      "id": 1725,
+      "amount": 1
+    },
+    {
+      "id": 658,
+      "amount": 1
+    },
+    {
+      "id": 544,
+      "amount": 1
+    },
+    {
+      "id": 542,
+      "amount": 1
+    },
+    {
+      "id": 1540,
+      "amount": 1
+    },
+    {
+      "id": 4393,
+      "amount": 1
+    },
+    {
+      "id": 554,
+      "amount": 250
+    },
+    {
+      "id": 555,
+      "amount": 250
+    },
+    {
+      "id": 556,
+      "amount": 250
+    },
+    {
+      "id": 557,
+      "amount": 250
+    },
+    {
+      "id": 558,
+      "amount": 250
+    },
+    {
+      "id": 563,
+      "amount": 50
+    },
+    {
+      "id": 561,
+      "amount": 30
+    },
+    {
+      "id": 562,
+      "amount": 100
+    },
     null,
     null,
     null,
@@ -352,7 +442,7 @@
     null
   ],
   "tabAmounts": [
-    0,
+    30,
     0,
     0,
     0,
@@ -365,14 +455,8 @@
   ],
   "inventory": [
     null,
-    {
-      "id": 3162,
-      "amount": 1
-    },
-    {
-      "id": 3162,
-      "amount": 1
-    },
+    null,
+    null,
     null,
     null,
     null,
@@ -416,10 +500,7 @@
     null
   ],
   "shopItems": [
-    {
-      "id": 3162,
-      "amount": 1
-    },
+    null,
     null,
     null,
     null,
@@ -457,7 +538,7 @@
     null
   ],
   "shopPrices": [
-    11,
+    0,
     0,
     0,
     0,
