@@ -88,6 +88,7 @@ public class GameThread extends Thread {
 
 		while (true) {
 			try {
+				// PORT NUMBER
 				serverBootstrap.bind(new InetSocketAddress(43594));
 				break;
 			} catch (ChannelException e2) {
